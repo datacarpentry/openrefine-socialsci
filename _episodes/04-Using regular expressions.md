@@ -45,7 +45,7 @@ In this case we will need to use a regular expression. We need to construct a pa
 > 1. Create a Text filter for the `A01_interview_date` column.
 > 2. check the `regular expression box`
 > 3. In text box type **[0-9]{2}-[N]**. 
-> 4. There should be 88 matching rows. But this is telling us which rows are in Nov. We could have done this more easily by simply typing **-Nov-** into the normal Text fileter.
+> 4. There should be 88 matching rows. But this is telling us which rows are in Nov. We could have done this more easily by simply typing **-Nov-** into the normal Text filter.
 > 5. Now change the expression to **[0-9]{2}-[^N]**
 > 6. the **^** acts like a **NOT**, so now instead of looking for 2 digits ([0-9]{2}) followed by '-' followed by capital N ([N]), we are now looking for 2 digits followed by '-' followed by anything but 'N'
 > 7. We should end up with the 43 rows where the interview date was not in November.
