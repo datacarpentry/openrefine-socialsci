@@ -130,9 +130,7 @@ The data in the `F14_items_owned` column is a set of items in a list. The list i
 
 ## Splitting a column into multiple columns
 
-
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a semi-colon, or a space), you can use that separator to divide up the pieces into their own columns.
-
 
 1. Let us suppose we want to split the modified `F14_items_owned` column into separate columns for each item in the list. 
 2. Click the down arrow at the top of the `F14_items_owned` column. Choose `Edit Column` > `Split into several columns...`
@@ -158,40 +156,22 @@ Try to change the name of the second new column to "species". How can you correc
 > {: .solution}
 {: .challenge}
 
-## Undo / Redo
+## Using undo and redo.
 
 It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
 
-
-1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
-2. Click on the step that you want to go back to, in this case the previous step. The added columns will disappear.
-3. Notice that you can still click on the last step and make the columns reappear, and toggle back and forth between these states.
-4. Leave the dataset in the state in which the `scientificNames` were clustered, but not yet split.
-
-Important: If you skip this step, your solutions for later exercises will not be the same as shown in those exercise solutions.
-
-## Trim Leading and Trailing Whitespace
-
-Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
-
-
-1. In the header for the column `scientificName`, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
-2. Notice that the `Split` step has now disappeared from the `Undo / Redo` pane on the left and is replaced with a `Text transform on 3 cells`
-3. Perform the same `Split` operation on `scientificName` that you undid earlier. This time you should only get two new columns. Why?
-
-> ## Solution
-> 
-> Removing the leading white spaces means that each entry in this column has exactly one space (between the genus and species names). 
-> Therefore, when you split with space as the separator, you will get only two columns.
-{: .solution}
-
-Important: `Undo` the splitting step before moving on to the next lesson. If you skip this step, your solutions 
-for later exercises will not be the same as shown in those exercise solutions.
+> ## Exercise
+>
+> 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
+> 2. Click on the step that you want to go back to, in this case the Text transform of `F14_items_owned`. 
+> 3. Notice that you can still click on the later steps to `Redo` the actions.
+>
+> > ##Solution
+> > The added columns for `F14_items_owned` will disappear.
+> > The square brackets and single quotes will re-appear.
+> >
+> {: .solution}
+{: .challenge}
 
 
-
-
-## Using undo and redo.
-
-## Removing white space
 
