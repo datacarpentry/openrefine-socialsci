@@ -62,63 +62,61 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 [More on faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
 
-Here we will use faceting to look for potential errors in data entry in the `scientificName` column.
+Here we will use faceting to look for potential errors in data entry in the `A09_village` column.
 
-1. Scroll over to the `scientificName` column.
+1. Scroll over to the `A09_village` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
-3. In the left panel, you'll now see a box containing every unique value in the `scientificName` column 
+3. In the left panel, you'll now see a box containing every unique value in the `A09_village` column 
 along with a number representing how many times that value occurs in the column.
 4. Try sorting this facet by name and by count. Do you notice any problems with the data? What are they?
 5. Hover the mouse over one of the names in the `Facet` list. You should see that you have an `edit` function available. 
 6. You could use this to fix an error immediately, and OpenRefine will ask whether you want to make the same correction to every value it finds like that one. But OpenRefine offers even better ways to find and fix these errors, which we'll use instead. We'll learn about these when we talk about clustering.
 
-> ## Solution
-> 
-> There will be several near-identical entries in `scientificName`. For example, there is one entry for `Ammospermophilis harrisi` and
-> one entry for `Ammospermophilus harrisii`. These are both misspellings of `Ammospermophilus harrisi`. We will see how to correct these 
-> misspelled and mistyped entries in a later exercise.  
-{: .solution}
+There are two very similar entries for `Ruaca - Nhamuenda` and `Ruaca-Nhamuenda`. You might also wonder if both of these are the same as `Ruaca`. The entry `49` is almost certainly an error but you will not be able to fix it by reference to other data.
+
+
 
 > ## Exercise
 >
-> 1. Using faceting, find out how many years are represented in the census.  
+> 1. Using faceting, find out how many different A01_interview_date values there are in the survey results.  
 >
-> 2. Is the column formatted as Number, Date, or Text? How does changing the format change the faceting display?
+> 2. Use faceting to produce a timeline display for A01_interview_date
 >
-> 3. Which years have the most and least observations?
+> 3. Is the column formatted as Text or Date? How does changing the format change the faceting display?
 > 
 > > ## Solution
 > > 
-> > 1. For the column `yr` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 26 unique entries in
+> > 1. For the column `A01_interview_date` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 19 unique entries in
 > > this column.  
-> > 2. By default, the column `yr` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` > 
-> > `To number`. Doing `Facet` > `Numeric facet` creates a box in the left panel that shows a histogram of the number of 
-> > entries per year. Notice that the data is shown as a number, not a date. If you instead transform the column to a date, the 
-> > program will assume all entries are on January 1st of the year.   
-> > 3. After creating a facet, click `Sort by count` in the facet box. The year with the most observations is 1997. The least is 1977. 
+> > 2. By default, the column `A01_interview_date` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` > 
+> > `To date`.  Notice the the values in the column turn green. Doing `Facet` > `Timeline facet` creates a box in the left panel that shows a histogram of the number of entries for each date.    
+> > 3. In the text based facet, hovering over an entry gives an option to `include`. This will filter the data set to include only those selected. In the Timeline facet, there are `grab bars` initially at each end of the display which can be dragged with the mouse to filter the records.
+> > 4. Make sure that the format of the column is correctly set before you try to filter using the facet.
 > > 
 > {: .solution}
 {: .challenge}
 
-## Clustering
+## Using clustering to detect possible typing errors
 
 In OpenRefine, clustering means "finding groups of different values that might be alternative representations of the same thing". For example, the two strings `New York` and `new york` are very likely to refer to the same concept and just have capitalization differences. Likewise, `Gödel` and `Godel` probably refer to the same person. Clustering is a very powerful tool for cleaning datasets which contain misspelled or mistyped entries. OpenRefine has several clustering algorithms built in. Experiment with them, and learn more about these algorithms and how they work. 
 
-1. In the `scientificName` Text Facet we created in the step above, click the `Cluster` button.
+1. In the `A09_village` Text Facet we created in the step above, click the `Cluster` button.
 2. In the resulting pop-up window, you can change the `Method` and the `Keying Function`. Try different combinations to 
  see what different mergers of values are suggested.
-3. Select the `key collision` method and `metaphone3` keying function. It should identify three clusters. 
-4. Click the `Merge?` box beside each, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
-4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You may find there are 
- still improvements that can be made, but don't `Merge` again; just `Close` when you're done.  We'll now 
- see other operations that will help us detect and correct the remaining problems, and that have other, more general uses.
+3. Select the `key collision` method and `ngram-fingerprint` keying function. It should identify one cluster. 
+4. Click the `Merge?` box beside the cluster, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
+4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. You should find no more clusters are found. None of the available methods offered to cluster `Ruaca-Nhamuenda` with `Ruaca`  If we wanted to merge these we could hover over one or the other and select edit and manually change one of the names.
 
 Important: If you `Merge` using a different method or keying function, or more times than described in the instructions above, 
 your solutions for later exercises will not be the same as shown in those exercise solutions.
 
+## Different clustering algorithms 
+
+The technical details of how the different clustering algorithm work can be found at the link below.
+
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
-## Split
+## Splitting a column into multiple columns
 
 
 If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
@@ -186,9 +184,6 @@ for later exercises will not be the same as shown in those exercise solutions.
 
 
 
-
-## Using clustering to detect possible typing errors
-## Different clustering algorithms 
 ## Using undo and redo.
 ## Splitting a column into multiple columns 
 ## Removing white space
