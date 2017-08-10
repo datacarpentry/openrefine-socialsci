@@ -166,7 +166,8 @@ It's common while exploring and cleaning a dataset to discover after you've made
 > 2. Click on the step that you want to go back to, in this case the Text transform of `F14_items_owned`. 
 > 3. Notice that you can still click on the later steps to `Redo` the actions.
 >
-> > ##Solution
+> > ## Solution
+> >
 > > The added columns for `F14_items_owned` will disappear.
 > > The square brackets and single quotes will re-appear.
 > >
