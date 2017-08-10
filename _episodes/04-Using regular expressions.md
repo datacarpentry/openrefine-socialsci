@@ -1,7 +1,7 @@
 ---
 title: "Using regular expressions "
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
 - "How can we use patterns in strings to subset the data?"
 objectives:
