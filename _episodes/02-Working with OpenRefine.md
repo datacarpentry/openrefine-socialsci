@@ -116,38 +116,45 @@ The technical details of how the different clustering algorithm work can be foun
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
+## Transforming data
+
+The data in the `F14_items_owned` column is a set of items in a list. The list is in square brackets and each item is in single quotes. Before we split the list into individual items in the next section, we first want to remove the brackets and the quotes.
+
+1. Click the down arrow at the top of the `F14_items_owned` column. Choose `Edit Cells` > `Transform...`
+2. This will open up a window into which you can type a GREL expression. GREL stands for Google Refine Expression Language.
+
+![OR_Transform](../fig/OR_02_Transform.png)
+
+3. In the Expression box type `value.replace("['","").replace("'","").replace("]","")` and click `OK`
+4. What the expression means is this: Take the `value` in each cell in the selected column, replace all of the "[" with "" (i.e. nothing - delete), then do the same for all of the "'" (single quotes and then the same for "]". The result is a simple ";" delimited list.
+
 ## Splitting a column into multiple columns
 
 
-If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a comma, or a space), you can use that separator to divide up the pieces into their own columns.
+If data in a column needs to be split into multiple columns, and the parts are separated by a common separator (say a semi-colon, or a space), you can use that separator to divide up the pieces into their own columns.
 
 
-1. Let us suppose we want to split the `scientificName` column into separate colums for genus and for species. 
-2. Click the down arrow at the top of the `scientificName` column. Choose `Edit Column` > `Split into several columns...`
-3. In the pop-up, in the `Separator` box, replace the comma with a space.
+1. Let us suppose we want to split the modified `F14_items_owned` column into separate columns for each item in the list. 
+2. Click the down arrow at the top of the `F14_items_owned` column. Choose `Edit Column` > `Split into several columns...`
+3. In the pop-up, in the `Separator` box, replace the comma with a semi-colon.
 4. Uncheck the box that says `Remove this column`.
-5. Click `OK`. You'll get some new columns called `scientificName 1`, `scientificName 2`, and so on.
-6. Notice that in some cases `scientificName 1` and `scientificName 2` are empty. Why is this? What do you think we 
-can do to fix this?
+5. Click `OK`. You'll get some new columns called `F14_items_owned 1`, `F14_items_owned 2`, and so on.
 
-> ## Solution
-> 
-> The entries that have data in `scientificName 3` and `scientificName 4` but not the first two `scientificName` columns 
-> had an extra space at the beginning of the entry. Leading white spaces are very difficult to notice when cleaning data
-> manually. This is another advantage of using OpenRefine to clean your data. We'll look at how to 
-> fix leading and trailing white spaces in a later exercise.
-{: .solution}
 
 > ## Exercise
 >
-> Try to change the name of the second new column to "species". How can you correct the problem you encounter?
+> The `F10_liv_owned` column also contains a list of Livestock in the same format as `F14_items_owned`. 
+> Remove the brackets and quotes as before and split the list into seperate items
+Try to change the name of the second new column to "species". How can you correct the problem you encounter?
 > 
 > > ## Solution
 > > 
-> > On the `scientificName 2` column, click the down arrow and then `Edit column` > `Rename this column`. Type "species" into the box
-> > that appears. A pop-up will appear that says `Another column already named species`. This is because there is another column
-> > where we've recorded the species abbreviation. You can choose another name like `speciesName` for this column or change the other 
-> > `species` column you can change the name to `speciesAbbreviation`.
+> > Click the down arrow at the top of the `F10_liv_owned` column. Choose `Edit Cells` > `Transform...`
+> > Click on the History tab and the `Reuse` link against the expression that we created earlier. The expression will be copied into the expression text box.
+> > Go back to the preview tab to see the what the changes will lok like.
+> > Click `OK`
+> > 
+> >
 > {: .solution}
 {: .challenge}
 
@@ -185,6 +192,6 @@ for later exercises will not be the same as shown in those exercise solutions.
 
 
 ## Using undo and redo.
-## Splitting a column into multiple columns 
+
 ## Removing white space
-## Creating new columns
+
