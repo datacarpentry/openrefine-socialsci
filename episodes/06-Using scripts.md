@@ -37,8 +37,8 @@ This gives you a quick way to clean all of your related data.
 Let's practice running these steps on a new dataset. We'll test this on an uncleaned version of the dataset we've been working with. 
 
   
-1. Start a new project in OpenRefine using the file xxxxx. Give the project a new name.  
+1. Start a new project in OpenRefine using the file Moz_SAFI_Survey_Final_results.csv. Give the project a new name.  
 2. Click the `Undo / Redo` tab > `Apply` and paste in the contents of `txt` file with the JSON code. 
 3. Click `Perform operations`. The dataset should now be the same as your other cleaned dataset.
 
-For convenience, we used the same dataset. In reality you could use this process to clean related datasets. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings).
+For convenience, we used the same dataset. In reality you could use this process to clean related datasets. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). The data in the Moz_SAFI_Survey_Final_results.csv file was generated from an eSurvey system with the actual survey being delivered centrally to a smartphone, so the column headings are pretty much guaranteed to be the same.
