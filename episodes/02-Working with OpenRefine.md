@@ -144,16 +144,15 @@ If data in a column needs to be split into multiple columns, and the parts are s
 > ## Exercise
 >
 > The `F10_liv_owned` column also contains a list of Livestock in the same format as `F14_items_owned`. 
-> Remove the brackets and quotes as before and split the list into seperate items
-Try to change the name of the second new column to "species". How can you correct the problem you encounter?
-> 
+> Remove the brackets and quotes as before and split the list into seperate items.
+>    
 > > ## Solution
 > > 
 > > Click the down arrow at the top of the `F10_liv_owned` column. Choose `Edit Cells` > `Transform...`
 > > Click on the History tab and the `Reuse` link against the expression that we created earlier. The expression will be copied into the expression text box.
 > > Go back to the preview tab to see the what the changes will lok like.
 > > Click `OK`
-> > 
+> > To split the list into seperate items from the dropdown list select   `Edit Column` > `Split into several columns... and remember to change the default ',' to ';'.
 > >
 > {: .solution}
 {: .challenge}
