@@ -16,7 +16,7 @@ A regular expression is a sequence of characters that define a search pattern. W
 
 > ## Exercise
 > 
-> 1. In the `C01_responent_roof` column find a row which has  a value of **green**. Edit the cell and change the value to **green-grass**
+> 1. In the `C01_responent_roof_type` column find a row which has  a value of **grass**. Edit the cell and change the value to **green-grass**
 > 2. Click the down arrow on the column and select Text filter.
 > 3. Type the letters **gr**
 > 4. How many rows are returned by this filter?
@@ -33,21 +33,21 @@ A regular expression is a sequence of characters that define a search pattern. W
 {: .challenge}
 
 
-Because we were just interested in the pattern **gr** and didn't where it occurred we could use a simple Text filter.
+Because we were just interested in the pattern **gr** and didn't care where it occurred we could use a simple Text filter.
 
 Suppose now that from the `A01_interview date` column we wanted to know which dates were _not_ in **Nov**
 
-In this case we will need to use a regular expression. We need to construct a pattern which says: there are 2 digits followed by a hypthen and then the next character is _not_ allowed to be an 'N' after that we don't care. 
+In this case we will need to use a regular expression. We need to construct a pattern which says: there are 2 digits followed by a space and then the next character is _not_ allowed to be an 'N' after that we don't care. 
 
 
 > ## Exercise
 > 
 > 1. Create a Text filter for the `A01_interview_date` column.
 > 2. check the `regular expression box`
-> 3. In text box type **[0-9]{2}-[N]**. 
-> 4. There should be 88 matching rows. But this is telling us which rows are in Nov. We could have done this more easily by simply typing **-Nov-** into the normal Text filter.
+> 3. In text box type **[0-9]{2} [N]**. 
+> 4. There should be 88 matching rows. But this is telling us which rows are in Nov. We could have done this more easily by simply typing **Nov** into the normal Text filter.
 > 5. Now change the expression to **[0-9]{2}-[^N]**
-> 6. the **^** acts like a **NOT**, so now instead of looking for 2 digits ([0-9]{2}) followed by '-' followed by capital N ([N]), we are now looking for 2 digits followed by '-' followed by anything but 'N'
+> 6. the **^** acts like a **NOT**, so now instead of looking for 2 digits ([0-9]{2}) followed by ' ' followed by capital N ([N]), we are now looking for 2 digits followed by ' ' followed by anything but 'N'
 > 7. We should end up with the 43 rows where the interview date was not in November.
 {: .challenge}
 
