@@ -21,7 +21,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 
 1. Click the down arrow next to `C01_responent_roof_type` > `Text filter`. A `C01_responent_roof_type` facet will appear on the left margin.
 2. Type in `mabat` and press return. There are 58 matching rows of the original 131 rows (and these rows are selected for the subsequent steps).
-3. At the top, change the view to `Show` 50 `rows`. This way you will see all the matching rows.
+3. At the top, change the view to `Show` 50 `rows`. This way you will see most of the matching rows.
 
 > ## Exercise
 >
