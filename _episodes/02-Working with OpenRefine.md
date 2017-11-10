@@ -64,7 +64,7 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 Here we will use faceting to look for potential errors in data entry in the `A09_village` column.
 
-1. Scroll over to the `A09_village` column.
+1. Scroll over to the `A09_village` column.    
 2. Click the down arrow and choose `Facet` > `Text facet`.
 3. In the left panel, you'll now see a box containing every unique value in the `A09_village` column 
 along with a number representing how many times that value occurs in the column.
@@ -82,7 +82,9 @@ There are two very similar entries for `Ruaca - Nhamuenda` and `Ruaca-Nhamuenda`
 >
 > 2. Use faceting to produce a timeline display for A01_interview_date
 >
-> 3. Is the column formatted as Text or Date? How does changing the format change the faceting display?
+> 3. Is the column formatted as Text or Date? 
+> 
+> 4. How does changing the format change the faceting display? (You can change the format by doing `Edit cells` > `Common transforms` > )
 > 
 > > ## Solution
 > > 
