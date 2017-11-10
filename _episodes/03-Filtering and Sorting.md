@@ -80,10 +80,10 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
 
 > ## Exercise
 > 
-> Sort the data by `gps:Altitude`. Do you think the first 4 entries may have incorrect altitudes?. 
+> Sort the data by `gps:Altitude`. Do you think the first few entries may have incorrect altitudes?. 
 > 
 > > ## Solution
-> > In the `plot` column, select `Sort...` > `numbers` and select `smallest first`. The years represented are 1990 and 1995.
+> > In the `gps:Altitude` column, select `Sort...` > `numbers` and select `smallest first`. The first few values are all 0. The altitudes are more likely 'missing' than incorrect. The survey is deliverd by Smartphone with the gps information added automatically by the app. The lack of an altitude value suggests that the smartphone was unable to provide it and it defaulted to 0.
 > > 
 > {: .solution}
 {: .challenge}
@@ -98,7 +98,7 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > We discovered in an earlier lesson that the value for one of the `A09_village` entries was given as 49. Something that is clearly wrong. By looking at the altitudes for the entries of the other villages can we decide what the 49 value should be?     
 > 1. Sort on `A09_village` as text.   
 > 2. Sort on `gps:Altitude` as a number with the largest first.
-> 3. Scan down the sorted `gps:Altitude` and see if you can decide wher the village changes based on the altitudes.
+> 3. Scan down the sorted `gps:Altitude` and see if you can decide where the village changes based on the altitudes.
 > 4. Lookup the altitude value for village '49' and decide which is the most likely village for it to belong in.
 > 
 > > ## Solution
@@ -107,7 +107,7 @@ You can sort by multiple columns by performing sort on additional columns. The s
 > > 2. For the `gps:Altitude` column, click on `Sort` > `Sort...` > `numbers` and select `largest first`. 
 > > 3. make a note of the altitude for village '49' and see where you think it fits in.
 > >
-> > Given the accuracy of the gps reading this is hardly a foolproof approach. A asimple one would be to;
+> > Given the accuracy of the gps reading this is hardly a foolproof approach. A simple one would be to;
 > > 
 > > 4.  For the `A04_start` column, click on `Sort` > `Sort...` > `dates` and select `earliest first` and `sort by this column alone`. This will remove all of your previous sorts.
 > > 5. Now find where village '49' fits in with this order list of `A04_start` values.
