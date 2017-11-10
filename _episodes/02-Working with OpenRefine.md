@@ -27,11 +27,11 @@ keypoints:
 ## Creating a new OpenRefine project
 
 
-Start the program. (Double-click on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start on your machine, and OpenRefine will open in your browser).
+You can start the OpenRefine program by double-clicking on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start automatically on your machine, and OpenRefine will open in your browser.
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we will be using the `Moz_SAFI_Survey_Final_results` CSV file. This data is taken from a farming survey conducted in Mozambique. Peoples names have been changed for anonymisation purposes.
+In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we will be using the `Moz_SAFI_Survey_Final_results` CSV file. This data is taken from a farming survey conducted in Mozambique. 
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
