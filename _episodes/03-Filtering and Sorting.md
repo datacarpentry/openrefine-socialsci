@@ -26,12 +26,12 @@ There are many entries in our data table. We can filter it to work on a subset o
 > ## Exercise
 >
 > 1. What roof types are selected by this procedure?  
-> 2. How would you restrict this to one of the species selected?  
+> 2. How would you restrict this to only one of the roof types?  
 > 
 > > ## Solution
 > > 1. Do `Facet` > `Text facet` on the `C01_responent_roof_type` column after filtering. This will show that
 > > two names match your filter criteria. They are `mabatipitched` and `mabatisloping`.   
-> > 2. To restrict to only one of these two species, you could make include more letters in your filter.
+> > 2. To restrict to only one of these two roof types, you could make include more letters in your filter.
 > > 
 > {: .solution}
 {: .challenge}
@@ -39,7 +39,9 @@ There are many entries in our data table. We can filter it to work on a subset o
 ### Excluding entries
 
 
-In addition to the solutions included above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. If you still have your facet for `C01_responent_roof_type`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
+In addition to the simple text filtering we used above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. You will see the `include` or `exclude` options if you hover over the name in the facet window.
+
+If you still have your facet for `C01_responent_roof_type`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
 
 Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all of the data that 
 is currently selected, while filtering allows you to select a subset of your data for analysis. 
@@ -47,15 +49,15 @@ is currently selected, while filtering allows you to select a subset of your dat
 
 > ## Exercise
 >
-> Use `include / exclude` to select only entries from one of these two species.
+> Use `include / exclude` to select only entries from one of these two roof types.
 >
 > > ## Solution
 > > 
 > > 1. In the facet (left margin), click on one of the names, such as `mabatisloping`. Notice that when you click on the name, or hover
 > > over it, there are entries to the right for `edit` and `include`. 
-> > 2. Click `include`. This will explicitly include this species, and exclude others that are not expicitly included. Notice that the
+> > 2. Click `include`. This will explicitly include this roof type, and exclude others that are not expicitly included. Notice that the
 > option now changes to `exclude`.
-> > 3. Click `include` and `exclude` on the other species (`Chaetodipus baileyi`) and notice how the two entries appear and disappear
+> > 3. Click `include` and `exclude` on the other roof type and notice how the two entries appear and disappear
 > >  from the table.
 > > 
 > {: .solution}
