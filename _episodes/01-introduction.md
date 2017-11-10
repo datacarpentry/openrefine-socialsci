@@ -42,7 +42,7 @@ If after installation and running OpenRefine, it does not automatically open for
 
 ## Data cleaning v Data organization
 
-OpenRefine is principally a data cleaning tool. It helps you highlight possible problems with the data content ans allows you to edit the data to correct the data issues. There are some facilities for re-organise the data structure when a dataset is load, e.g. skipping header records andonce loaded columns can be re-arranged. It is also possible to create new columns and to split existing columns into multiple columns.
+OpenRefine is principally a data cleaning tool. It helps you highlight possible problems with the data content and allows you to edit the data to correct the data issues. There are some facilities for re-organise the data structure when a dataset is load, e.g. skipping header records and once loaded columns can be re-arranged. It is also possible to create new columns and to split existing columns into multiple columns.
 
 ## Getting help for OpenRefine.
 
