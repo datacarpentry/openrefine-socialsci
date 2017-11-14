@@ -14,10 +14,10 @@ A general description of the datasets used in the Social Sciences lessons can be
 
 ## The Lessons
 
-[Introduction](00-intrtoduction.md)
+[Introduction](./00-intrtoduction.md)
 
 [Working with OpenRefine](link)
 
 [Filtering and Sorting](link)
 
-[Using regular expressions](Using%%20regular%%20expressions.md)
+[Using regular expressions](./Using%20regular%20expressions.md)
