@@ -24,8 +24,8 @@ A general description of the datasets used in the Social Sciences lessons can be
 
 [Examining Numbers in OpenRefine](link)
 
-[Using scripts]
+[Using scripts](link)
 
-[Saving results]
+[Saving results](link)
 
-[Other resources in OpenRefine]
+[Other resources in OpenRefine](link)
