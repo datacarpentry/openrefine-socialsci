@@ -6,6 +6,11 @@ There is a seperate file for the setiup instructions for installing OpenRefine. 
 
 ## The datasets used
 
+The only dataset used in this lesson is the Moz_SAFI_Survey_Final_results.csv file which is in the data folder.
+
+It will need to be downloaded to the local machine before it can be loaded into OpenRefine.
+
+A general description of the datasets used in the Social Sciences lessons can be found [here](link)
 
 ## The Lessons
 
@@ -13,4 +18,6 @@ There is a seperate file for the setiup instructions for installing OpenRefine. 
 
 [Working with OpenRefine](link)
 
+[Filtering and Sorting](link)
 
+[Using regular expressions](Using%20regular%20expressions.md)
