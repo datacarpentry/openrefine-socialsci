@@ -34,13 +34,16 @@ You can start the OpenRefine program by double-clicking on the openrefine.exe fi
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-In this first step, we'll browse our computer to the sample data file for this lesson. In this case, we will be using the `Moz_SAFI_Survey_Final_results` CSV file. This data is taken from a farming survey conducted in Mozambique. It can be downloaded from [here](../data/Moz_SAFI_Survey_Final_results.csv)
+In this first step, we'll browse our computer to the sample data file for this lesson.
+In this case, we will be using data obtained from a farming sample in Mozambique.
+Instructions on downloading the data are available
+[here]({{site.baseurl}}/setup/).
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
-1. click `Create Project` and select `Get data from` `This Computer`.  
+1. click `Create Project` and select `Get data from` `This Computer`.
 2. Click `Browse...` and select the file `Moz_SAFI_Survey_Final_results.csv`. Click `Open` or double-click on the filename.
-3. Click `Next>>` under the browse button to upload the data into OpenRefine.  
+3. Click `Next>>` under the browse button to upload the data into OpenRefine.
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  There are also options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data.
 
 
@@ -67,7 +70,7 @@ Typically, you create a facet on a particular column. The facet summarizes the c
 
 Here we will use faceting to look for potential errors in data entry in the `A09_village` column.
 
-1. Scroll over to the `A09_village` column.    
+1. Scroll over to the `A09_village` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
 3. In the left panel, you'll now see a box containing every unique value in the `A09_village` column
 along with a number representing how many times that value occurs in the column.
@@ -81,7 +84,7 @@ There are two very similar entries for `Ruaca - Nhamuenda` and `Ruaca-Nhamuenda`
 
 > ## Exercise
 >
-> 1. Using faceting, find out how many different A01_interview_date values there are in the survey results.  
+> 1. Using faceting, find out how many different A01_interview_date values there are in the survey results.
 >
 > 2. Use faceting to produce a timeline display for A01_interview_date
 >
@@ -92,9 +95,9 @@ There are two very similar entries for `Ruaca - Nhamuenda` and `Ruaca-Nhamuenda`
 > > ## Solution
 > >
 > > 1. For the column `A01_interview_date` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 19 unique entries in
-> > this column.  
+> > this column.
 > > 2. By default, the column `A01_interview_date` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` >
-> > `To date`.  Notice the the values in the column turn green. Doing `Facet` > `Timeline facet` creates a box in the left panel that shows a histogram of the number of entries for each date.    
+> > `To date`.  Notice the the values in the column turn green. Doing `Facet` > `Timeline facet` creates a box in the left panel that shows a histogram of the number of entries for each date.
 > > 3. In the text based facet, hovering over an entry gives an option to `include`. This will filter the data set to include only those selected. In the Timeline facet, there are `grab bars` initially at each end of the display which can be dragged with the mouse to filter the records.
 > > 4. Make sure that the format of the column is correctly set before you try to filter using the facet.
 > >
@@ -148,7 +151,7 @@ If data in a column needs to be split into multiple columns, and the parts are s
 >
 > The `F10_liv_owned` column also contains a list of Livestock in the same format as `F14_items_owned`.
 > Remove the brackets and quotes as before and split the list into seperate items.
->    
+>
 > > ## Solution
 > >
 > > Click the down arrow at the top of the `F10_liv_owned` column. Choose `Edit Cells` > `Transform...`
