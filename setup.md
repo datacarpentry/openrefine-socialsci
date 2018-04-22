@@ -4,6 +4,18 @@ title: Setup
 permalink: /setup/
 ---
 
+> ## Data
+> You need to download the data for the lesson:
+>
+> 1. Download the
+>    [data]({{site.baseurl}}/data/Moz_SAFI_Survey_Final_results.csv)
+>    and move the file to your Desktop.
+>
+> #### About the data
+> This data is taken from a farming survey conducted in Mozambique.
+{: .prereq}
+
+
 > ## Software
 >
 > For this lesson you will need **OpenRefine** (formerly Google Refine) and a
