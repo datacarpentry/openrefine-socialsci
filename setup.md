@@ -5,9 +5,8 @@ permalink: /setup/
 ---
 
 > ## Data
-> You need to download the data for the lesson:
->
-> 1. Download the
+> You need to download the data for the lesson.
+> Download the
 >    [data]({{site.baseurl}}/data/Moz_SAFI_Survey_Final_results.csv)
 >    and move the file to your Desktop.
 >
