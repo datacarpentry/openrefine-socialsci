@@ -30,7 +30,7 @@ keypoints:
 ## Creating a new OpenRefine project
 
 
-You can start the OpenRefine program by double-clicking on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start automatically on your machine, and OpenRefine will open in your browser. If you are using Linux, you will need to navigate to your OpenRefine directory in the command line and run `./refine`.
+In Windows, you can start the OpenRefine program by double-clicking on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start automatically on your machine, and OpenRefine will open in your browser. On a Mac, OpenRefine can be launched from your Applications folder. If you are using Linux, you will need to navigate to your OpenRefine directory in the command line and run `./refine`.
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
