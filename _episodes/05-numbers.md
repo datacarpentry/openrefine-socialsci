@@ -8,7 +8,6 @@ questions:
 objectives:
 - "Transform a text column into a number column."
 - "Identify and modify non-numeric values in a column using facets."
-- "Use scatterplot facet to examine relationships among columns."
 keypoints:
 - "OpenRefine also provides ways to get overviews of numerical data."
 ---
@@ -26,18 +25,18 @@ To transform cells in the `key_id` column to numbers, click the down arrow for t
 > ## Exercise
 >
 > Transform three more columns, `A11_years_farm`, `B_no_members`, `D_no_plots`, from text to numbers. Can all columns be transformed to numbers? - Try it with `A09_village for example.
-> 
+>
 > > ## Solution
-> > 
-> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to 
-> > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with 
+> >
+> > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to
+> > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with
 > > `Text transform on 0 cells`. This means that the data in that column was not transformed.
-> > 
+> >
 > {: .solution}
 {: .challenge}
 
 ### Numeric facet
-Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them. 
+Sometimes there are non-number values or blanks in a column which may represent errors in data entry and we want to find them.
 We can do that with a `Numeric facet`.
 
 > ## Exercise
@@ -49,4 +48,3 @@ We can do that with a `Numeric facet`.
 {: .challenge}
 
 When done examining the numeric data, remove this facet by clicking the `x` in the upper left corner of its panel. Note that this does not undo the edits you made to the cells in this column. If you want to reverse these edits, use the `Undo / Redo` function.
-

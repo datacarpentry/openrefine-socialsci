@@ -30,7 +30,7 @@ keypoints:
 ## Creating a new OpenRefine project
 
 
-You can start the OpenRefine program by double-clicking on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start automatically on your machine, and OpenRefine will open in your browser.
+In Windows, you can start the OpenRefine program by double-clicking on the openrefine.exe file (or google-refine.exe if using an older version). Java services will start automatically on your machine, and OpenRefine will open in your browser. On a Mac, OpenRefine can be launched from your Applications folder. If you are using Linux, you will need to navigate to your OpenRefine directory in the command line and run `./refine`.
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
@@ -173,11 +173,13 @@ It's common while exploring and cleaning a dataset to discover after you've made
 > 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
 > 2. Click on the step that you want to go back to, in this case the Text transform of `F14_items_owned`.
 > 3. Notice that you can still click on the later steps to `Redo` the actions.
+> 4. Repeat the `Undo / Redo` steps to revert the dates in `A01_interview_date` back to their original format (e.g., 16 November 2016)
 >
 > > ## Solution
 > >
 > > The added columns for `F14_items_owned` will disappear.
 > > The square brackets and single quotes will re-appear.
+> > The dates in `A01_interview_date` will change from date format back to the original text format.
 > >
 > {: .solution}
 {: .challenge}
