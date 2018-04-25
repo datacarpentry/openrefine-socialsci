@@ -173,11 +173,13 @@ It's common while exploring and cleaning a dataset to discover after you've made
 > 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
 > 2. Click on the step that you want to go back to, in this case the Text transform of `F14_items_owned`.
 > 3. Notice that you can still click on the later steps to `Redo` the actions.
+> 4. Repeat the `Undo / Redo` steps to revert the dates in `A01_interview_date` back to their original format (e.g., 16 November 2016)
 >
 > > ## Solution
 > >
 > > The added columns for `F14_items_owned` will disappear.
 > > The square brackets and single quotes will re-appear.
+> > The dates in `A01_interview_date` will change from date format back to the original text format.
 > >
 > {: .solution}
 {: .challenge}
