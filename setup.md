@@ -41,7 +41,7 @@ default browser. OpenRefine runs in your default browser. It will not run correc
 selecting “Extract…”. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine
-- Click the google-refine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
+- Click the openrefine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
 #### Mac
