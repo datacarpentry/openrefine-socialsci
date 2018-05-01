@@ -5,18 +5,21 @@ permalink: /setup/
 ---
 
 > ## Data
-> **Download** this data file to your computer: [https://ndownloader.figshare.com/files/7823341](https://ndownloader.figshare.com/files/7823341)
 >
-> #### About the data
 > The data for this lesson is a part of the Data Carpentry Social Sciences workshop. 
-> It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) Database. The data in this lesson
-> is a subset of the teaching version that has been intentionally 'messed up'
-> for this lesson. 
+> It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database.  
+> The SAFI dataset represents interviews of farmers in two countries
+> in eastern sub-Saharan Africa (Mozambique and Tanzania). These 
+> interviews were conducted between November 2016 and June 2017 and 
+> probed household features (e.g. construction materials used, number 
+> of household members), agricultrual practices (e.g. water usage), 
+> and assets (e.g. number and types of livestock).
 > 
-> The data for this lesson and the workshop are in the 
-> [Portal Project Teaching Database](https://figshare.com/articles/Portal_Project_Teaching_Database/1314459) 
-> available on FigShare, with a CC-BY license 
-> available for reuse.
+> The data used in this lesson
+> is a subset of the teaching version that has been intentionally 'messed up'
+> for this lesson.
+> 
+> **Download** the data file to your computer by [clicking this link](/data/SAFI_messy_openrefine.csv?raw=TRUE).
 {: .prereq}
 
 
