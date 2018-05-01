@@ -34,7 +34,7 @@ keypoints:
 
 Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Follow the [Setup](../setup.md) instructions to install OpenRefine.
+Follow the [Setup](/setup/) instructions to install OpenRefine.
 
 If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
@@ -42,8 +42,8 @@ If after installation and running OpenRefine, it does not automatically open for
 
 ## Data cleaning v Data organization
 
-OpenRefine is principally a data cleaning tool. It helps you highlight possible problems with the data content and allows you to edit the data to correct the data issues. There are some facilities for re-organise the data structure when a dataset is load, e.g. skipping header records and once loaded columns can be re-arranged. It is also possible to create new columns and to split existing columns into multiple columns.
+OpenRefine is principally a data cleaning tool. It helps you highlight possible problems with the data content and allows you to edit the data to correct the data issues. There are some facilities for re-organise the data structure when a dataset is loaded, e.g. skipping header records and, once loaded, columns can be re-arranged. It is also possible to create new columns and to split existing columns into multiple columns.
 
 ## Getting help for OpenRefine.
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. These videos and other on OpenRefine can also be dound on YouTube, search under 'OpenRefine' There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
+You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. These videos and other on OpenRefine can also be found on YouTube, search under 'OpenRefine' There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
