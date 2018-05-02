@@ -16,19 +16,19 @@ keypoints:
 
 # Lesson
 
-## Introduction to OpenRefine
+## Motivations for the OpenRefine Lesson
 
+* Data is often very messy. OpenRefine provides a set of tools to allow you to identify and amend the messy data.
 * It is important to know what you did to your data. Additionally, journals, granting agencies, and other institutions are requiring documentation of the steps you took when working with your data. With OpenRefine, you can capture all actions applied to your raw data and share them with your publication as supplemental material.
 * All actions are easily reversed in OpenRefine.
 * If you save your work it will be to a new file. OpenRefine always uses a copy of your data and _does not_ modify your original dataset.
-* Data is often very messy, OpenRefine provides a set of tools to allow you to identify and amend the messy data.
 * Data cleaning steps often need repeating with multiple files. OpenRefine keeps track of all of your actions and allows them to be applied to different datasets.
 * Some concepts such as clustering algorithms are quite complex, but OpenRefine makes it easy to introduce them, use them, and show their power.
 
 ## Features
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
 * A large growing community, from novice to expert, ready to help. See Getting Help section below.
-* Works with large-ish datasets (100,000 rows). Can adjust memory allocation to accomodate larger datasets
+* Works with large-ish datasets (100,000 rows). Can adjust memory allocation to accomodate larger datasets.
 
 ## Before we get started
 
@@ -38,11 +38,6 @@ Follow the [Setup](/setup/) instructions to install OpenRefine.
 
 If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-
-
-## Data cleaning v Data organization
-
-OpenRefine is principally a data cleaning tool. It helps you highlight possible problems with the data content and allows you to edit the data to correct the data issues. There are some facilities for re-organise the data structure when a dataset is loaded, e.g. skipping header records and, once loaded, columns can be re-arranged. It is also possible to create new columns and to split existing columns into multiple columns.
 
 ## Getting help for OpenRefine.
 
