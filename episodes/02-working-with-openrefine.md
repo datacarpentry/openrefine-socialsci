@@ -13,15 +13,11 @@ objectives:
 - "Use clustering to detect possible typing errors."
 - "Understand that there are different clustering algorithms which might give different results."
 - "Manipulate data using previous steps with undo/redo."
-- "Employ drop-downs to split values from one column into multiple columns."
-- "Employ drop-downs to remove white spaces from cells."
-- "Create new columns."
-
 keypoints:
 - "OpenRefine can import a variety of file types."
 - "OpenRefine can be used to explore data using filters."
 - "Clustering in OpenRefine can help to identify different values that might mean the same thing."
-- "OpenRefine can transform the values of a column and split a single column into many columns."
+- "OpenRefine can transform the values of a column."
 ---
 
 # Lesson
