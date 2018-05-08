@@ -12,6 +12,7 @@ objectives:
 - "Use facets to summarize data from a column."
 - "Use clustering to detect possible typing errors."
 - "Understand that there are different clustering algorithms which might give different results."
+- "Employ drop-downs to remove white spaces from cells."
 - "Manipulate data using previous steps with undo/redo."
 keypoints:
 - "OpenRefine can import a variety of file types."
@@ -218,3 +219,16 @@ It's common while exploring and cleaning a dataset to discover after you've made
 > 3. Visually confirm that those columns now contain the special characters that we had removed previously.
 > 3. Notice that you can still click on the later steps to `Redo` the actions. Before moving on to the next lesson, redo all the steps in your analysis so that all of the column you modified are lacking in square brackets, spaces, and single quotes.
 {: .challenge}
+
+
+## Trim Leading and Trailing Whitespace
+
+Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
+
+1. Create a new text facet for the column `respondent_wall_type`. You 
+should see some choices that appear identical (`burntbricks` and 
+`muddaub` both have two choices). In reality, one of these choices
+includes either leading or trailing whitespace. 
+2. To remove the whitespace, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
+3. You should now see only four choices in your text facet. 
+
