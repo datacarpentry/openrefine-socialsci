@@ -20,18 +20,17 @@ When a table is imported into OpenRefine, all columns are treated as having text
 
 Be sure to remove any `Text filter` facets you have enabled from the left panel so that we can examine our whole dataset. You can remove an existing facet by clicking the `x` in the upper left of that facet window.
 
-To transform cells in the `key_id` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `recordID` values change from left-justified to right-justified, and black to green color.
+To transform cells in the `years_farm` column to numbers, click the down arrow for that column, then `Edit cells` > `Common transforms…` > `To number`. You will notice the `years_farm` values change from left-justified to right-justified, and black to green in color.
 
 > ## Exercise
 >
-> Transform three more columns, `A11_years_farm`, `B_no_members`, `D_no_plots`, from text to numbers. Can all columns be transformed to numbers? - Try it with `A09_village for example.
+> Transform three more columns, `no_members`, `yrs_liv`, and `buildings_in_compound`, from text to numbers. Can all columns be transformed to numbers? - Try it with `village` for example.
 >
 > > ## Solution
 > >
 > > Only observations that include only numerals (0-9) can be transformed to numbers. If you apply a number transformation to
 > > a column that doesn't meet this criteria, and then click the `Undo / Redo` tab, you will see a step that starts with
 > > `Text transform on 0 cells`. This means that the data in that column was not transformed.
-> >
 > {: .solution}
 {: .challenge}
 
@@ -40,11 +39,10 @@ Sometimes there are non-number values or blanks in a column which may represent 
 We can do that with a `Numeric facet`.
 
 > ## Exercise
->
 > 1. For a column you transformed to numbers, edit one or two cells, replacing the numbers with text (such as `abc`) or blank (no number or text).
 > 2. Use the pulldown menu to apply a numeric facet to the column you edited. The facet will appear in the left panel.
 > 3. Notice that there are several checkboxes in this facet: `Numeric`, `Non-numeric`, `Blank`, and `Error`. Below these are counts of the number of cells in each category. You should see checks for `Non-numeric` and `Blank` if you changed some values.
 > 4. Experiment with checking or unchecking these boxes to select subsets of your data.
 {: .challenge}
 
-When done examining the numeric data, remove this facet by clicking the `x` in the upper left corner of its panel. Note that this does not undo the edits you made to the cells in this column. If you want to reverse these edits, use the `Undo / Redo` function.
+When done examining the numeric data, remove this facet by clicking the `x` in the upper left corner of its panel. Note that this does not undo the edits you made to the cells in this column. Use the `Undo / Redo` function to reverse these changes.
