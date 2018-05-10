@@ -19,7 +19,7 @@ keypoints:
 
 There are many entries in our data table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
 
-1. Click the down arrow next to `C01_respondent_roof_type` > `Text filter`. A `C01_respondent_roof_type` facet will appear on the left margin.
+1. Click the down arrow next to `respondent_roof_type` > `Text filter`. A `respondent_roof_type` facet will appear on the left margin.
 2. Type in `mabat` and press return. There are 58 matching rows of the original 131 rows (and these rows are selected for the subsequent steps).
 3. At the top, change the view to `Show` 50 `rows`. This way you will see most of the matching rows.
 
@@ -29,9 +29,9 @@ There are many entries in our data table. We can filter it to work on a subset o
 > 2. How would you restrict this to only one of the roof types?  
 >
 > > ## Solution
-> > 1. Do `Facet` > `Text facet` on the `C01_respondent_roof_type` column after filtering. This will show that
+> > 1. Do `Facet` > `Text facet` on the `respondent_roof_type` column after filtering. This will show that
 > > two names match your filter criteria. They are `mabatipitched` and `mabatisloping`.   
-> > 2. To restrict to only one of these two roof types, you could make include more letters in your filter.
+> > 2. To restrict to only one of these two roof types, you could include more letters in your filter.
 > >
 > {: .solution}
 {: .challenge}
@@ -41,7 +41,7 @@ There are many entries in our data table. We can filter it to work on a subset o
 
 In addition to the simple text filtering we used above, another way to narrow our filter is to `include` and/or `exclude` entries in a facet. You will see the `include` or `exclude` options if you hover over the name in the facet window.
 
-If you still have your facet for `C01_respondent_roof_type`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
+If you still have your facet for `respondent_roof_type`, you can use it, or use drop-down menu > `Facet` > `Text facet` to create a new facet. Only the entries with names that agree with your `Text filter` will be included in this facet.
 
 Faceting and filtering look very similar. A good distinction is that faceting gives you an overview description of all of the data that
 is currently selected, while filtering allows you to select a subset of your data for analysis.
@@ -63,7 +63,7 @@ is currently selected, while filtering allows you to select a subset of your dat
 > {: .solution}
 {: .challenge}
 
-Remove the facet and the filter before moving on so that you again have the full dataset of 131 records.
+Remove the filter before moving on so that you again have the full dataset of 131 records.
 
 ## Sort
 
@@ -72,46 +72,41 @@ There you can sort by `text`, `numbers`, `dates` or `booleans` (`TRUE` or `FALSE
 
 If this is your first time sorting this table, then the drop-down menu for the selected column shows `Sort...`. Select what you would like to sort by (such as `numbers`). Additional options will then appear for you to fine-tune your sorting.
 
+> ## Exercise
+>
+> Sort the data by `gps_Altitude`. Do you think the first few entries may have incorrect altitudes?.
+>
+> > ## Solution
+> > In the `gps:Altitude` column, select `Sort...` > `numbers` and select `smallest first`. The first few values are all 0. The altitudes are more likely 'missing' than incorrect. The survey is delivered by Smartphone with the gps information added automatically by the app. The lack of an altitude value suggests that the smartphone was unable to provide it and it defaulted to 0.
+> {: .solution}
+{: .challenge}
+
+
 If you try to re-sort a column that you have already used, the drop-down menu changes slightly, to > `Sort` without the `...`, to remind you that you have already used this column. It will give you additional options:
 
 * > `Sort` > `Sort...` - This option enables you to modify your original sort.
 * > `Sort` > `Reverse` - This option allows you to reverse the order of the sort.
 * > `Sort` > `Remove sort` - This option allows you to undo your sort.
 
-> ## Exercise
->
-> Sort the data by `gps:Altitude`. Do you think the first few entries may have incorrect altitudes?.
->
-> > ## Solution
-> > In the `gps:Altitude` column, select `Sort...` > `numbers` and select `smallest first`. The first few values are all 0. The altitudes are more likely 'missing' than incorrect. The survey is delivered by Smartphone with the gps information added automatically by the app. The lack of an altitude value suggests that the smartphone was unable to provide it and it defaulted to 0.
-> >
-> {: .solution}
-{: .challenge}
-
-
 ### Sorting by multiple columns.
 
 You can sort by multiple columns by performing sort on additional columns. The sort will depend on the order in which you select columns to sort. To restart the sorting process with a particular column, check the `sort by this column alone` box in the `Sort` pop-up menu.
 
+If you go back to one of the already sorted columns and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
+
 > ## Exercise
 >
-> We discovered in an earlier lesson that the value for one of the `A09_village` entries was given as 49. Something that is clearly wrong. By looking at the altitudes for the entries of the other villages can we decide what the 49 value should be?     
-> 1. Sort on `A09_village` as text.   
-> 2. Sort on `gps:Altitude` as a number with the largest first.
-> 3. Scan down the sorted `gps:Altitude` and see if you can decide where the village changes based on the altitudes.
-> 4. Lookup the altitude value for village '49' and decide which is the most likely village for it to belong in.
+> We discovered in an earlier lesson that the value for one of the `village` entries was given as 49. This is clearly wrong. By looking at the GPS coordinates for the entries of the other villages can we decide what village the data in that column was collected from?   
+> 1. Sort on `gps_Longitude` as a number with the largest first.   
+> 2. Add a sort on `gps_Lattitude` as a number with the largest first. 
+> 3. Using the drop down arrow on the `village` column, select `Edit column` > `Move column to end`. This will allow you to compare village names with GPS coordinates. 
+> 4. Scroll through the entries until you find village `49`. Can you tell from it's GPS coordinates which village it belong to?
+> 5. Now sort only by `interview_date` as date. Move the `village` column to the start of the table. Does the row where village is `49` group with one particular village? Is it the same village as when comparing GPS coordinates?
 >
 > > ## Solution
 > >
-> > 1. For the `A09_village` column, click on `Sort...` and then `text`. This will group all of the villages in name order. village '49' will appear at the top.
-> > 2. For the `gps:Altitude` column, click on `Sort` > `Sort...` > `numbers` and select `largest first`.
-> > 3. make a note of the altitude for village '49' and see where you think it fits in.
-> >
-> > Given the accuracy of the gps reading this is hardly a foolproof approach. A simple one would be to;
-> >
-> > 4.  For the `A04_start` column, click on `Sort` > `Sort...` > `dates` and select `earliest first` and `sort by this column alone`. This will remove all of your previous sorts.
-> > 5. Now find where village '49' fits in with this order list of `A04_start` values.
+> > The interview data for that row is in a small cluster of Chirodzo interviews when sorting by GPS coordinates. When sorting by interview date, it is also with Chirodzo interviews. In fact, only Chirodzo had interviews conducted on that date. 
 > {: .solution}  
 {: .challenge}
 
-If you go back to one of the already sorted columns and select > `Sort` > `Remove sort`, that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
+Perform a text facet on the `village` column and change `49` to the village name that was determined in the previous exercise. You should now have only three village names. 
