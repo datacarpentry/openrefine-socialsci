@@ -46,3 +46,5 @@ We can do that with a `Numeric facet`.
 {: .challenge}
 
 When done examining the numeric data, remove this facet by clicking the `x` in the upper left corner of its panel. Note that this does not undo the edits you made to the cells in this column. Use the `Undo / Redo` function to reverse these changes.
+
+{% include links.md %}

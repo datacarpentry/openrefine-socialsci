@@ -55,3 +55,5 @@ You can also export just your cleaned data, rather than the entire project.
 into programs like R or Python, which we'll be discussing later in our workshop.
 
 Remember from our lesson on Spreadsheets that using widely-supported, non-proprietary file formats like `tsv` or `csv` improves the ability of yourself and others to use your data. 
+
+{% include links.md %}
