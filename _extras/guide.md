@@ -10,7 +10,8 @@ This time allotted for the teaching and exercises in lessons one through eight i
 
 ## Setup
 
-There is a seperate file for the setup instructions for installing OpenRefine ([setup](../setup/)).
+There is a separate file for the setup instructions for installing OpenRefine
+([setup](../setup/)).
 
 ## The datasets used
 

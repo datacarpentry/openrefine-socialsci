@@ -6,14 +6,14 @@ permalink: /setup/
 
 > ## Data
 >
-> The data for this lesson is a part of the Data Carpentry Social Sciences workshop. 
-> It is a teaching version of the Studying African Farmer-Led Irrigation (SAFI) database.  
-> The SAFI dataset represents interviews of farmers in two countries
-> in eastern sub-Saharan Africa (Mozambique and Tanzania). These 
-> interviews were conducted between November 2016 and June 2017 and 
-> probed household features (e.g. construction materials used, number 
-> of household members), agricultrual practices (e.g. water usage), 
-> and assets (e.g. number and types of livestock).
+> The data for this lesson is a part of the Data Carpentry Social Sciences
+> workshop. It is a teaching version of the Studying African Farmer-Led
+> Irrigation (SAFI) database. The SAFI dataset represents interviews of farmers
+> in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
+> These interviews were conducted between November 2016 and June 2017 and probed
+> household features (e.g. construction materials used, number of household
+> members), agricultural practices (e.g. water usage), and assets (e.g. number
+> and types of livestock).
 > 
 > The data used in this lesson
 > is a subset of the teaching version that has been intentionally 'messed up'

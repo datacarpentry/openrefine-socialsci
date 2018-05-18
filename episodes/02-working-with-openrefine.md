@@ -196,7 +196,7 @@ You should now see a new text facet box in the left-hand pane.
 > > All four cleaning steps can be performed by combining `.replace`
 > > statements. The command is:  
 > > `value.replace("[", "").replace("]", "").replace(" ", "").replace("'", "")`
-> > This can also be done in four separate steps if prefered.  
+> > This can also be done in four separate steps if preferred.
 > > November was the most common month for respondents to lack food.
 > {: .solution}
 {: .challenge}

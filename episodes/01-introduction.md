@@ -28,8 +28,10 @@ keypoints:
 ## Features
 
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
-* A large growing community, from novice to expert, ready to help. See Getting Help section below.
-* Works with large-ish datasets (100,000 rows). Can adjust memory allocation to accomodate larger datasets.
+* A large growing community, from novice to expert, ready to help. See Getting
+  Help section below.
+* Works with large-ish datasets (100,000 rows). Can adjust memory allocation to
+  accommodate larger datasets.
 
 ## Before we get started
 
