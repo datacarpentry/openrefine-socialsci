@@ -39,3 +39,5 @@ Let's practice running these steps on a new dataset. We'll test this on an uncle
 3. Click `Perform operations`. The dataset should now be the same as your other cleaned dataset.
 
 For convenience, we used the same dataset. In reality you could use this process to clean related datasets. For example, data that you had collected over different fieldwork periods or data that was collected by different researchers (provided everyone uses the same column headings). The data in this file was generated from an eSurvey system with the actual survey being delivered centrally to a smartphone, so the column headings are pretty much guaranteed to be the same.
+
+{% include links.md %}

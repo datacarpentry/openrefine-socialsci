@@ -232,3 +232,4 @@ includes either leading or trailing whitespace.
 2. To remove the whitespace, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
 3. You should now see only four choices in your text facet. 
 
+{% include links.md %}
