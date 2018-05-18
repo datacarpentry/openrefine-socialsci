@@ -10,53 +10,47 @@ This time allotted for the teaching and exercises in lessons one through eight i
 
 ## Setup
 
-There is a seperate file for the setup instructions for installing OpenRefine ([setup](/setup/)).
+There is a seperate file for the setup instructions for installing OpenRefine ([setup](../setup/)).
 
 ## The datasets used
 
-- The only dataset used in this lesson is the 'Moz_SAFI_Survey_Final_results.csv' file which is in the data folder.
+- The dataset used in this lesson can be downloaded from Figshare through
+ the link on the ([setup page](../setup/)).
 - It will need to be downloaded to the local machine before it can be loaded into OpenRefine.
-- A general description of the datasets used in the Social Sciences lessons can be found [here](need_link)
+- A general description of the dataset used in the Social Sciences lessons can be found [in the workshop data home page](http://www.datacarpentry.org/socialsci-workshop/data/)
 
 ## The Lessons
 
-[Introduction](/01-introduction/)
+[Introduction](../01-introduction/)
 
-- Explains whatOpenRefine is, what it is used for and where to get help.
+- Explains what OpenRefine is, what it is used for and where to get help.
 
-[Working with OpenRefine](/02-working-with-openrefine/)
+[Working with OpenRefine](../02-working-with-openrefine/)
 
-- Covers the creation of an OpenRefine project using the 'Moz_SAFI_Survey_Final_results.csv' file.
+- Covers the creation of an OpenRefine project using our dataset.
 - The file has a single header row and is csv.
 - Facets and clustering are introduced and there is a discussion on the different clustering algorithms and how they may produce different results.
-- Splitting columns is covered as is undo/redo. Failing to undo the column split will not effect anything.
+- Splitting columns is covered as is undo/redo.
 
-[Filtering and Sorting](/03-filter-sort/)
+[Filtering and Sorting](../03-filter-sort/)
 
-- Using Include and Exclude from a facet is covered and the difference between Faceting and filtering is explained.
+- Using Include and Exclude from a facet is covered and the difference between faceting and filtering is explained.
 - The various sort options for single or multiple columns is covered.
 
-
-[Using regular expressions](/04-regex/)
-
-- A very simple example of using a regular expression is given.
-This episode is entirely a walkthrough demonstration of how to do it.
-
-[Examining Numbers in OpenRefine](/05-numbers/)
+[Examining Numbers in OpenRefine](../04-numbers/)
 
 - Explains that everything is a string until you change it.
 - Explains how to change the data type and the additional faceting ability it provides.
 
-[Using scripts](/06-scripts/)
+[Using scripts](../05-scripts/)
 
 - Explains how actions within a project can be copied to an external file and re-applied. The same file is used to re-apply the changes.
 
-
-[Saving results](/07-saving/)
+[Saving results](../06-saving/)
 
 - Covers the overall format of a project 'file' and how the components can be viewed.
-- This may require installing additional software on Windows machine (e.g. 7-zip) as the builin un-zipping facility does not work with tar.gz files.
+- This may require installing additional software on Windows machine (e.g. 7-zip) as the built-in un-zipping facility does not work with tar.gz files.
 
-[Other resources in OpenRefine](/08-resources/)
+[Other resources in OpenRefine](../07-resources/)
 
 - Just a list of various OpenRefine resources available on-line (taken from the Ecology lessons)
