@@ -19,7 +19,7 @@ permalink: /setup/
 > is a subset of the teaching version that has been intentionally 'messed up'
 > for this lesson.
 > 
-> **Download** the data file to your computer by [clicking this link](/data/SAFI_messy_openrefine.csv?raw=TRUE).
+> **Download** the data file to your computer by [clicking this link](https://ndownloader.figshare.com/files/11502815). (direct link: <https://ndownloader.figshare.com/files/11502815>)
 {: .prereq}
 
 
