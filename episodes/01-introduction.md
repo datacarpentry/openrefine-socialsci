@@ -26,6 +26,7 @@ keypoints:
 * Some concepts such as clustering algorithms are quite complex, but OpenRefine makes it easy to introduce them, use them, and show their power.
 
 ## Features
+
 * Open source ([source on GitHub](https://github.com/OpenRefine/OpenRefine)).
 * A large growing community, from novice to expert, ready to help. See Getting Help section below.
 * Works with large-ish datasets (100,000 rows). Can adjust memory allocation to accomodate larger datasets.
@@ -34,7 +35,7 @@ keypoints:
 
 Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Follow the [Setup](/setup/) instructions to install OpenRefine.
+Follow the [Setup]({{ site.baseurl }}/setup/) instructions to install OpenRefine.
 
 If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
