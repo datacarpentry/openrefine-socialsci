@@ -32,7 +32,7 @@ OpenRefine can import a variety of file types, including tab separated (`tsv`), 
 In this first step, we'll browse our computer to the sample data file for this lesson.
 In this case, we will be using data obtained from interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
 Instructions on downloading the data are available
-[here]({{site.baseurl}}/setup/).
+[here]({{site.baseurl}}/setup.html).
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
