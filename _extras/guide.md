@@ -10,8 +10,9 @@ This time allotted for the teaching and exercises in lessons one through eight i
 
 ## Setup
 
-There is a separate file for the setup instructions for installing OpenRefine
+- There is a separate file for the setup instructions for installing OpenRefine
 ([setup](../setup.html)).
+- If Internet Explorer is the default browser for participants, OpenRefine may have trouble opening. The URL can be copied and pasted into a Google Chrome or Firefox browser. Or, participants can be encouraged in advance of the workshop to set one of these two browsers as their default.
 
 ## The datasets used
 
