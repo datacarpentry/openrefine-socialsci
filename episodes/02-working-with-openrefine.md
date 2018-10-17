@@ -36,16 +36,16 @@ Instructions on downloading the data are available
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
-1\. Click `Create Project` and select `Get data from` `This Computer`.  
-2\. Click `Choose Files` and select the file `SAFI_messy_openrefine.csv`. Click `Open` or double-click on the filename.  
-3\. Click `Next>>` under the browse button to upload the data into OpenRefine.  
-4\. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  There are also options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data.  
+1\. Click `Create Project` and select `Get data from` `This Computer`.
+2\. Click `Choose Files` and select the file `SAFI_messy_openrefine.csv`. Click `Open` or double-click on the filename.
+3\. Click `Next>>` under the browse button to upload the data into OpenRefine.
+4\. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange, you would choose the correct separator in the box shown and click `Update Preview` (bottom left). If this is the wrong file, click `<<Start Over` (upper left).  There are also options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data.
 
 ![Parse Options](../fig/OR_01_parse_options.png)
 
-5\. If all looks well, click `Create Project>>` (upper right).  
+5\. If all looks well, click `Create Project>>` (upper right).
 
-Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.  
+Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
 
 ## Using Facets
 
@@ -74,35 +74,35 @@ along with a number representing how many times that value occurs in the column.
 > - `Chirdozo` is likely a mis-entry of `Chirodzo`.
 > - `Ruca` is likely a mis-entry of `Ruaca`.
 > - `Ruaca - Nhamuenda` and `Ruaca-Nhamuenda` refer to the same place (differ only by spaces around the hyphen). You might also wonder if both of these are the same as `Ruaca`. We will see how to correct these misspelled and mistyped entries in a later exercise.
-> - The entry `49` is almost certainly an error but you will not be able to fix it by reference to other data. 
+> - The entry `49` is almost certainly an error but you will not be able to fix it by reference to other data.
 {: .solution}
 
 > ## Exercise
 >
 > 1. Using faceting, find out how many different `interview_date` values there are in the survey results.
-> 
+>
 > 2. Is the column formatted as Text or Date?
-> 
+>
 > 3. Use faceting to produce a timeline display for `interview_date`. You will need to use `Edit cells` > `Common transforms` > `To date` to convert this column to dates.
-> 
+>
 > 4. During what period were most of the interviews collected?
 >
 > > ## Solution
 > >
 > > For the column `interview_date` do `Facet` > `Text facet`. A box will appear in the left panel showing that there are 19 unique entries in
-> > this column.   
+> > this column.
 > > By default, the column `interview_date` is formatted as Text. You can change the format by doing `Edit cells` > `Common transforms` >
-> > `To date`.  Notice the the values in the column turn green. Doing `Facet` > `Timeline facet` creates a box in the left panel that shows a histogram of the number of entries for each date.  
+> > `To date`.  Notice the the values in the column turn green. Doing `Facet` > `Timeline facet` creates a box in the left panel that shows a histogram of the number of entries for each date.
 > >
-> > Most of the data was collected in November of 2016.  
+> > Most of the data was collected in November of 2016.
 > {: .solution}
 {: .challenge}
 
 > ## More on Facets
 > [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
-> 
+>
 > As well as 'Text facets' Refine also supports a range of other types of facet. These include:
-> 
+>
 > * Numeric facets
 > * Timeline facets (for dates)
 > * Custom facets
@@ -127,7 +127,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
  see what different mergers of values are suggested.
 3. Select the `key collision` method and `metaphone3` keying function. It should identify two clusters.
 4. Click the `Merge?` box beside each cluster, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
-4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested. 
+4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested.
 5. You should find no more clusters are found. None of the available methods offered to cluster `Ruaca-Nhamuenda` with `Ruaca` or `Chirdozo` with `Chirodzo`.  To merge these values we need to hover over them in the village text facet, select edit, and manually change the names.
 6. Change `Chirdozo` to `Chirodzo` and `Ruaca-Nhamuenda` to `Ruaca`. You should now have four clusters: `Chirodzo`, `God`, `Ruaca` and `49`.
 
@@ -145,56 +145,56 @@ The technical details of how the different clustering algorithm work can be foun
 The data in the `items_owned` column is a set of items in a list. The list is in square brackets and each item is in single quotes. Before we split the list into individual items in the next section, we first want to remove the brackets and the quotes.
 
 1. Click the down arrow at the top of the `items_owned` column. Choose `Edit Cells` > `Transform...`
-2. This will open up a window into which you can type a GREL expression. GREL stands for Google Refine Expression Language.
+2. This will open up a window into which you can type a GREL expression. GREL stands for General Refine Expression Language.
 
-![OR_Transform](../fig/OR_02_Transform.png)
+![OR_Transform](../fig/2.png)
 
 3. First we will remove all of the left square brackets (`[`). In the Expression box type `value.replace("[", "")` and click `OK`.
 
-4. What the expression means is this: Take the `value` in each cell in the selected column and replace all of the "[" with "" (i.e. nothing - delete). 
+4. What the expression means is this: Take the `value` in each cell in the selected column and replace all of the "[" with "" (i.e. nothing - delete).
 
-5. Click `OK`. You should see in the `items_owned` column that there are no longer any left square brackets. 
+5. Click `OK`. You should see in the `items_owned` column that there are no longer any left square brackets.
 
 > ## Exercise
-> 
-> Use this same strategy to remove the single quote marks (`'`), the 
+>
+> Use this same strategy to remove the single quote marks (`'`), the
 > right square brackets (`]`), and spaces from the `items_owned` column.
-> 
+>
 > > ## Solution
 > > 1. `value.replace("'", "")`
 > > 2. `value.replace("]", "")`
-> > 3. `value.replace(" ", "")`  
-> > You should now have a list of items separated by semi-colons (`;`). 
+> > 3. `value.replace(" ", "")`
+> > You should now have a list of items separated by semi-colons (`;`).
 > {: .solution}
 {: .challenge}
 
-Now that we have cleaned out extraneous characters from our `items_owned` column, we can use a text facet to see which items 
+Now that we have cleaned out extraneous characters from our `items_owned` column, we can use a text facet to see which items
 were commonly owned or rarely owned by the interview respondents.
 
 1. Click the down arrow at the top of the `items_owned` column. Choose `Facet` > `Custom text facet...`
-2. In the `Expression` box, type `value.split(";")`. 
+2. In the `Expression` box, type `value.split(";")`.
 3. Click `OK`.
 
 You should now see a new text facet box in the left-hand pane.
 
 > ## Exercise
-> Which two items are the most commonly owned? Which are the two 
+> Which two items are the most commonly owned? Which are the two
 > least commonly owned?
-> 
+>
 > > ## Solution
-> > Select `Sort by:` `count`. The most commonly owned items are 
-> > mobile phone and radio, the least commonly owned are cars and computers. 
+> > Select `Sort by:` `count`. The most commonly owned items are
+> > mobile phone and radio, the least commonly owned are cars and computers.
 > {: .solution}
 {: .challenge}
 
 > ## Exercise
 > Perform the same clean up steps and customized text faceting for
 > the `months_lack_food` column. Which month(s) were farmers
-> more likely to lack food? 
-> 
+> more likely to lack food?
+>
 > > ## Solution
 > > All four cleaning steps can be performed by combining `.replace`
-> > statements. The command is:  
+> > statements. The command is:
 > > `value.replace("[", "").replace("]", "").replace(" ", "").replace("'", "")`
 > > This can also be done in four separate steps if preferred.
 > > November was the most common month for respondents to lack food.
@@ -215,7 +215,7 @@ It's common while exploring and cleaning a dataset to discover after you've made
 > ## Exercise
 >
 > 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
-> 2. Click on the step that you want to go back to, in this case go back several steps to before you had done any text transformation. 
+> 2. Click on the step that you want to go back to, in this case go back several steps to before you had done any text transformation.
 > 3. Visually confirm that those columns now contain the special characters that we had removed previously.
 > 3. Notice that you can still click on the later steps to `Redo` the actions. Before moving on to the next lesson, redo all the steps in your analysis so that all of the column you modified are lacking in square brackets, spaces, and single quotes.
 {: .challenge}
@@ -225,11 +225,11 @@ It's common while exploring and cleaning a dataset to discover after you've made
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
-1. Create a new text facet for the column `respondent_wall_type`. You 
-should see some choices that appear identical (`burntbricks` and 
+1. Create a new text facet for the column `respondent_wall_type`. You
+should see some choices that appear identical (`burntbricks` and
 `muddaub` both have two choices). In reality, one of these choices
-includes either leading or trailing whitespace. 
+includes either leading or trailing whitespace.
 2. To remove the whitespace, choose `Edit cells` > `Common transforms` > `Trim leading and trailing whitespace`.
-3. You should now see only four choices in your text facet. 
+3. You should now see only four choices in your text facet.
 
 {% include links.md %}
