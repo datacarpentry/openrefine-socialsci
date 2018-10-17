@@ -16,7 +16,7 @@ There is a separate file for the setup instructions for installing OpenRefine
 ## The datasets used
 
 - The dataset used in this lesson can be downloaded from Figshare through
- the link on the ([setup page](../setup/)).
+ the link on the ([setup page](../setup.html)).
 - It will need to be downloaded to the local machine before it can be loaded into OpenRefine.
 - A general description of the dataset used in the Social Sciences lessons can be found [in the workshop data home page](http://www.datacarpentry.org/socialsci-workshop/data/)
 
