@@ -147,7 +147,7 @@ The data in the `items_owned` column is a set of items in a list. The list is in
 1. Click the down arrow at the top of the `items_owned` column. Choose `Edit Cells` > `Transform...`
 2. This will open up a window into which you can type a GREL expression. GREL stands for General Refine Expression Language.
 
-![OR_Transform](../fig/2.png)
+![OR_Transform](../fig/OR_02_Transform.png)
 
 3. First we will remove all of the left square brackets (`[`). In the Expression box type `value.replace("[", "")` and click `OK`.
 
