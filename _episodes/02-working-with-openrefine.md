@@ -217,7 +217,7 @@ It's common while exploring and cleaning a dataset to discover after you've made
 > 1. Click where it says `Undo / Redo` on the left side of the screen. All the changes you have made so far are listed here.
 > 2. Click on the step that you want to go back to, in this case go back several steps to before you had done any text transformation.
 > 3. Visually confirm that those columns now contain the special characters that we had removed previously.
-> 3. Notice that you can still click on the later steps to `Redo` the actions. Before moving on to the next lesson, redo all the steps in your analysis so that all of the column you modified are lacking in square brackets, spaces, and single quotes.
+> 3. Notice that you can still click on the later steps to `Redo` the actions. Before moving on to the next lesson, redo all the steps in your analysis so that all of the columns you modified are lacking in square brackets, spaces, and single quotes.
 {: .challenge}
 
 
