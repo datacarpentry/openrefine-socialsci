@@ -10,7 +10,7 @@ objectives:
 - "Experiment with OpenRefine’s user interface."
 - "Locate helpful resources to learn more about OpenRefine."
 keypoints:
-- "OpenRefine is a powerful, free and open source tool that can be used for data cleaning."
+- "OpenRefine is a powerful, free, and open source tool that can be used for data cleaning."
 - "OpenRefine will automatically track any steps allowing you to backtrack as needed and providing a record of all work done"
 ---
 
@@ -42,8 +42,8 @@ Follow the [Setup]({{ site.baseurl }}/setup.html) instructions to install OpenRe
 If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
 
-## Getting help for OpenRefine.
+## Getting help for OpenRefine
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. These videos and other on OpenRefine can also be found on YouTube, search under 'OpenRefine' There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
+You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. These videos and others on OpenRefine can also be found on YouTube by searching under 'OpenRefine'.  There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
 
 {% include links.md %}
