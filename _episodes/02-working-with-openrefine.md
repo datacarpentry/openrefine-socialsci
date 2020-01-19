@@ -136,7 +136,7 @@ your solutions for later exercises will not be the same as shown in those exerci
 
 ## Different clustering algorithms
 
-The technical details of how the different clustering algorithm work can be found at the link below.
+The technical details of how the different clustering algorithms work can be found at the link below.
 
 [More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
