@@ -172,7 +172,7 @@ Now that we have cleaned out extraneous characters from our `items_owned` column
 were commonly owned or rarely owned by the interview respondents.
 
 1. Click the down arrow at the top of the `items_owned` column. Choose `Facet` > `Custom text facet...`
-2. In the `Expression` box, type `value.split(";")`.
+2. In the `Expression` box, type `split(value,";")`.
 3. Click `OK`.
 
 You should now see a new text facet box in the left-hand pane.
