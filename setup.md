@@ -38,10 +38,11 @@ default browser. OpenRefine runs in your default browser. It will not run correc
 - Download software from [http://openrefine.org](http://openrefine.org)
 - Unzip the downloaded file into a directory by right-clicking and 
 selecting “Extract…”. Name that directory something like OpenRefine.
-- Go to your newly created OpenRefine directory.
+- Go to your newly created OpenRefine directory. 
 - Launch OpenRefine
 - Click the openrefine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+-If you get a java error when you try to open it you can download[Windows kit with embedded Java] (https://github.com/OpenRefine/OpenRefine/releases/download/3.4-beta2/openrefine-win-with-java-3.4-beta2.zip) of the OpenRefine 3.4 beta 2 release.
 
 #### Mac
 
