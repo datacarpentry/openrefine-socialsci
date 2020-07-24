@@ -42,7 +42,7 @@ selecting “Extract…”. Name that directory something like OpenRefine.
 - Launch OpenRefine
 - Click the openrefine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
--If you get a Java error when you try to open it you can try downloading [OpenRefine 3.4 Beta release for Windows with embedded Java] (https://openrefine.org/download.html).
+- If you get a Java error when you try to open it you can try downloading [OpenRefine 3.4 Beta release for Windows with embedded Java] (https://openrefine.org/download.html).
 
 
 #### Mac
