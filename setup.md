@@ -54,7 +54,7 @@ default browser. OpenRefine runs in your default browser. It will not run correc
 that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine
-- Drag icon into Applications folder, and Ctrl-click/Open… it. 
+- Drag icon into Applications folder, and Control-click the app icon, then choose Open from the shortcut menu. [Troubleshooting](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
 #### Linux
