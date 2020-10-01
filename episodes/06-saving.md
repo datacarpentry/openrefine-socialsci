@@ -30,7 +30,7 @@ you'll see a list of your projects. You can click on any one of them to open it 
 You can also export a project. This is helpful, for instance, if you wanted to send your raw data and cleaning steps to a collaborator, 
 or share this information as a supplement to a publication. 
 
-1. Click the `Export` button in the top right and select `Export project`.
+1. Click the `Export` button in the top right and select `OpenRefine project archive to file`.
 2. A `tar.gz` file will download to your default `Download` directory. Depending on your browser you may have to confirm that you want to save the file. The `tar.gz` extension tells you that this is a compressed file.
 The downloaded `tar.gz` file is actually a folder of files which have been compressed. Linux and Mac machines will have software installed to automatically expand this type of file when you double-click on it. For Windows based machines you may have to install a utility like '7-zip' in order to expand the file and see the files in the folder. 
 3. After you have expanded the file look at the files that appear in this folder. What files are here? What information do you think these files contain?
