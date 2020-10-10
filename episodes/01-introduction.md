@@ -32,6 +32,7 @@ keypoints:
   Help section below.
 * Works with large-ish datasets (100,000 rows). Can adjust memory allocation to
   accommodate larger datasets.
+* OpenRefine always keeps your data private on your own computer until you choose to share it. It works by running a small server on your computer and using your web browser to interact with it, but your private data never leaves your computer unless you want it to.
 
 ## Before we get started
 
