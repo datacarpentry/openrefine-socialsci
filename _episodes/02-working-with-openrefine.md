@@ -21,6 +21,8 @@ keypoints:
 - "OpenRefine can transform the values of a column."
 ---
 
+{% include base_path.html %}
+
 # Lesson
 
 ## Creating a new OpenRefine project
@@ -32,15 +34,15 @@ OpenRefine can import a variety of file types, including tab separated (`tsv`), 
 In this first step, we'll browse our computer to the sample data file for this lesson.
 In this case, we will be using data obtained from interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
 Instructions on downloading the data are available
-[here]({{site.baseurl}}/setup.html).
+[here]({{relative_root_path}}/setup.html).
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
 1. Click `Create Project` and select `Get data from` `This Computer`.
-2. Click `Choose Files` and select the file `SAFI_openrefine.csv` that you downloaded in the [setup step]({{site.baseurl}}/setup.html). Click `Open` or double-click on the filename.
+2. Click `Choose Files` and select the file `SAFI_openrefine.csv` that you downloaded in the [setup step]({{relative_root_path}}/setup.html). Click `Open` or double-click on the filename.
 3. Click `Next>>` under the browse button to upload the data into OpenRefine.
 4. OpenRefine gives you a preview - a chance to show you it understood the file. If, for example, your file was really tab-delimited, the preview might look strange. You would then choose the correct separator in the box shown and click `Update Preview` (middle right). If this is the wrong file, click `<<Start Over` (upper left).  There are also options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data.
-![Parse Options](../fig/OR_01_parse_options.png)
+![Parse Options]({{relative_root_path}}/fig/OR_01_parse_options.png)
 
 5. If all looks well, click `Create Project>>` (upper right).
 
@@ -127,7 +129,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 3. Select the `key collision` method and `metaphone3` keying function. It should identify two clusters.
 4. Click the `Merge?` box beside each cluster, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
 4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested.
-5. You should find that using the default settings, no more clusters are found, for example to merge `Ruaca-Nhamuenda` with `Ruaca` or `Chirdozo` with `Chirodzo`. (Note that the `nearest neighbor` method with `ppm` distance, `radius` &ge; 4, and `block chars` &le; 4 will find these clusters, as well as other settings with `levenshtein` distance) 
+5. You should find that using the default settings, no more clusters are found, for example to merge `Ruaca-Nhamuenda` with `Ruaca` or `Chirdozo` with `Chirodzo`. (Note that the `nearest neighbor` method with `ppm` distance, `radius` &ge; 4, and `block chars` &le; 4 will find these clusters, as well as other settings with `levenshtein` distance)
 6. To merge these values we will hover over them in the village text facet, select edit, and manually change the names. Change `Chirdozo` to `Chirodzo` and `Ruaca-Nhamuenda` to `Ruaca`. You should now have four clusters: `Chirodzo`, `God`, `Ruaca` and `49`.
 
 Important: If you `Merge` using a different method or keying function, or more times than described in the instructions above,
@@ -145,7 +147,7 @@ The data in the `items_owned` column is a set of items in a list. The list is in
 
 1. Click the down arrow at the top of the `items_owned` column. Choose `Edit Cells` > `Transform...`
 2. This will open up a window into which you can type a GREL expression. GREL stands for General Refine Expression Language.
-![OR_Transform](../fig/OR_02_Transform.png)
+![OR_Transform]({{relative_root_path}}/fig/OR_02_Transform.png)
 
 3. First we will remove all of the left square brackets (`[`). In the Expression box type `value.replace("[", "")` and click `OK`.
 
@@ -221,7 +223,7 @@ It's common while exploring and cleaning a dataset to discover after you've made
 
 ## Trim Leading and Trailing Whitespace
 
-Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. As of version 3.4 of OpenRefine, the option to trim leading and trailing whitespaces is present at the moment of importing the data (see image at the top of this page). 
+Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. As of version 3.4 of OpenRefine, the option to trim leading and trailing whitespaces is present at the moment of importing the data (see image at the top of this page).
 
 If you unchecked that box when importing data, or if leading or trailing whitespaces were introduced while splitting columns, or other operations, OpenRefine also provides a tool to remove blank characters from the beginning and end of any entries that have them.
 

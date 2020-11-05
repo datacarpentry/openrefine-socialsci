@@ -1,6 +1,7 @@
 ---
 layout: lesson
 root: .
+permalink: index.html
 ---
 
 A part of the data workflow is preparing the data for analysis. Some of this
@@ -21,25 +22,24 @@ edits by hand.
 > ## Getting Started
 >
 > Data Carpentry's teaching is hands-on, so participants are encouraged to use
-> their own computers to ensure the proper setup of tools for an efficient 
+> their own computers to ensure the proper setup of tools for an efficient
 > workflow.
 >
 > **These lessons assume no prior knowledge of the skills or tools.**
 >
-> To get started, follow the directions in the "[Setup](setup.html)" tab to 
+> To get started, follow the directions in the "[Setup](setup.html)" tab to
 > download data to your computer and follow any installation instructions.
 >
 > #### Prerequisites
 >
-> This lesson requires a working copy of OpenRefine (also called 
+> This lesson requires a working copy of OpenRefine (also called
 > GoogleRefine).
-> 
-> To most effectively use these materials, please make sure to install 
+>
+> To most effectively use these materials, please make sure to install
 > everything *before* working through this lesson.
 {: .prereq}
 
 > ## For Instructors
-> If you are teaching this lesson in a workshop, please see the 
-> [Instructor notes](guide/).
+> If you are teaching this lesson in a workshop, please see the
+> [Instructor notes](guide/index.html).
 {: .prereq}
-

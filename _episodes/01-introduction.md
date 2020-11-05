@@ -14,6 +14,8 @@ keypoints:
 - "OpenRefine will automatically track any steps allowing you to backtrack as needed and providing a record of all work done"
 ---
 
+{% include base_path.html %}
+
 # Lesson
 
 ## Motivations for the OpenRefine Lesson
@@ -38,7 +40,7 @@ keypoints:
 
 Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
 
-Follow the [Setup]({{ site.baseurl }}/setup.html) instructions to install OpenRefine.
+Follow the [Setup]({{relative_root_path}}/setup.html) instructions to install OpenRefine.
 
 If after installation and running OpenRefine, it does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
