@@ -27,7 +27,7 @@ keypoints:
 
 In Windows, you can start the OpenRefine program by double-clicking on the openrefine.exe file. Java services will start automatically on your machine, and OpenRefine will open in your browser. On a Mac, OpenRefine can be launched from your Applications folder. If you are using Linux, you will need to navigate to your OpenRefine directory in the command line and run `./refine`.
 
-OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
+OpenRefine can import a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and Google Spreadsheets. See the [OpenRefine Create a Project by Importing Data page](https://docs.openrefine.org/manual/starting/#create-a-project-by-importing-data) for more information.
 
 In this first step, we'll browse our computer to the sample data file for this lesson.
 In this case, we will be using data obtained from interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
@@ -98,7 +98,7 @@ along with a number representing how many times that value occurs in the column.
 {: .challenge}
 
 > ## More on Facets
-> [OpenRefine Wiki: Faceting](https://github.com/OpenRefine/OpenRefine/wiki/Faceting)
+> [OpenRefine Manual: Facets](https://docs.openrefine.org/manual/facets)
 >
 > As well as 'Text facets' Refine also supports a range of other types of facet. These include:
 >
