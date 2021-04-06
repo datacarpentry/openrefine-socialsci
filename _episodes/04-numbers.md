@@ -7,7 +7,7 @@ questions:
 - "How can we find non-numeric values in a column that should contain numbers?"
 objectives:
 - "Transform a text column into a number column."
-- "Identify and modify non-numeric values in a number column using facets."
+- "Identify and modify non-numeric values in a numeric column using facets."
 keypoints:
 - "OpenRefine also provides ways to to examine and clean numerical data."
 ---
