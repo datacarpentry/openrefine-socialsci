@@ -24,7 +24,7 @@ To transform cells in the `years_farm` column to numbers, click the down arrow f
 
 > ## Exercise
 >
-> Transform three more columns, `no_members`, `yrs_liv`, and `buildings_in_compound`, from text to numbers. Can all columns be transformed to numbers? - Try it with `village` for example.
+> Transform three more columns, `no_members`, `years_liv`, and `buildings_in_compound`, from text to numbers. Can all columns be transformed to numbers? - Try it with `village` for example.
 >
 > > ## Solution
 > >
