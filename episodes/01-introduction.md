@@ -32,6 +32,7 @@ keypoints:
   Help section below.
 * Works with large-ish datasets (100,000 rows). Can adjust memory allocation to
   accommodate larger datasets.
+* OpenRefine always keeps your data private on your own computer until you choose to share it. It works by running a small server on your computer and using your web browser to interact with it, but your private data never leaves your computer unless you want it to.
 
 ## Before we get started
 
@@ -44,6 +45,12 @@ If after installation and running OpenRefine, it does not automatically open for
 
 ## Getting help for OpenRefine
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. These videos and others on OpenRefine can also be found on YouTube by searching under 'OpenRefine'.  There is a [Google Group](https://groups.google.com/forum/?hl=en#!forum/openrefine) that can answer a lot of beginner questions and problems. There is also an [OpenRefine Google Plus community](https://plus.google.com/communities/117280693504889048168) where you can find a lot of help and a lot of folks from the life sciences are members. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it into your OpenRefine instance to run it on your dataset.
+
+You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. 
+These videos and others on OpenRefine can also be found on YouTube by searching under 'OpenRefine'.  There is a [Google Group](https://groups.google.com/g/openrefine) 
+that can answer a lot of beginner questions and problems. Information can also be found on [StackOverflow](https://stackoverflow.com/questions/tagged/openrefine) 
+where you can find a lot of help. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it 
+into your OpenRefine instance to run it on your dataset.
+
 
 {% include links.md %}

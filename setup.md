@@ -35,19 +35,21 @@ title: Setup
 
 - Check that you have Firefox or Chrome browsers installed and set as your 
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-- Download software from [http://openrefine.org](http://openrefine.org)
+- Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory by right-clicking and 
 selecting “Extract…”. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine
 - Click the openrefine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+- If you get a Java error when you try to open it you can try downloading [OpenRefine 3.4 beta 2 Windows kit with embedded Java](https://openrefine.org/download.html).
+
 
 #### Mac
 
 - Check that you have Firefox or Chrome browsers installed and set as your 
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-- Download software from [http://openrefine.org](http://openrefine.org)
+- Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory by double-clicking it. Name 
 that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
@@ -59,7 +61,7 @@ that directory something like OpenRefine.
 
 - Check that you have Firefox or Chrome browsers installed and set as your 
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-- Download software from [http://openrefine.org](http://openrefine.org)
+- Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory. Name 
 that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
