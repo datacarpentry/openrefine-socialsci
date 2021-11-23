@@ -127,7 +127,7 @@ In OpenRefine, clustering means "finding groups of different values that might b
 3. Select the `key collision` method and `metaphone3` keying function. It should identify two clusters.
 4. Click the `Merge?` box beside each cluster, then click `Merge Selected and Recluster` to apply the corrections to the dataset.
 4. Try selecting different `Methods` and `Keying Functions` again, to see what new merges are suggested.
-5. You should find that using the default settings, no more clusters are found, for example to merge `Ruaca-Nhamuenda` with `Ruaca` or `Chirdozo` with `Chirodzo`. (Note that the `nearest neighbor` method with `ppm` distance, `radius` &ge; 4, and `block chars` &le; 4 will find these clusters, as well as other settings with `levenshtein` distance) 
+5. You should find that using the default settings, no more clusters are found, for example to merge `Ruaca-Nhamuenda` with `Ruaca` or `Chirdozo` with `Chirodzo`. (Note that the `nearest neighbor` method with `ppm` distance, `radius` &ge; 4, and `block chars` &le; 4 will find these clusters, as well as other settings with `levenshtein` distance)
 6. To merge these values we will hover over them in the village text facet, select edit, and manually change the names. Change `Chirdozo` to `Chirodzo` and `Ruaca-Nhamuenda` to `Ruaca`. You should now have four clusters: `Chirodzo`, `God`, `Ruaca` and `49`.
 
 Important: If you `Merge` using a different method or keying function, or more times than described in the instructions above,
@@ -206,7 +206,7 @@ You should now see a new text facet box in the left-hand pane.
 > column.
 {: .challenge}
 
-## Using undo and redo.
+## Using undo and redo
 
 It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
 
@@ -221,7 +221,7 @@ It's common while exploring and cleaning a dataset to discover after you've made
 
 ## Trim Leading and Trailing Whitespace
 
-Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. As of version 3.4 of OpenRefine, the option to trim leading and trailing whitespaces is present at the moment of importing the data (see image at the top of this page). 
+Words with spaces at the beginning or end are particularly hard for we humans to tell from strings without, but the blank characters will make a difference to the computer. We usually want to remove these. As of version 3.4 of OpenRefine, the option to trim leading and trailing whitespaces is present at the moment of importing the data (see image at the top of this page).
 
 If you unchecked that box when importing data, or if leading or trailing whitespaces were introduced while splitting columns, or other operations, OpenRefine also provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
