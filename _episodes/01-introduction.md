@@ -11,7 +11,7 @@ objectives:
 - "Locate helpful resources to learn more about OpenRefine."
 keypoints:
 - "OpenRefine is a powerful, free, and open source tool that can be used for data cleaning."
-- "OpenRefine will automatically track any steps allowing you to backtrack as needed and providing a record of all work done"
+- "OpenRefine will automatically track any steps allowing you to backtrack as needed and providing a record of all work done."
 ---
 
 # Lesson
@@ -46,10 +46,10 @@ If after installation and running OpenRefine, it does not automatically open for
 ## Getting help for OpenRefine
 
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos. 
-These videos and others on OpenRefine can also be found on YouTube by searching under 'OpenRefine'.  There is a [Google Group](https://groups.google.com/g/openrefine) 
-that can answer a lot of beginner questions and problems. Information can also be found on [StackOverflow](https://stackoverflow.com/questions/tagged/openrefine) 
-where you can find a lot of help. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it 
+You can find out a lot more about OpenRefine at [http://openrefine.org](http://openrefine.org) and check out some great introductory videos.
+These videos and others on OpenRefine can also be found on YouTube by searching under 'OpenRefine'.  There is a [Google Group](https://groups.google.com/g/openrefine)
+that can answer a lot of beginner questions and problems. Information can also be found on [StackOverflow](https://stackoverflow.com/questions/tagged/openrefine)
+where you can find a lot of help. As with other programs of this type, OpenRefine libraries are available too, where you can find a script you need and copy it
 into your OpenRefine instance to run it on your dataset.
 
 
