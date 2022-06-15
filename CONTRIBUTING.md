@@ -47,7 +47,7 @@ and to meet some of our community members.
 
 1.  If you wish to change this lesson,
     please work in <https://github.com/datacarpentry/openrefine-socialsci>,
-    which can be viewed at <https://datacarpentry.github.io/socialsci>.
+    which can be viewed at <https://datacarpentry.org/openrefine-socialsci/>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/carpentries/lesson-example>,
