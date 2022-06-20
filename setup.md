@@ -33,9 +33,9 @@ title: Setup
 >
 {: .prereq}
 
-#### Windows
+### Windows
 
-- Check that you have Firefox or Chrome browsers installed and set as your
+- Check that you have Firefox, Edge, Opera or Chrome browsers installed and set as your
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory by right-clicking and
@@ -47,9 +47,9 @@ selecting “Extract…”. Name that directory something like OpenRefine.
 - If you get a Java error when you try to open it you can try downloading [OpenRefine Windows kit with embedded Java](https://openrefine.org/download.html).
 
 
-#### Mac
+### Mac
 
-- Check that you have Firefox or Chrome browsers installed and set as your
+- Check that you have Firefox, Edge, Opera or Chrome browsers installed and set as your
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory by double-clicking it. Name
@@ -60,7 +60,7 @@ that directory something like OpenRefine.
 For Troubleshooting help, see [the apple support page](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-#### Linux
+### Linux
 
 - Check that you have Firefox or Chrome browsers installed and set as your
 default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
