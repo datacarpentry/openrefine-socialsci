@@ -27,7 +27,9 @@ title: Setup
 > For this lesson you will need **OpenRefine** (formerly Google Refine) and a
 > web browser.
 >
-> Note: this is a Java program that runs on your machine (not in the cloud). It runs inside your browser, but no web connection is needed.
+> Note: this is a Java program that runs on your machine (not in the cloud).
+> It runs inside your browser, but no web connection is needed for this lesson.
+> You do not need administrative rights on the computer to use OpenRefine.
 >
 {: .prereq}
 
@@ -42,7 +44,7 @@ selecting “Extract…”. Name that directory something like OpenRefine.
 - Launch OpenRefine
 - Click the openrefine.exe (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
-- If you get a Java error when you try to open it you can try downloading [OpenRefine 3.4 beta 2 Windows kit with embedded Java](https://openrefine.org/download.html).
+- If you get a Java error when you try to open it you can try downloading [OpenRefine Windows kit with embedded Java](https://openrefine.org/download.html).
 
 
 ### Mac
@@ -61,7 +63,7 @@ For Troubleshooting help, see [the apple support page](https://support.apple.com
 ### Linux
 
 - Check that you have Firefox or Chrome browsers installed and set as your
-default browser. OpenRefine runs in your default browser.
+default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory. Name
 that directory something like OpenRefine.
