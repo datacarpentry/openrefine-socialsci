@@ -8,7 +8,7 @@ objectives:
 - "Understand that there are many online resources available for more information on OpenRefine."
 - "Identify other resources about OpenRefine."
 keypoints:
-- "Other examples and resources online are good for learning more about OpenRefine"
+- "Other examples and resources online are good for learning more about OpenRefine."
 ---
 
 # Lesson

@@ -206,7 +206,7 @@ You should now see a new text facet box in the left-hand pane.
 > column.
 {: .challenge}
 
-## Using undo and redo.
+## Using undo and redo
 
 It's common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides `Undo` and `Redo` operations to make this easy.
 
