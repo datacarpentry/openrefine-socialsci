@@ -31,8 +31,7 @@ OpenRefine can import a variety of file types, including tab separated (`tsv`), 
 
 In this first step, we'll browse our computer to the sample data file for this lesson.
 In this case, we will be using data obtained from interviews of farmers in two countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
-Instructions on downloading the data are available
-[here]({{site.baseurl}}/setup.html).
+If you haven't yet downloaded the data, see the [instructions on downloading the data in Setup]({{site.baseurl}}/setup.html).
 
 Once OpenRefine is launched in your browser, the left margin has options to `Create Project`, `Open Project`, or `Import Project`. Here we will create a new project:
 
@@ -44,7 +43,10 @@ Once OpenRefine is launched in your browser, the left margin has options to `Cre
 
 5. If all looks well, click `Create Project>>` (upper right).
 
-Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`. However, this won't work for all URLs.
+Note that at step 1, you could upload data in a standard form from a web address by selecting `Get data from` `Web Addresses (URLs)`.
+The URLs must point to data in a file type that OpenRefine understands, just like the types that you could upload.
+Instead of downloading the dataset file as you did during [setup]({{site.baseurl}}/setup.html) and uploading it from your computer, you could have submitted its URL here.
+Fully understanding this functionality is out of scope for this lesson.
 
 ## Using Facets
 
