@@ -13,8 +13,6 @@ keypoints:
 - "OpenRefine provides a way to sort and filter data without affecting the raw data."
 ---
 
-# Lesson
-
 ## Filtering
 
 There are many entries in our data table. We can filter it to work on a subset of the data in the list for the next set of operations. Please ensure you perform this step to save time during the class.
