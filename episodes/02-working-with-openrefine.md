@@ -21,8 +21,6 @@ keypoints:
 - "OpenRefine can transform the values of a column."
 ---
 
-# Lesson
-
 ## Creating a new OpenRefine project
 
 In Windows, you can start the OpenRefine program by double-clicking on the openrefine.exe file. Java services will start automatically on your machine, and OpenRefine will open in your browser. On a Mac, OpenRefine can be launched from your Applications folder. If you are using Linux, you will need to navigate to your OpenRefine directory in the command line and run `./refine`.
