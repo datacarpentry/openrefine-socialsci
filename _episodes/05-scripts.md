@@ -13,8 +13,6 @@ keypoints:
 - "All changes are being tracked in OpenRefine, and this information can be used for scripts for future analyses or reproducing an analysis."
 ---
 
-# Lesson
-
 ## How OpenRefine records what you have done
 
 As you conduct your data cleaning and preliminary analysis, OpenRefine saves every change you make to the dataset. These
