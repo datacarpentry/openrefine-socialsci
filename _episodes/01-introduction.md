@@ -14,8 +14,6 @@ keypoints:
 - "OpenRefine will automatically track any steps allowing you to backtrack as needed and providing a record of all work done."
 ---
 
-# Lesson
-
 ## Motivations for the OpenRefine Lesson
 
 * Data is often very messy. OpenRefine provides a set of tools to allow you to identify and amend the messy data.
