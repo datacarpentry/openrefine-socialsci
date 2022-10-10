@@ -9,3 +9,17 @@
 # openrefine-socialsci
 
 Lesson on OpenRefine for social scientists.
+Please see <https://datacarpentry.org/openrefine-socialsci/> for a rendered version of this lesson.
+
+This is an introduction to OpenRefine designed for participants with no previous experience.
+This lesson can be taught in ~ 2 hours, excluding setup.
+The episodes in this lesson cover introductory topics related to using OpenRefine.
+
+The [instructor notes][in] contain some tips about how to best teach this workshop.
+
+## Maintainers
+
+- [Ben Companjen](https://github.com/bencomp)
+- [Emilia Gan](https://github.com/efran)
+
+[in]: https://datacarpentry.org/openrefine-socialsci/guide/
