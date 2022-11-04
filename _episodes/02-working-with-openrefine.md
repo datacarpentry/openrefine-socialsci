@@ -23,13 +23,7 @@ keypoints:
 
 ## Creating a new OpenRefine project
 
-In Windows, you can start the OpenRefine program by double-clicking on the
-openrefine.exe file. Java services will start automatically on your machine,
-and OpenRefine will open in your browser. On a Mac, OpenRefine can be launched
-from your Applications folder. If you are using Linux, you will need to
-navigate to your OpenRefine directory in the command line and run `./refine`. 
-If you are using a different browser, or OpenRefine does not automatically open for you, 
-point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+If you have not started OpenRefine yet, follow the Setup instructions before continuing.
 
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`),
