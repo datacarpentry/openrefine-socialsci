@@ -23,8 +23,8 @@ keypoints:
 
 ## Creating a new OpenRefine project
 
-If you have not started OpenRefine yet, follow the [Setup](https://datacarpentry.org/openrefine-socialsci/setup) instructions before continuing.
-
+If you have not started OpenRefine yet, follow the [Setup]({{ page.root }}{% link setup.md %})
+instructions before continuing.
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`),
 comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and
