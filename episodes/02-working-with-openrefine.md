@@ -23,7 +23,7 @@ keypoints:
 
 ## Creating a new OpenRefine project
 
-If you have not started OpenRefine yet, follow the Setup instructions before continuing.
+If you have not started OpenRefine yet, follow the [Setup](https://datacarpentry.org/openrefine-socialsci/setup) instructions before continuing.
 
 
 OpenRefine can import a variety of file types, including tab separated (`tsv`),
