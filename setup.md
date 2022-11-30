@@ -30,7 +30,9 @@ title: Setup
 >
 > Note: this is a Java program that runs on your machine (not in the cloud).
 > It runs inside your browser, but no web connection is needed for this lesson.
-> You do not need administrative rights on the computer to use OpenRefine.
+> You do not need administrative rights on the computer to *install* OpenRefine.
+> However, you may need administrative rights to allow OpenRefine to *run* if
+> anti-malware software blocks the application. OpenRefine is safe to run.
 >
 {: .prereq}
 
