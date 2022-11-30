@@ -14,6 +14,8 @@ different platforms and how many computers need OpenRefine installed.
 
 - There is a separate page with [setup instructions for installing OpenRefine](
     {{ page.root }}{% link setup.md %}).
+- Participants should install and run before the workshop, so that any problems
+  may reveal themselves early.
 - If Internet Explorer is the default browser for participants, OpenRefine may
   have trouble opening. The URL can be copied and pasted into a Google Chrome
   or Firefox browser. Or, participants can be encouraged in advance of the
