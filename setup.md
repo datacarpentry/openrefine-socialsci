@@ -44,6 +44,9 @@ title: Setup
 - Download software from [https://openrefine.org](https://openrefine.org)
 - Unzip the downloaded file into a directory by right-clicking and
 selecting “Extract…”. Name that directory something like OpenRefine.
+  (Note that the path to the directory you extract the application files into should be
+  short, because some of OpenRefine's files have very long names. If the path is
+  too long, OpenRefine cannot start.)
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine
 - Click the openrefine.exe (this will launch a command prompt window, but you
