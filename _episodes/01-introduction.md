@@ -60,7 +60,7 @@ You can find out a lot more about OpenRefine at [http://openrefine.org](http://o
 and check out some great introductory videos.
 
 These videos and others on OpenRefine can also be found on YouTube by searching under
-'OpenRefine'.  There is a [Google Group](https://groups.google.com/g/openrefine) that
+'OpenRefine'.  There is an [official forum](https://forum.openrefine.org/) that
 can answer a lot of beginner questions and problems. Information can also be found on
 [StackOverflow](https://stackoverflow.com/questions/tagged/openrefine) where
 you can find a lot of help. As with other programs of this type, OpenRefine
