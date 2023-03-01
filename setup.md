@@ -25,7 +25,9 @@ title: Setup
 > ## Software
 >
 > For this lesson you will need **OpenRefine** (formerly Google Refine) and a
-> web browser.
+> web browser. Basic installation steps are provided on this page.
+> The OpenRefine [installation manual](https://openrefine.org/docs/manual/installing)
+> provides more details about installation, upgrades and configuration.
 >
 > Note: this is a Java program that runs on your machine (not in the cloud).
 > It runs inside your browser, but no web connection is needed for this lesson.
