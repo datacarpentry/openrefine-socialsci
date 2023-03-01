@@ -31,9 +31,12 @@ title: Setup
 >
 > Note: this is a Java program that runs on your machine (not in the cloud).
 > It runs inside your browser, but no web connection is needed for this lesson.
-> You do not need administrative rights on the computer to *install* OpenRefine.
-> However, you may need administrative rights to allow OpenRefine to *run* if
-> anti-malware software blocks the application. OpenRefine is safe to run.
+>
+> > You do not need administrative rights on the computer to *install* OpenRefine.
+> > However, if anti-malware software blocks OpenRefine when you try to start it,
+> > you may need administrative rights to allow OpenRefine to *run*.
+> > OpenRefine is safe to run.
+> {: .callout}
 >
 {: .prereq}
 
@@ -45,9 +48,10 @@ title: Setup
 - Download the software from [openrefine.org](https://openrefine.org).
 - Unzip the downloaded file into a directory by right-clicking and
   selecting “Extract…”. Name that directory something like OpenRefine.  
-  (Note that the path to the directory you extract the application files into should be
-  short, because some of OpenRefine's files have very long names. If the path is
-  too long, OpenRefine cannot start.)
+  > The path to the directory you extract the application files into should be
+  > short, because some of OpenRefine's files have very long names. If the path is
+  > too long, OpenRefine cannot start.
+  {: .callout}
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine by opening `openrefine.exe`. This will launch a command prompt window,
   but you can ignore that and wait for the browser to launch.
