@@ -58,8 +58,7 @@ title: Setup
 - If you see Internet Explorer start, or OpenRefine does not automatically
   open for you, point one of the supported browsers at <http://127.0.0.1:3333/> or
   <http://localhost:3333> to launch the program.
-- If you get a Java error when you try to open it, you can try downloading the
-  [OpenRefine Windows kit with embedded Java](https://openrefine.org/download.html).
+
 
 ### Mac
 
