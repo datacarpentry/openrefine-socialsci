@@ -331,7 +331,7 @@ They may have been in the dataset that was imported, or appear when you perform
 operations on the data, such as splitting text.
 While we as humans cannot always see or notice these (especially if they are at
 the end of a word), a computer always sees them.
-We often see these spaces as unwanted variations and therefore remove them.
+These spaces are often unwanted variations that should to be removed.
 
 As of version 3.4, OpenRefine provides the option to trim (i.e. remove) leading and
 trailing whitespace during the import of data (see image at the top of this page).
