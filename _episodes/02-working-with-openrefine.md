@@ -325,20 +325,24 @@ provides `Undo` and `Redo` operations to make this easy.
 
 ## Trim Leading and Trailing Whitespace
 
-Words with spaces at the beginning or end are particularly hard for we humans
-to tell from strings without, but the blank characters will make a difference
-to the computer. We usually want to remove these. As of version 3.4 of
-OpenRefine, the option to trim leading and trailing whitespaces is present at
-the moment of importing the data (see image at the top of this page).
+Sometimes spaces (or tabs, or newline characters) will be present at the beginning
+or end of a text cell.
+They may have been in the dataset that was imported, or appear when you perform
+operations on the data, such as splitting text.
+While we as humans cannot always see or notice these (especially if they are at
+the end of a word), a computer always sees them.
+These spaces are often unwanted variations that should to be removed.
 
-If you unchecked that box when importing data, or if leading or trailing
-whitespaces were introduced while splitting columns, or other operations,
-OpenRefine also provides a tool to remove blank characters from the beginning
-and end of any entries that have them.
+As of version 3.4, OpenRefine provides the option to trim (i.e. remove) leading and
+trailing whitespace during the import of data (see image at the top of this page).
+This is then applied to the data in all columns.
+
+OpenRefine also provides a menu option to remove blank
+characters from the beginning and end of any entries in the column that you choose.
 
 1. Edit the `village` on the first row to introduce a space at the end, set to `God `.
 2. Create a new text facet for the `village` column. You should now see two
-   different entries for `God`, one of those has a trailing whitespace.
+   different entries for `God`, one of which has a trailing whitespace.
 3. To remove the whitespace, choose `Edit cells` > `Common transforms` >
    `Trim leading and trailing whitespace`.
 4. You should now see only four choices in your text facet again.
