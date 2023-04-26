@@ -1,1 +1,95 @@
-{"contributors":[{"type":"Editor","name":"Geoff LaFlair"},{"type":"Editor","name":"Peter Smyth"}],"creators":[{"name":"Peter Smyth"},{"name":"Geoff LaFlair"},{"name":"Lachlan Deer"},{"name":"Tracy Teal"},{"name":"Karen Word"},{"name":"François Michonneau"},{"name":"Erin Becker"}],"license":{"id":"CC-BY-4.0"}}
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Ben Companjen",
+      "orcid": "0000-0002-7023-9047"
+    },
+    {
+      "type": "Editor",
+      "name": "Emilia F Gan",
+      "orcid": "0000-0002-7127-5939"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Ben Companjen",
+      "orcid": "0000-0002-7023-9047"
+    },
+    {
+      "name": "Sarah M Brown",
+      "orcid": "0000-0001-5728-0822"
+    },
+    {
+      "name": "Jeremy Cohen"
+    },
+    {
+      "name": "Geoffrey T. LaFlair",
+      "orcid": "0000-0003-0306-6550"
+    },
+    {
+      "name": "Lucia Michielin"
+    },
+    {
+      "name": "bkmgit"
+    },
+    {
+      "name": "Maria del Mar Quiroga",
+      "orcid": "0000-0002-8943-2808"
+    },
+    {
+      "name": "Isaac Williams",
+      "orcid": "0000-0001-9936-8005"
+    },
+    {
+      "name": "Maneesha Sane"
+    },
+    {
+      "name": "Meghan Landry",
+      "orcid": "0000-0002-2353-3956"
+    },
+    {
+      "name": "Annajiat Alim Rasel",
+      "orcid": "0000-0003-0198-3734"
+    },
+    {
+      "name": "Claudiu Forgaci",
+      "orcid": "0000-0003-3218-5102"
+    },
+    {
+      "name": "Shawn Ross"
+    },
+    {
+      "name": "Angela Li",
+      "orcid": "0000-0002-8956-419X"
+    },
+    {
+      "name": "Evan Peter Williamson",
+      "orcid": "0000-0002-7990-9924"
+    },
+    {
+      "name": "Jennifer Anne Wood Stubbs"
+    },
+    {
+      "name": "Lorna"
+    },
+    {
+      "name": "Matthew Forshaw"
+    },
+    {
+      "name": "Michael MacAskill"
+    },
+    {
+      "name": "Prajwal Borkar"
+    },
+    {
+      "name": "antonyni"
+    },
+    {
+      "name": "khalatevarun"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
