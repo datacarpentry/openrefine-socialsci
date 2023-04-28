@@ -1,6 +1,5 @@
 ---
-layout: lesson
-root: .
+site: sandpaper::sandpaper_site
 ---
 
 A part of the data workflow is preparing the data for analysis. Some of this
@@ -17,29 +16,38 @@ data and automatically track any changes that you make. Many people comment
 that this tool saves them literally months of work trying to make these
 edits by hand.
 
+::::::::::::::::::::::::::::::::::::::::::  prereq
 
-> ## Getting Started
->
-> Data Carpentry's teaching is hands-on, so participants are encouraged to use
-> their own computers to ensure the proper setup of tools for an efficient 
-> workflow.
->
-> **These lessons assume no prior knowledge of the skills or tools.**
->
-> To get started, follow the directions in the "[Setup](setup.html)" tab to 
-> download data to your computer and follow any installation instructions.
->
-> #### Prerequisites
->
-> This lesson requires a working copy of OpenRefine (also called 
-> GoogleRefine).
-> 
-> To most effectively use these materials, please make sure to install 
-> everything *before* working through this lesson.
-{: .prereq}
+## Getting Started
 
-> ## For Instructors
-> If you are teaching this lesson in a workshop, please see the 
-> [Instructor notes](guide/).
-{: .prereq}
+Data Carpentry's teaching is hands-on, so participants are encouraged to use
+their own computers to ensure the proper setup of tools for an efficient
+workflow.
+
+**These lessons assume no prior knowledge of the skills or tools.**
+
+To get started, follow the directions in the "[Setup](learners/setup.md)" tab to
+download data to your computer and follow any installation instructions.
+
+#### Prerequisites
+
+This lesson requires a working copy of OpenRefine (also called
+GoogleRefine).
+
+To most effectively use these materials, please make sure to install
+everything *before* working through this lesson.
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::  prereq
+
+## For Instructors
+
+If you are teaching this lesson in a workshop, please see the
+[Instructor notes](instructors/instructor-notes.md).
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 

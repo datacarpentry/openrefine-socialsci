@@ -1,15 +1,11 @@
-[![Create a Slack Account with us](
-    https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](
-        https://swc-slack-invite.herokuapp.com/)
-[![Slack Status](
-    https://img.shields.io/badge/Slack_Channel-dc--socsci--openref-E01563.svg)](
-        https://swcarpentry.slack.com/messages/C9Y0UEXPY)
+[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+[![Slack Status](https://img.shields.io/badge/Slack_Channel-dc--socsci--openref-E01563.svg)][Slack channel]
 [![DOI](https://zenodo.org/badge/92422790.svg)](https://zenodo.org/badge/latestdoi/92422790)
 
 # OpenRefine for Social Sciences
 
 This is a Data Carpentry lesson on OpenRefine for social scientists.
-Please see <https://datacarpentry.org/openrefine-socialsci/> for a rendered version of this lesson.
+Please see [https://datacarpentry.org/openrefine-socialsci/](https://datacarpentry.org/openrefine-socialsci/) for a rendered version of this lesson.
 
 This is an introduction to OpenRefine designed for participants with no previous experience.
 This lesson can be taught in ~ 2 hours, excluding setup.
@@ -29,7 +25,7 @@ the lesson locally, and even how to write new episodes.
 
 Please see the current list of [issues][ghri] for ideas for contributing to this lesson.
 For making your contribution, we use the [GitHub flow][github-flow].
-Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg).
+Look for the tag ![good\_first\_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg).
 This indicates that the maintainers will welcome a pull request fixing this issue.
 
 ### Making changes to the contents
@@ -58,8 +54,8 @@ To preview any changes on your own computer, you may either:
 
 - use [GNU Make][make]: `make serve` or `make site`; or
 - use Jekyll directly:
-    1. `bundle config set --local path .vendor/bundle && bundle install && bundle update`
-    2. `bundle exec jekyll serve` or `bundle exec jekyll build`
+  1. `bundle config set --local path .vendor/bundle && bundle install && bundle update`
+  2. `bundle exec jekyll serve` or `bundle exec jekyll build`
 
 The `serve` commands start a webserver that updates the output every time you save a file.
 The `site`/`build` commands only create the HTML output in the `_site` directory.
@@ -77,11 +73,14 @@ The current maintainers of this lesson are:
 They can usually be reached in our [Slack channel] and through [issues in the GitHub
 repository][ghri].
 
-[in]: https://datacarpentry.org/openrefine-socialsci/guide/
 [Slack channel]: https://swcarpentry.slack.com/messages/C9Y0UEXPY
+[in]: https://datacarpentry.org/openrefine-socialsci/guide/
 [lesson-example]: https://carpentries.github.io/lesson-example/
 [ghri]: https://github.com/datacarpentry/openrefine-socialsci/issues
 [github-flow]: https://guides.github.com/introduction/flow/
 [setup]: https://carpentries.github.io/lesson-example/setup.html
 [make]: https://www.gnu.org/software/make/
 [check]: https://carpentries.github.io/lesson-example/07-checking/index.html
+
+
+
