@@ -51,52 +51,54 @@ OpenRefine is safe to run.
 
 ### Windows
 
-- Check that you have Firefox, Edge, Opera or Chrome browsers installed and set
-  as your default browser. OpenRefine runs in your default browser. It will not
-  run correctly in Internet Explorer.
-- Download the software from [openrefine.org](https://openrefine.org).
-- Unzip the downloaded file into a directory by right-clicking and
-  selecting "Extract…". Name that directory something like OpenRefine.
-  :::::::::::::::::::::::::::::::::::::::::  callout
-  The path to the directory you extract the application files into should be
-  short, because some of OpenRefine's files have very long names. If the path is
-  too long, OpenRefine cannot start.
-  
-  ::::::::::::::::::::::::::::::::::::::::::::::::::
-- Go to your newly created OpenRefine directory.
-- Launch OpenRefine by opening `openrefine.exe`. This will launch a command prompt window,
-  but you can ignore that and wait for the browser to launch.
-- If you see Internet Explorer start, or OpenRefine does not automatically
-  open for you, point one of the supported browsers at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
-  [http://localhost:3333](https://localhost:3333) to launch the program.
+ - Check that you have Firefox, Edge, Opera or Chrome browsers installed and set
+   as your default browser. OpenRefine runs in your default browser. It will not
+   run correctly in Internet Explorer.
+ - Download the software from [openrefine.org](https://openrefine.org).
+ - Unzip the downloaded file into a directory by right-clicking and
+   selecting "Extract…". Name that directory something like OpenRefine.
+   
+   :::::::::::::::::::::::::::::::::::::::::  callout
+   The path to the directory you extract the application files into should be
+   short, because some of OpenRefine's files have very long names. If the path is
+   too long, OpenRefine cannot start.
+   
+   ::::::::::::::::::::::::::::::::::::::::::::::::::
+   
+ - Go to your newly created OpenRefine directory.
+ - Launch OpenRefine by opening `openrefine.exe`. This will launch a command prompt window,
+   but you can ignore that and wait for the browser to launch.
+ - If you see Internet Explorer start, or OpenRefine does not automatically
+   open for you, point one of the supported browsers at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
+   [http://localhost:3333](https://localhost:3333) to launch the program.
 
 ### Mac
 
-- Check that you have Firefox, Edge, Opera or Chrome browsers installed and set as your
-  default browser. OpenRefine runs in your default browser. It will not run
-  correctly in Internet Explorer.
-- Download the software from [openrefine.org](https://openrefine.org).
-- Unzip the downloaded file into a directory by double-clicking it. Name
-  that directory something like OpenRefine.
-- Go to your newly created OpenRefine directory.
-- Drag the OpenRefine app into the Applications folder.
-- Launch OpenRefine: Control-click the app icon, then
-  choose "Open" from the shortcut menu. For Troubleshooting help, see
-  [the Apple support page](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).
-- If you are using a different browser than listed above, or if OpenRefine does not automatically
-  open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
-  [http://localhost:3333](https://localhost:3333) to launch the program.
+ - Check that you have Firefox, Edge, Opera or Chrome browsers installed and set as your
+   default browser. OpenRefine runs in your default browser. It will not run
+   correctly in Internet Explorer.
+ - Download the software from [openrefine.org](https://openrefine.org).
+ - Unzip the downloaded file into a directory by double-clicking it. Name
+   that directory something like OpenRefine.
+ - Go to your newly created OpenRefine directory.
+ - Drag the OpenRefine app into the Applications folder.
+ - Launch OpenRefine: Control-click the app icon, then
+   choose "Open" from the shortcut menu. For Troubleshooting help, see
+   [the Apple support page](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac).
+ - If you are using a different browser than listed above, or if OpenRefine does not automatically
+   open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
+   [http://localhost:3333](https://localhost:3333) to launch the program.
 
 ### Linux
 
-- Check that you have Firefox or Chrome browsers installed and set as your
-  default browser. OpenRefine runs in your default browser.
-- Download the software from [openrefine.org](https://openrefine.org).
-- Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
-- Go to your newly created OpenRefine directory.
-- Launch OpenRefine by typing `./refine` into the terminal within the OpenRefine directory.
-- If you are using a different browser than listed above, or if OpenRefine does not automatically
-  open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
-  [http://localhost:3333](https://localhost:3333) to launch the program.
+ - Check that you have Firefox or Chrome browsers installed and set as your
+   default browser. OpenRefine runs in your default browser.
+ - Download the software from [openrefine.org](https://openrefine.org).
+ - Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
+ - Go to your newly created OpenRefine directory.
+ - Launch OpenRefine by typing `./refine` into the terminal within the OpenRefine directory.
+ - If you are using a different browser than listed above, or if OpenRefine does not automatically
+   open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
+   [http://localhost:3333](https://localhost:3333) to launch the program.
 
 
