@@ -12,7 +12,7 @@ different platforms and how many computers need OpenRefine installed.
 ## Setup
 
 - There is a separate page with [setup instructions for installing OpenRefine](
-  {{ page.root }}{% link setup.md %}).
+  ../learners/setup.md).
 - Participants should install and run before the workshop, so that any problems
   may reveal themselves early.
 - If Internet Explorer is the default browser for participants, OpenRefine may
