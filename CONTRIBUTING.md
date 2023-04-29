@@ -46,11 +46,13 @@ documentation][template-doc].
 ### What to Contribute
 
 There are many ways to contribute, from writing new exercises and improving
-existing ones to updating or filling in the documentation and submitting [bug
-reports][issues] about things that do not work, are not clear, or are missing.
+existing ones to updating or filling in the documentation and submitting bug
+reports about things that do not work, are not clear, or are missing.
 If you are looking for ideas, please see [the list of issues for this
-repository][repo], or the issues for [Data Carpentry][dc-issues], [Library
+repository][issues], or the issues for [Data Carpentry][dc-issues], [Library
 Carpentry][lc-issues], and [Software Carpentry][swc-issues] projects.
+The Carpentries also provide an [overview of issues in all lessons][all-issues]
+that need help.
 
 Comments on issues and reviews of pull requests are just as welcome: we are
 smarter together than we are on our own. **Reviews from novices and newcomers
@@ -101,7 +103,7 @@ community listed at <https://carpentries.org/connect/> including via social
 media, slack, newsletters, and email lists. You can also [reach us by
 email][contact].
 
-[repo]: https://example.com/FIXME
+[issues]: https://github.com/datacarpentry/openrefine-socialsci/issues
 [contact]: mailto:team@carpentries.org
 [cp-site]: https://carpentries.org/
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
@@ -112,7 +114,7 @@ email][contact].
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://carpentries.org/help-wanted-issues/
+[all-issues]: https://carpentries.org/help-wanted-issues/
 [lc-issues]: https://github.com/issues?q=user%3ALibraryCarpentry
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
 [swc-lessons]: https://software-carpentry.org/lessons/
