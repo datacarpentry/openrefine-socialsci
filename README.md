@@ -5,13 +5,14 @@
 # OpenRefine for Social Sciences
 
 This is a Data Carpentry lesson on OpenRefine for social scientists.
-Please see [https://datacarpentry.org/openrefine-socialsci/](https://datacarpentry.org/openrefine-socialsci/) for a rendered version of this lesson.
+Please see <https://datacarpentry.org/openrefine-socialsci/> for a rendered version of this lesson.
 
-This is an introduction to OpenRefine designed for participants with no previous experience.
+This is an introduction to [OpenRefine] designed for participants with no previous experience.
 This lesson can be taught in ~ 2 hours, excluding setup.
 The episodes in this lesson cover introductory topics related to using OpenRefine.
 
-The [instructor notes][in] contain some tips about how to best teach this workshop.
+The [Instructor View][in] shows the lesson contents with extra information that is useful
+when teaching this lesson.
 
 ## Contributing
 
@@ -20,7 +21,7 @@ The [maintainers](#maintainers) will do their best to help you if you have any
 questions, concerns, or experience any difficulties along the way.
 
 We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and
-have a look at the [more detailed guidelines][lesson-example] on proper formatting, ways to render
+have a look at the [more detailed guidelines][sandpaper-docs] on using formatting, ways to render
 the lesson locally, and even how to write new episodes.
 
 Please see the current list of [issues][ghri] for ideas for contributing to this lesson.
@@ -33,35 +34,26 @@ This indicates that the maintainers will welcome a pull request fixing this issu
 *Please read [Contributing](CONTRIBUTING.md) before starting the work.
 This section and the next are only a very brief introduction to providing changes.*
 
-This lesson website is built from Markdown files using the Jekyll static site generator.
-The episodes that make up this lesson are in the `_episodes` directory.
+This lesson website is built from Markdown files using The Workbench, a set of tools
+that check and convert the source files into a good-looking website.
+The episodes that make up this lesson are in the `episodes` directory.
+
+Learn [how to update lesson contents](https://carpentries.github.io/sandpaper-docs/episodes.html) in The Workbench documentation.
+
 If you want to create a pull request (PR) with changes in any of the episodes or other Markdown
 files, it helps if you can preview the results of your changes before you submit the PR.
 This is explained in the next section.
-
-The [lesson example][lesson-example] explains all the steps needed to create and update a lesson
-like this one.
+Previewing is not required. If you submit your PR, automated workflows will run and a bot
+will inform you about the results.
 
 ### Previewing the lesson on your computer
 
 *This is helpful for submitting a pull request, but not required.*
 
-Please see the [instructions on setting up your computer for previewing the lesson][setup].
-Previewing the lesson requires Ruby and the `bundler` gem;
-if you have [Make][make], the commands become shorter.
+Previewing the lesson on your computer requires that you install The Workbench tools.
+Please see the [instructions for setting up your computer for previewing the lesson][sandpaper-docs].
 
-To preview any changes on your own computer, you may either:
-
-- use [GNU Make][make]: `make serve` or `make site`; or
-- use Jekyll directly:
-  1. `bundle config set --local path .vendor/bundle && bundle install && bundle update`
-  2. `bundle exec jekyll serve` or `bundle exec jekyll build`
-
-The `serve` commands start a webserver that updates the output every time you save a file.
-The `site`/`build` commands only create the HTML output in the `_site` directory.
-
-See [Checking and Previewing][check] for more information on previewing your changes,
-as well as commands for running various checks.
+After setting up, see [Previewing Your New Lesson][check] to learn how to preview your changes.
 
 ## Maintainers
 
@@ -75,12 +67,8 @@ repository][ghri].
 
 [Slack channel]: https://swcarpentry.slack.com/messages/C9Y0UEXPY
 [in]: https://datacarpentry.org/openrefine-socialsci/guide/
-[lesson-example]: https://carpentries.github.io/lesson-example/
+[sandpaper-docs]: https://carpentries.github.io/sandpaper-docs/index.html
 [ghri]: https://github.com/datacarpentry/openrefine-socialsci/issues
 [github-flow]: https://guides.github.com/introduction/flow/
-[setup]: https://carpentries.github.io/lesson-example/setup.html
-[make]: https://www.gnu.org/software/make/
-[check]: https://carpentries.github.io/lesson-example/07-checking/index.html
-
-
-
+[check]: https://carpentries.github.io/sandpaper-docs/introduction.html#preview
+[OpenRefine]: https://openrefine.org/
