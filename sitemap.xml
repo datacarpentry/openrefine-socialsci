@@ -31,6 +31,12 @@
     <loc>https://datacarpentry.github.io/openrefine-socialsci/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/images.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/openrefine-socialsci/index.html</loc>
   </url>
   <url>
@@ -64,13 +70,31 @@
     <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/openrefine-socialsci/key-points.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/openrefine-socialsci/profiles.html</loc>
