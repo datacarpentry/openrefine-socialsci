@@ -66,7 +66,7 @@ They can usually be reached in our [Slack channel] and through [issues in the Gi
 repository][ghri].
 
 [Slack channel]: https://swcarpentry.slack.com/messages/C9Y0UEXPY
-[in]: https://datacarpentry.org/openrefine-socialsci/guide/
+[in]: https://datacarpentry.org/openrefine-socialsci/instructor/index.html
 [sandpaper-docs]: https://carpentries.github.io/sandpaper-docs/index.html
 [ghri]: https://github.com/datacarpentry/openrefine-socialsci/issues
 [github-flow]: https://guides.github.com/introduction/flow/
