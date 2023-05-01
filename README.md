@@ -51,7 +51,7 @@ will inform you about the results.
 *This is helpful for submitting a pull request, but not required.*
 
 Previewing the lesson on your computer requires that you install The Workbench tools.
-Please see the [instructions for setting up your computer for previewing the lesson][sandpaper-docs].
+Please see the [instructions for setting up The Workbench on your computer][sandpaper-docs].
 
 After setting up, see [Previewing Your New Lesson][check] to learn how to preview your changes.
 
