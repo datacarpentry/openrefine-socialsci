@@ -486,14 +486,14 @@ options to <code>Create Project</code>, <code>Open Project</code>, or
 double-click on the filename.</p></li>
 <li><p>Click <code>Next&gt;&gt;</code> under the browse button to upload
 the data into OpenRefine.</p></li>
-<li><figure>OpenRefine gives you a preview - a chance to show you it
+<li><p>OpenRefine gives you a preview - a chance to show you it
 understood the file. If, for example, your file was really
 tab-delimited, the preview might look strange. You would then choose the
 correct separator in the box shown and click <code>Update Preview</code>
 (middle right). If this is the wrong file, click
 <code>&lt;&lt;Start Over</code> (upper left). There are also options to
 indicate whether the dataset has column headers included and whether
-OpenRefine should skip a number of rows before reading the data. <img src="../fig/OR_01_parse_options.png" alt="Parse Options" class="figure mx-auto d-block"></figure></li>
+OpenRefine should skip a number of rows before reading the data. <img src="../fig/OR_01_parse_options.png" alt="Parse Options" class="figure"></p></li>
 <li><p>If all looks well, click <code>Create Project&gt;&gt;</code>
 (upper right).</p></li>
 </ol>
@@ -574,12 +574,12 @@ not be able to fix it by reference to other data.</li>
 </div>
 </div>
 </div>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -621,12 +621,12 @@ date.</p>
 </div>
 </div>
 </div>
-<div id="callout1" class="callout callout">
+<div id="more-on-facets" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="more-on-facets" class="callout-inner">
-<h3 class="callout-title">More on Facets<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">More on Facets<a class="anchor" aria-label="anchor" href="#more-on-facets"></a>
 </h3>
 <div class="callout-content">
 <p><a href="https://docs.openrefine.org/manual/facets" class="external-link">OpenRefine
@@ -730,8 +730,8 @@ section, we first want to remove the brackets and the quotes.</p>
 <li><p>Click the down arrow at the top of the <code>items_owned</code>
 column. Choose <code>Edit Cells</code> &gt;
 <code>Transform...</code></p></li>
-<li><figure>This will open up a window into which you can type a GREL
-expression. GREL stands for General Refine Expression Language. <img src="../fig/OR_02_Transform.png" alt="OR_Transform" class="figure mx-auto d-block"></figure></li>
+<li><p>This will open up a window into which you can type a GREL
+expression. GREL stands for General Refine Expression Language. <img src="../fig/OR_02_Transform.png" alt="OR_Transform" class="figure"></p></li>
 <li><p>First we will remove all of the left square brackets
 (<code>[</code>). In the Expression box type
 <code>value.replace("[", "")</code> and click <code>OK</code>.</p></li>
@@ -742,12 +742,12 @@ each cell in the selected column and replace all of the “[” with “”
 <code>items_owned</code> column that there are no longer any left square
 brackets.</p></li>
 </ol>
-<div id="challenge2" class="callout challenge">
+<div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <p>Use this same strategy to remove the single quote marks
@@ -790,12 +790,12 @@ column. Choose <code>Facet</code> &gt;
 <li>Click <code>OK</code>.</li>
 </ol>
 <p>You should now see a new text facet box in the left-hand pane.</p>
-<div id="challenge3" class="callout challenge">
+<div id="exercise-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge3"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
 </h3>
 <div class="callout-content">
 <p>Which two items are the most commonly owned? Which are the two least
@@ -819,12 +819,12 @@ cars and computers.</p>
 </div>
 </div>
 </div>
-<div id="challenge4" class="callout challenge">
+<div id="exercise-3" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge4"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
 </h3>
 <div class="callout-content">
 <p>Perform the same clean up steps and customized text faceting for the
@@ -851,12 +851,12 @@ the most common month for respondents to lack food.</p>
 </div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
+<div id="exercise-4" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-4" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-4"></a>
 </h3>
 <div class="callout-content">
 <p>Perform the same clean up steps for the <code>months_no_water</code>,
@@ -874,12 +874,12 @@ next to the command you would like to apply to that column.</p>
 you’ve made a change that you really should have done something else
 first. OpenRefine provides <code>Undo</code> and <code>Redo</code>
 operations to make this easy.</p>
-<div id="discussion2" class="callout discussion">
+<div id="exercise-5" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-5" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-5"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -996,12 +996,12 @@ subsequent steps).</li>
 <li>At the top, change the view to <code>Show</code> 50
 <code>rows</code>. This way you will see most of the matching rows.</li>
 </ol>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1049,12 +1049,12 @@ this facet.</p>
 faceting gives you an overview description of all of the data that is
 currently selected, while filtering allows you to select a subset of
 your data for analysis.</p>
-<div id="challenge2" class="callout challenge">
+<div id="exercise-1" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge2"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <p>Use <code>include / exclude</code> to select only entries from one of
@@ -1102,12 +1102,12 @@ column. There you can sort by <code>text</code>, <code>numbers</code>,
 menu for the selected column shows <code>Sort...</code>. Select what you
 would like to sort by (such as <code>numbers</code>). Additional options
 will then appear for you to fine-tune your sorting.</p>
-<div id="challenge3" class="callout challenge">
+<div id="exercise-2" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge3"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
 </h3>
 <div class="callout-content">
 <p>Sort the data by <code>gps_Altitude</code>. Do you think the first
@@ -1162,12 +1162,12 @@ pop-up menu.</p>
 <code>Sort</code> &gt; <code>Remove sort</code>, that column is removed
 from your multiple sort. If it is the only column sorted, then data
 reverts to its original order.</p>
-<div id="challenge4" class="callout challenge">
+<div id="exercise-3" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge4"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
 </h3>
 <div class="callout-content">
 <p>We discovered in an earlier lesson that the value for one of the
@@ -1287,12 +1287,12 @@ click the down arrow for that column, then <code>Edit cells</code> &gt;
 <code>Common transforms…</code> &gt; <code>To number</code>. You will
 notice the <code>years_farm</code> values change from left-justified to
 right-justified, and black to green in color.</p>
-<div id="challenge1" class="callout challenge">
+<div id="exercise" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#challenge1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <p>Transform three more columns, <code>no_membrs</code>,
@@ -1328,12 +1328,12 @@ column was not transformed.</p>
 numbers are expected. Such values may represent errors in data entry,
 and we want to find them. We can do that with a
 <code>Numeric facet</code>.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise-1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1683,12 +1683,12 @@ and Counting Impact in Repositories</a>.</li>
 <p>There are more advanced uses of OpenRefine, such as bringing in
 column or cell data using web locators (URLs or APIs). The links above
 can give you a start on your journey.</p>
-<div id="discussion1" class="callout discussion">
+<div id="exercise" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
 </h3>
 <div class="callout-content">
 <p>Visit one of these sites and share what you find with another
@@ -1736,7 +1736,7 @@ OpenRefine.</li>
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.16" class="external-link">sandpaper (0.11.16)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.0" class="external-link">sandpaper (0.12.0)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
       and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
 			</div>
@@ -1760,8 +1760,8 @@ OpenRefine.</li>
   "url": "https://datacarpentry.github.io/openrefine-socialsci/instructor/aio.html",
   "identifier": "https://datacarpentry.github.io/openrefine-socialsci/instructor/aio.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2023-05-16",
-  "datePublished": "2023-05-16"
+  "dateModified": "2023-05-23",
+  "datePublished": "2023-05-23"
 }
 
   </script><script>
