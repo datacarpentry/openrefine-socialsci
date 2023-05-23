@@ -42,6 +42,21 @@ countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
 If you haven't yet downloaded the data, see the [instructions on downloading
 the data in Setup](../learners/setup.md).
 
+::: instructor
+
+### Importing the sample data
+
+The file has a single header row and has comma-separated values.
+OpenRefine should not have trouble figuring out the settings for parsing these
+data. Either US-ASCII or UTF-8 are fine as character encoding.
+
+Consider giving the project a meaningful name. If you do, briefly explain how
+that name is meaningful (to you and hopefully others).
+
+There are many columns in the file, which may be handled after importing.
+
+::::::::::::::
+
 Once OpenRefine is launched in your browser, the left margin has options to
 `Create Project`, `Open Project`, or `Import Project`. Here we will create a
 new project:
