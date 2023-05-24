@@ -33,15 +33,23 @@ to your computer.
 
 ::: instructor
 
-### About the data / Import from URL
+### About the data
 
 A general description of the dataset used in the Social Sciences lessons can
 be found [in the workshop data home page](https://www.datacarpentry.org/socialsci-workshop/data/).
+
+::::::::::::::
+
+
+::: instructor
+
+### Import from URL
 
 Instead of downloading the data to the computer, you could import the data from
 the URL directly when you start the project.
 When learners have trouble finding the file on their computer, this may be a
 workaround to not have to wait.
+
 ::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
