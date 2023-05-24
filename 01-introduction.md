@@ -19,6 +19,28 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::: instructor
+
+## Please help improve this page
+
+There are several issues related to this section of the lesson:
+
+- [the goals of the (whole) lesson should be stated (#38)][issue-38]
+- [it does not explain the difference between data cleaning and data organisation (#56)][issue-56]
+- [the contents do not match the objectives (#86)][issue-86]
+- [it does not explain when (not) to use OpenRefine (#103)][issue-103]
+- [the Getting Help section should move to the end or an Extras page (#122)][issue-122]
+
+[issue-38]: https://github.com/datacarpentry/openrefine-socialsci/issues/38
+[issue-56]: https://github.com/datacarpentry/openrefine-socialsci/issues/56
+[issue-86]: https://github.com/datacarpentry/openrefine-socialsci/issues/86
+[issue-103]: https://github.com/datacarpentry/openrefine-socialsci/issues/103
+[issue-122]: https://github.com/datacarpentry/openrefine-socialsci/issues/122
+
+Your input on these issues would be much appreciated!
+
+::::::::::::::::
+
 ## Motivations for the OpenRefine Lesson
 
 - Data is often very messy. OpenRefine provides a set of tools to allow you to

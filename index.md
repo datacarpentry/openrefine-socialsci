@@ -16,7 +16,6 @@ data and automatically track any changes that you make. Many people comment
 that this tool saves them literally months of work trying to make these
 edits by hand.
 
-::::::::::::::::::::::::::::::::::::::::::  prereq
 
 ## Getting Started
 
@@ -26,28 +25,6 @@ workflow.
 
 **These lessons assume no prior knowledge of the skills or tools.**
 
-To get started, follow the directions in the "[Setup](learners/setup.md)" tab to
-download data to your computer and follow any installation instructions.
-
-#### Prerequisites
-
-This lesson requires a working copy of OpenRefine (also called
-GoogleRefine).
-
 To most effectively use these materials, please make sure to install
 everything *before* working through this lesson.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::  prereq
-
-## For Instructors
-
-If you are teaching this lesson in a workshop, please see the
-[Instructor notes](instructors/instructor-notes.md).
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 

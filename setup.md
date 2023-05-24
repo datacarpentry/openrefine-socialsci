@@ -2,6 +2,15 @@
 title: Setup
 ---
 
+::: instructor
+
+## Install and run before workshop
+
+Participants should install and run before the workshop, so that any problems
+may reveal themselves early.
+
+::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 
 ## Data
@@ -22,6 +31,26 @@ for this lesson.
 [**Download** the data file](https://ndownloader.figshare.com/files/11502815)
 to your computer.
 
+::: instructor
+
+### About the data
+
+A general description of the dataset used in the Social Sciences lessons can
+be found [in the workshop data home page](https://www.datacarpentry.org/socialsci-workshop/data/).
+
+::::::::::::::
+
+
+::: instructor
+
+### Import from URL
+
+Instead of downloading the data to the computer, you could import the data from
+the URL directly when you start the project.
+When learners have trouble finding the file on their computer, this may be a
+workaround to not have to wait.
+
+::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -37,17 +66,28 @@ provides more details about installation, upgrades and configuration.
 Note: this is a Java program that runs on your machine (not in the cloud).
 It runs inside your browser, but no web connection is needed for this lesson.
 
-:::::::::::::::::::::::::::::::::::::::::  callout
+::::::::::::::::::::::::::::::::::::::  callout
+
+### Administrator rights
 
 You do not need administrative rights on the computer to *install* OpenRefine.
 However, if anti-malware software blocks OpenRefine when you try to start it,
 you may need administrative rights to allow OpenRefine to *run*.
 OpenRefine is safe to run.
 
+:::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+::: instructor
+
+### Long startup duration
+
+Starting OpenRefine may take minutes, even on some modern computers.
+Learners may be wondering if it is actually working; if there are no error messages,
+it is probably still starting up and you should wait a little longer.
+
+::::::::::::::
 
 ### Windows
 
@@ -59,6 +99,9 @@ OpenRefine is safe to run.
    selecting "Extract…". Name that directory something like OpenRefine.
    
    :::::::::::::::::::::::::::::::::::::::::  callout
+
+   #### Long paths
+
    The path to the directory you extract the application files into should be
    short, because some of OpenRefine's files have very long names. If the path is
    too long, OpenRefine cannot start.

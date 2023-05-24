@@ -42,6 +42,21 @@ countries in eastern sub-Saharan Africa (Mozambique and Tanzania).
 If you haven't yet downloaded the data, see the [instructions on downloading
 the data in Setup](../learners/setup.md).
 
+::: instructor
+
+### Importing the sample data
+
+The file has a single header row and has comma-separated values.
+OpenRefine should not have trouble figuring out the settings for parsing these
+data. Either US-ASCII or UTF-8 are fine as character encoding.
+
+Consider giving the project a meaningful name. If you do, briefly explain how
+that name is meaningful (to you and hopefully others).
+
+There are many columns in the file, which may be handled after importing.
+
+::::::::::::::
+
 Once OpenRefine is launched in your browser, the left margin has options to
 `Create Project`, `Open Project`, or `Import Project`. Here we will create a
 new project:
@@ -160,17 +175,17 @@ of entries for each date.
 
 Most of the data was collected in November of 2016.
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
 ## More on Facets
 
-[OpenRefine Manual: Facets](https://docs.openrefine.org/manual/facets)
+
+[OpenRefine Manual: Facets](https://openrefine.org/docs/manual/facets)
 
 As well as 'Text facets' Refine also supports a range of other types of
 facet. These include:
@@ -202,7 +217,6 @@ default custom facets are:
 - Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the
   'true' facet if they have no data present in that column. This is useful
   when looking for rows missing key data.
-  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -283,8 +297,6 @@ right square brackets (`]`), and spaces from the `items_owned` column.
 2. `value.replace("]", "")`
 3. `value.replace(" ", "")`
   You should now have a list of items separated by semi-colons (`;`).
-  
-  
 
 :::::::::::::::::::::::::
 
@@ -315,11 +327,10 @@ least commonly owned?
 Select `Sort by:` `count`. The most commonly owned items are
 mobile phone and radio, the least commonly owned are cars and computers.
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -339,11 +350,10 @@ statements. The command is:
 This can also be done in four separate steps if preferred.
 November was the most common month for respondents to lack food.
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
