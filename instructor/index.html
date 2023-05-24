@@ -127,12 +127,19 @@
                   <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Summary and Schedule
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#getting-started">Getting Started</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -261,46 +268,16 @@ from one format into another.</p>
 format data and automatically track any changes that you make. Many
 people comment that this tool saves them literally months of work trying
 to make these edits by hand.</p>
-<div id="getting-started" class="callout prereq">
-<div class="callout-square">
-<i class="callout-icon" data-feather="check"></i>
-</div>
-<div id="getting-started" class="callout-inner">
-<h3 class="callout-title">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
-</h3>
-<div class="callout-content">
-<p>Data Carpentry’s teaching is hands-on, so participants are encouraged
+<section id="getting-started"><h2 class="section-heading">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
+</h2>
+<hr class="half-width"><p>Data Carpentry’s teaching is hands-on, so participants are encouraged
 to use their own computers to ensure the proper setup of tools for an
 efficient workflow.</p>
 <p><strong>These lessons assume no prior knowledge of the skills or
 tools.</strong></p>
-<p>To get started, follow the directions in the “<a href="index.html#setup">Setup</a>” tab to download data to your computer and
-follow any installation instructions.</p>
-<div class="section level4">
-<h4 id="prerequisites">Prerequisites<a class="anchor" aria-label="anchor" href="#prerequisites"></a></h4>
-<p>This lesson requires a working copy of OpenRefine (also called
-GoogleRefine).</p>
 <p>To most effectively use these materials, please make sure to install
 everything <em>before</em> working through this lesson.</p>
-</div>
-</div>
-</div>
-</div>
-<div id="for-instructors" class="callout prereq">
-<div class="callout-square">
-<i class="callout-icon" data-feather="check"></i>
-</div>
-<div id="for-instructors" class="callout-inner">
-<h3 class="callout-title">For Instructors<a class="anchor" aria-label="anchor" href="#for-instructors"></a>
-</h3>
-<div class="callout-content">
-<p>If you are teaching this lesson in a workshop, please see the <a href="instructor-notes.html">Instructor notes</a>.</p>
-</div>
-</div>
-</div>
-
-
-      <section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
+</section><section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
           </tr><tr><td>
 <span class="visually-hidden">Duration: </span>00h 00m
 </td>
@@ -383,7 +360,23 @@ Finish
 </tr></tbody></table><p>
       The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
       </p>
-      </section><section id="setup"><div id="data" class="callout prereq">
+      </section><section id="setup"><div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Install and run before workshop
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
+<p>Participants should install and run before the workshop, so that any
+problems may reveal themselves early.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="data" class="callout prereq">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check"></i>
 </div>
@@ -404,6 +397,41 @@ types of livestock).</p>
 has been intentionally ‘messed up’ for this lesson.</p>
 <p><a href="https://ndownloader.figshare.com/files/11502815" class="external-link"><strong>Download</strong>
 the data file</a> to your computer.</p>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  About the data
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
+<p>A general description of the dataset used in the Social Sciences
+lessons can be found <a href="https://www.datacarpentry.org/socialsci-workshop/data/" class="external-link">in the
+workshop data home page</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor3" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor3" aria-expanded="false" aria-controls="collapseInstructor3">
+  <h3 class="accordion-header" id="headingInstructor3">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Import from URL
+  </h3>
+</button>
+<div id="collapseInstructor3" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor3" aria-labelledby="headingInstructor3">
+<div class="accordion-body">
+<p>Instead of downloading the data to the computer, you could import the
+data from the URL directly when you start the project. When learners
+have trouble finding the file on their computer, this may be a
+workaround to not have to wait.</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -423,12 +451,12 @@ configuration.</p>
 <p>Note: this is a Java program that runs on your machine (not in the
 cloud). It runs inside your browser, but no web connection is needed for
 this lesson.</p>
-<div id="callout1" class="callout callout">
+<div id="administrator-rights" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<div id="administrator-rights" class="callout-inner">
+<h3 class="callout-title">Administrator rights<a class="anchor" aria-label="anchor" href="#administrator-rights"></a>
 </h3>
 <div class="callout-content">
 <p>You do not need administrative rights on the computer to
@@ -437,6 +465,24 @@ OpenRefine when you try to start it, you may need administrative rights
 to allow OpenRefine to <em>run</em>. OpenRefine is safe to run.</p>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div id="accordionInstructor4" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor4" aria-expanded="false" aria-controls="collapseInstructor4">
+  <h3 class="accordion-header" id="headingInstructor4">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Long startup duration
+  </h3>
+</button>
+<div id="collapseInstructor4" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor4" aria-labelledby="headingInstructor4">
+<div class="accordion-body">
+<p>Starting OpenRefine may take minutes, even on some modern computers.
+Learners may be wondering if it is actually working; if there are no
+error messages, it is probably still starting up and you should wait a
+little longer.</p>
 </div>
 </div>
 </div>
@@ -456,7 +502,7 @@ selecting “Extract…”. Name that directory something like OpenRefine.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Callout<a class="anchor" aria-label="anchor" href="#callout2"></a>
+<h3 class="callout-title">Long paths<a class="anchor" aria-label="anchor" href="#callout2"></a>
 </h3>
 <div class="callout-content">
 <p>The path to the directory you extract the application files into
@@ -557,8 +603,8 @@ program.</li>
   "url": "https://datacarpentry.github.io/openrefine-socialsci/instructor/index.html",
   "identifier": "https://datacarpentry.github.io/openrefine-socialsci/instructor/index.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2023-05-23",
-  "datePublished": "2023-05-23"
+  "dateModified": "2023-05-24",
+  "datePublished": "2023-05-24"
 }
 
   </script><script>
