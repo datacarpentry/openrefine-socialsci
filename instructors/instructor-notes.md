@@ -2,32 +2,19 @@
 title: Instructor Notes
 ---
 
-## Lesson
-
-This time allotted for the teaching and exercises in lessons one through eight
-in this episode totals 135 minutes. This does not include time for installing
-OpenRefine, which could take an extra 10-30 minutes depending on how many
-different platforms and how many computers need OpenRefine installed.
-
 ## Setup
 
-- There is a separate page with [setup instructions for installing OpenRefine](
-  ../learners/setup.md).
-- Participants should install and run before the workshop, so that any problems
-  may reveal themselves early.
-- If Internet Explorer is the default browser for participants, OpenRefine may
-  have trouble opening. The URL can be copied and pasted into a Google Chrome
-  or Firefox browser. Or, participants can be encouraged in advance of the
-  workshop to set one of these two browsers as their default.
+Participants should install and run before the workshop, so that any problems
+may reveal themselves early.
 
-## The datasets used
+## The dataset used
 
 - The dataset used in this lesson can be downloaded from Figshare through the
-  link on the [setup page](../learners/setup.md).
+  link in the [setup section](../learners/setup.md).
 - It will need to be downloaded to the local machine before it can be loaded
   into OpenRefine.
 - A general description of the dataset used in the Social Sciences lessons can
-  be found [in the workshop data home page](https://www.datacarpentry.org/socialsci-workshop/data/)
+  be found [in the workshop data home page](https://datacarpentry.org/socialsci-workshop/data/).
 
 ## The Lessons
 
@@ -38,7 +25,6 @@ different platforms and how many computers need OpenRefine installed.
 [Working with OpenRefine](../episodes/02-working-with-openrefine.md)
 
 - Covers the creation of an OpenRefine project using our dataset.
-- The file has a single header row and is csv.
 - Facets and clustering are introduced and there is a discussion on the
   different clustering algorithms and how they may produce different results.
 - Splitting columns is covered as is undo/redo.
