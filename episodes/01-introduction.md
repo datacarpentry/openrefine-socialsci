@@ -70,6 +70,22 @@ Your input on these issues would be much appreciated!
   using your web browser to interact with it, but your private data never
   leaves your computer unless you want it to.
 
+
+::: instructor
+
+### Data privacy when using APIs or reconciliation
+
+Most functionality does not require an Internet connection and keeps your data
+within the computer.
+Some functions, however, like looking up data from URLs or reconciling values
+in your dataset with online services, necessarily require that data is sent to
+the online services.
+While this lesson does not cover these functions, it may be important to know
+how data could be shared with outside parties, especially if you work with
+sensitive or confidential data.
+
+::::::::::::::
+
 ## Before we get started
 
 Note: this is a Java program that runs on your machine (not in the cloud). It
