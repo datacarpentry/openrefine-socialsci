@@ -114,6 +114,10 @@ OpenRefine interface.
 
 Here we will use faceting to look for potential errors in data entry in the `village` column.
 
+::::::::::::::::::::::::: challenge
+
+### Finding (potential) errors
+
 1. Scroll over to the `village` column.
 2. Click the down arrow and choose `Facet` > `Text facet`.
 3. In the left panel, you'll now see a box containing every unique value in the
@@ -131,7 +135,7 @@ Here we will use faceting to look for potential errors in data entry in the `vil
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 - `Chirdozo` is likely a mis-entry of `Chirodzo`.
 - `Ruca` is likely a mis-entry of `Ruaca`.
@@ -141,9 +145,11 @@ Here we will use faceting to look for potential errors in data entry in the `vil
   mistyped entries in a later exercise.
 - The entry `49` is almost certainly an error but you will not be able to fix
   it by reference to other data.
-  
 
 :::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::
+
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
