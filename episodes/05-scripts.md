@@ -30,7 +30,9 @@ files had the same column names, you could save the JSON script, open a new
 file to clean in OpenRefine, paste in the script and run it. This gives you a
 quick way to clean all of your related data.
 
-## Saving your work as a script
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+### Saving your work as a script
 
 1. In the `Undo / Redo` section, click `Extract...`, and select the steps that
   you want to apply to other datasets by clicking the check boxes.
@@ -42,7 +44,12 @@ quick way to clean all of your related data.
   text file. In TextEdit, do this by selecting `Format` > `Make plain text`
   and save the file as a `.txt` file.
 
-## Importing a script to use against another dataset
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+### Importing a script to use against another dataset
 
 Let's practice running these steps on a new dataset. We'll test this on an
 uncleaned version of the dataset we've been working with.
@@ -53,6 +60,8 @@ uncleaned version of the dataset we've been working with.
   file with the JSON code.
 3. Click `Perform operations`. The dataset should now be the same as your other
   cleaned dataset.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 For convenience, we used the same dataset. In reality you could use this
 process to clean related datasets. For example, data that you had collected

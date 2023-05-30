@@ -153,7 +153,7 @@ Here we will use faceting to look for potential errors in data entry in the `vil
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Interview collection dates
 
 1. Using faceting, find out how many different `interview_date` values there
   are in the survey results.
@@ -168,7 +168,7 @@ Here we will use faceting to look for potential errors in data entry in the `vil
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 For the column `interview_date` do `Facet` > `Text facet`. A box will
 appear in the left panel showing that there are 19 unique entries in
@@ -290,14 +290,14 @@ and the quotes.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Remove unwanted characters
 
 Use this same strategy to remove the single quote marks (`'`), the
 right square brackets (`]`), and spaces from the `items_owned` column.
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 1. `value.replace("'", "")`
 2. `value.replace("]", "")`
@@ -321,14 +321,14 @@ You should now see a new text facet box in the left-hand pane.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Commonly owned items
 
 Which two items are the most commonly owned? Which are the two
 least commonly owned?
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 Select `Sort by:` `count`. The most commonly owned items are
 mobile phone and radio, the least commonly owned are cars and computers.
@@ -340,7 +340,7 @@ mobile phone and radio, the least commonly owned are cars and computers.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Month(s) with farmers lacking food
 
 Perform the same clean up steps and customized text faceting for
 the `months_lack_food` column. Which month(s) were farmers
@@ -348,7 +348,7 @@ more likely to lack food?
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 All four cleaning steps can be performed by combining `.replace`
 statements. The command is:
@@ -363,7 +363,7 @@ November was the most common month for respondents to lack food.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Clean up other columns
 
 Perform the same clean up steps for the `months_no_water`, `liv_owned`,
 `res_change`, and `no_food_mitigation` columns.
@@ -382,7 +382,7 @@ provides `Undo` and `Redo` operations to make this easy.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Explore undo and redo
 
 1. Click where it says `Undo / Redo` on the left side of the screen. All the
   changes you have made so far are listed here.
@@ -394,7 +394,6 @@ provides `Undo` and `Redo` operations to make this easy.
   Before moving on to the next lesson, redo all the steps in your analysis
   so that all of the columns you modified are lacking in square brackets,
   spaces, and single quotes.
-  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -415,6 +414,10 @@ This is then applied to the data in all columns.
 OpenRefine also provides a menu option to remove blank
 characters from the beginning and end of any entries in the column that you choose.
 
+::::::::::::::::::::::::: challenge
+
+### Remove a trailing space
+
 1. Edit the `village` on the first row to introduce a space at the end, set to `God `.
 2. Create a new text facet for the `village` column. You should now see two
   different entries for `God`, one of which has a trailing whitespace.
@@ -422,6 +425,7 @@ characters from the beginning and end of any entries in the column that you choo
   `Trim leading and trailing whitespace`.
 4. You should now see only four choices in your text facet again.
 
+:::::::::::::::::::::::::::::::::::
 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints

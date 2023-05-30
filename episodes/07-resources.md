@@ -48,13 +48,11 @@ your journey.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Discuss a resource
 
 Visit one of these sites and share what you find with another person.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
