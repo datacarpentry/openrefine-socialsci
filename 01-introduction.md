@@ -83,7 +83,7 @@ or [http://localhost:3333](https://localhost:3333) to launch the program.
 
 ## Getting help for OpenRefine
 
-You can find out a lot more about OpenRefine at [http://openrefine.org](https://openrefine.org)
+You can find out a lot more about OpenRefine at [openrefine.org](https://openrefine.org)
 and check out some great introductory videos.
 
 These videos and others on OpenRefine can also be found on YouTube by searching under
