@@ -265,12 +265,10 @@ Important: If you `Merge` using a different method or keying function, or more
 times than described in the instructions above, your solutions for later
 exercises will not be the same as shown in those exercise solutions.
 
-## Different clustering algorithms
+The [manual's section on clustering][clustering] provides technical details on
+how the different clustering algorithms work.
 
-The technical details of how the different clustering algorithms work can be
-found at the link below.
-
-[More on clustering](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
+[clustering]: https://openrefine.org/docs/technical-reference/clustering-in-depth
 
 ## Transforming data
 
