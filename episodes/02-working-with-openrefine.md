@@ -182,12 +182,13 @@ Most of the data was collected in November of 2016.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
 
-## More on Facets
+## Other types of Facets
 
+Please see the
+[OpenRefine Manual section on Facets](https://openrefine.org/docs/manual/facets)
+for reference information on all types of facets.
 
-[OpenRefine Manual: Facets](https://openrefine.org/docs/manual/facets)
-
-As well as 'Text facets' Refine also supports a range of other types of
+Besides 'Text facets' OpenRefine also supports several other types of
 facet. These include:
 
 - Numeric facets
@@ -197,9 +198,21 @@ facet. These include:
 
 **Numeric and Scatterplot facets** display graphs instead of lists of values.
 The numeric facet graph includes 'drag and drop' controls you can use to set
-a start and end range to filter the data displayed. These facets are explored
-further in [Examining Numbers in
-OpenRefine](https://www.datacarpentry.org/OpenRefine-ecology-lesson/03-numbers/)
+a start and end range to filter the data displayed.
+A scatterplot facet allows you to visualise values in a pair of numeric columns
+as a scatterplot, so that you can filter by two-value combinations.
+
+::: instructor
+
+### Exercises available in OpenRefine for Ecologists lesson
+
+These facet types are explored further in [Examining Numeric Columns in the
+*OpenRefine for Ecologists* lesson][ecology-facets].
+Note that this is a different lesson!
+
+[ecology-facets]: https://datacarpentry.org/OpenRefine-ecology-lesson/03-exploring-data.html#exploring-numeric-columns
+
+::::::::::::::
 
 **Custom facets** are a range of different types of facets. Some of the
 default custom facets are:
