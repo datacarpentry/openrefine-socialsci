@@ -471,7 +471,7 @@ backtrack as needed and providing a record of all work done.</li>
 </div>
 </section></section><section id="aio-02-working-with-openrefine"><p>Content from <a href="02-working-with-openrefine.html">Working with OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-05-24 | 
+<p> Last updated on 2023-05-31 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/02-working-with-openrefine.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 35 minutes </p>
@@ -694,18 +694,19 @@ date.</p>
 </div>
 </div>
 </div>
-<div id="more-on-facets" class="callout callout">
+<div id="other-types-of-facets" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="more-on-facets" class="callout-inner">
-<h3 class="callout-title">More on Facets<a class="anchor" aria-label="anchor" href="#more-on-facets"></a>
+<div id="other-types-of-facets" class="callout-inner">
+<h3 class="callout-title">Other types of Facets<a class="anchor" aria-label="anchor" href="#other-types-of-facets"></a>
 </h3>
 <div class="callout-content">
-<p><a href="https://openrefine.org/docs/manual/facets" class="external-link">OpenRefine
-Manual: Facets</a></p>
-<p>As well as ‘Text facets’ Refine also supports a range of other types
-of facet. These include:</p>
+<p>Please see the <a href="https://openrefine.org/docs/manual/facets" class="external-link">OpenRefine Manual
+section on Facets</a> for reference information on all types of
+facets.</p>
+<p>Besides ‘Text facets’ OpenRefine also supports several other types of
+facet. These include:</p>
 <ul>
 <li>Numeric facets</li>
 <li>Timeline facets (for dates)</li>
@@ -715,8 +716,26 @@ of facet. These include:</p>
 <p><strong>Numeric and Scatterplot facets</strong> display graphs
 instead of lists of values. The numeric facet graph includes ‘drag and
 drop’ controls you can use to set a start and end range to filter the
-data displayed. These facets are explored further in <a href="https://www.datacarpentry.org/OpenRefine-ecology-lesson/03-numbers/" class="external-link">Examining
-Numbers in OpenRefine</a></p>
+data displayed. A scatterplot facet allows you to visualise values in a
+pair of numeric columns as a scatterplot, so that you can filter by
+two-value combinations.</p>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Exercises available in OpenRefine for Ecologists lesson
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
+<p>These facet types are explored further in <a href="https://datacarpentry.org/OpenRefine-ecology-lesson/03-exploring-data.html#exploring-numeric-columns" class="external-link">Examining
+Numeric Columns in the <em>OpenRefine for Ecologists</em> lesson</a>.
+Note that this is a different lesson!</p>
+</div>
+</div>
+</div>
+</div>
 <p><strong>Custom facets</strong> are a range of different types of
 facets. Some of the default custom facets are:</p>
 <ul>
@@ -1091,7 +1110,7 @@ subsequent steps).</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Do <code>Facet</code> &gt; <code>Text facet</code> on the
@@ -1142,7 +1161,7 @@ these two roof types.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>In the facet (left margin), click on one of the names, such as
@@ -1195,7 +1214,7 @@ few entries may have incorrect altitudes?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>In the <code>gps_Altitude</code> column, select <code>Sort...</code>
 &gt; <code>numbers</code> and select <code>smallest first</code>. The
@@ -1272,7 +1291,7 @@ it the same village as when comparing GPS coordinates?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>The interview data for that row is in a small cluster of Chirodzo
 interviews when sorting by GPS coordinates. When sorting by interview
@@ -1382,7 +1401,7 @@ with <code>village</code> for example.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Only observations that include only numerals (0-9) can be transformed
 to numbers. If you apply a number transformation to a column that
