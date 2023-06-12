@@ -25,23 +25,23 @@ There are many entries in our data table. We can filter it to work on a subset
 of the data in the list for the next set of operations. Please ensure you
 perform this step to save time during the class.
 
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+### Using a Text Filter
+
 1. Click the down arrow next to `respondent_roof_type` > `Text filter`. A
   `respondent_roof_type` facet will appear on the left margin.
 2. Type in `mabat` and press return. There are 58 matching rows of the original
   131 rows (and these rows are selected for the subsequent steps).
 3. At the top, change the view to `Show` 50 `rows`. This way you will see most
   of the matching rows.
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Exercise
-
-1. What roof types are selected by this procedure?
-2. How would you restrict this to only one of the roof types?
+4. Answer these questions:
+    1. What roof types are selected by this procedure?
+    2. How would you restrict this to only one of the roof types?
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 1. Do `Facet` > `Text facet` on the `respondent_roof_type` column after
   filtering. This will show that two names match your filter criteria.
@@ -53,7 +53,7 @@ perform this step to save time during the class.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-### Excluding entries
+## Excluding entries
 
 In addition to the simple text filtering we used above, another way to narrow
 our filter is to `include` and/or `exclude` entries in a facet. You will see
@@ -71,13 +71,13 @@ analysis.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Including and excluding rows using a facet
 
 Use `include / exclude` to select only entries from one of these two roof types.
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 1. In the facet (left margin), click on one of the names, such as
   `mabatisloping`. Notice that when you click on the name, or hover over
@@ -108,14 +108,14 @@ sorting.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Finding GPS Altitude outliers
 
 Sort the data by `gps_Altitude`. Do you think the first few entries may have
 incorrect altitudes?
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 In the `gps_Altitude` column, select `Sort...` > `numbers` and select
 `smallest first`. The first few values are all 0. The altitudes are more
@@ -123,8 +123,6 @@ likely 'missing' than incorrect. The survey is delivered by Smartphone with
 the gps information added automatically by the app. The lack of an altitude
 value suggests that the smartphone was unable to provide it and it
 defaulted to 0.
-
-
 
 :::::::::::::::::::::::::
 
@@ -150,7 +148,7 @@ only column sorted, then data reverts to its original order.
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
-## Exercise
+### Finding village "49"
 
 We discovered in an earlier lesson that the value for one of the `village`
 entries was given as 49. This is clearly wrong. By looking at the GPS
@@ -170,14 +168,12 @@ the data in that column was collected from?
 
 :::::::::::::::  solution
 
-## Solution
+### Solution
 
 The interview data for that row is in a small cluster of Chirodzo
 interviews when sorting by GPS coordinates. When sorting by interview date,
 it is also with Chirodzo interviews. In fact, only Chirodzo had interviews
 conducted on that date.
-
-
 
 :::::::::::::::::::::::::
 

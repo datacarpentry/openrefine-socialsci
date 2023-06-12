@@ -30,7 +30,9 @@ By default OpenRefine is saving your project continuously. If you close
 OpenRefine and open it up again, you'll see a list of your projects. You can
 click on any one of them to open it up again.
 
-### Exporting
+::::::::::::::::::::::::: challenge
+
+### Exporting the project
 
 You can also export a project. This is helpful, for instance, if you wanted to
 send your raw data and cleaning steps to a collaborator, or share this
@@ -64,6 +66,8 @@ You should see:
   
 
 :::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::
 
 You can import an existing project into OpenRefine by clicking `Open...` in the
 upper right > `Import Project` and selecting the `tar.gz` project file. This
