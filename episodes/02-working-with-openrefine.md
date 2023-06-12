@@ -57,6 +57,18 @@ There are many columns in the file, which may be handled after importing.
 
 ::::::::::::::
 
+
+::: instructor
+
+### Open Project if accidentally back at start screen
+
+If at any time you (accidentally) end up back at the start screen, you could
+demonstrate "Open Project".
+It opens your project where you were, which demonstrates that OpenRefine
+continually saves the project in the background.
+
+::::::::::::::
+
 Once OpenRefine is launched in your browser, the left margin has options to
 `Create Project`, `Open Project`, or `Import Project`. Here we will create a
 new project:
