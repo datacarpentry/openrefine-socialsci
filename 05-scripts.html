@@ -184,8 +184,6 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#how-openrefine-records-what-you-have-done">How OpenRefine records what you have done</a></li>
-<li><a href="#saving-your-work-as-a-script">Saving your work as a script</a></li>
-<li><a href="#importing-a-script-to-use-against-another-dataset">Importing a script to use against another dataset</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -261,7 +259,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Using scripts</h1>
-        <p> Last updated on 2023-04-28 | 
+        <p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/05-scripts.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -311,9 +309,15 @@ files to clean, and they all had the same type of errors
 column names, you could save the JSON script, open a new file to clean
 in OpenRefine, paste in the script and run it. This gives you a quick
 way to clean all of your related data.</p>
-</section><section id="saving-your-work-as-a-script"><h2 class="section-heading">Saving your work as a script<a class="anchor" aria-label="anchor" href="#saving-your-work-as-a-script"></a>
-</h2>
-<hr class="half-width"><ol style="list-style-type: decimal"><li>In the <code>Undo / Redo</code> section, click
+<div id="saving-your-work-as-a-script" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="saving-your-work-as-a-script" class="callout-inner">
+<h3 class="callout-title">Saving your work as a script<a class="anchor" aria-label="anchor" href="#saving-your-work-as-a-script"></a>
+</h3>
+<div class="callout-content">
+<ol style="list-style-type: decimal"><li>In the <code>Undo / Redo</code> section, click
 <code>Extract...</code>, and select the steps that you want to apply to
 other datasets by clicking the check boxes.</li>
 </ol><figure><img src="fig/history.png" alt="History" class="figure mx-auto d-block"></figure><ol start="2" style="list-style-type: decimal"><li>Copy the code from the right hand panel and paste it into a text
@@ -321,9 +325,19 @@ editor (like NotePad on Windows or TextEdit on Mac). Make sure it saves
 as a plain text file. In TextEdit, do this by selecting
 <code>Format</code> &gt; <code>Make plain text</code> and save the file
 as a <code>.txt</code> file.</li>
-</ol></section><section id="importing-a-script-to-use-against-another-dataset"><h2 class="section-heading">Importing a script to use against another dataset<a class="anchor" aria-label="anchor" href="#importing-a-script-to-use-against-another-dataset"></a>
-</h2>
-<hr class="half-width"><p>Let’s practice running these steps on a new dataset. We’ll test this
+</ol></div>
+</div>
+</div>
+<div id="importing-a-script-to-use-against-another-dataset" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="importing-a-script-to-use-against-another-dataset" class="callout-inner">
+<h3 class="callout-title">Importing a script to use against another
+dataset<a class="anchor" aria-label="anchor" href="#importing-a-script-to-use-against-another-dataset"></a>
+</h3>
+<div class="callout-content">
+<p>Let’s practice running these steps on a new dataset. We’ll test this
 on an uncleaned version of the dataset we’ve been working with.</p>
 <ol style="list-style-type: decimal"><li>Start a new project in OpenRefine using the messy dataset you
 downloaded before. Give the project a new name.</li>
@@ -331,7 +345,10 @@ downloaded before. Give the project a new name.</li>
 paste in the contents of <code>.txt</code> file with the JSON code.</li>
 <li>Click <code>Perform operations</code>. The dataset should now be the
 same as your other cleaned dataset.</li>
-</ol><p>For convenience, we used the same dataset. In reality you could use
+</ol></div>
+</div>
+</div>
+<p>For convenience, we used the same dataset. In reality you could use
 this process to clean related datasets. For example, data that you had
 collected over different fieldwork periods or data that was collected by
 different researchers (provided everyone uses the same column headings).
@@ -405,8 +422,8 @@ analysis.</li>
   "url": "https://datacarpentry.github.io/openrefine-socialsci/05-scripts.html",
   "identifier": "https://datacarpentry.github.io/openrefine-socialsci/05-scripts.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2023-04-28",
-  "datePublished": "2023-06-06"
+  "dateModified": "2023-06-12",
+  "datePublished": "2023-06-12"
 }
 
   </script><script>

@@ -420,7 +420,7 @@ backtrack as needed and providing a record of all work done.</li>
 </div>
 </section></section><section id="aio-02-working-with-openrefine"><p>Content from <a href="02-working-with-openrefine.html">Working with OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-05-31 | 
+<p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/02-working-with-openrefine.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -529,6 +529,14 @@ of records it appears in. The facet information always appears in the
 left hand panel in the OpenRefine interface.</p>
 <p>Here we will use faceting to look for potential errors in data entry
 in the <code>village</code> column.</p>
+<div id="finding-potential-errors" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="finding-potential-errors" class="callout-inner">
+<h3 class="callout-title">Finding (potential) errors<a class="anchor" aria-label="anchor" href="#finding-potential-errors"></a>
+</h3>
+<div class="callout-content">
 <ol style="list-style-type: decimal">
 <li>Scroll over to the <code>village</code> column.</li>
 <li>Click the down arrow and choose <code>Facet</code> &gt;
@@ -547,6 +555,9 @@ like that one. But OpenRefine offers even better ways to find and fix
 these errors, which we’ll use instead. We’ll learn about these when we
 talk about clustering.</li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
@@ -554,7 +565,7 @@ talk about clustering.</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ul>
 <li>
@@ -575,12 +586,12 @@ not be able to fix it by reference to other data.</li>
 </div>
 </div>
 </div>
-<div id="exercise" class="callout challenge">
+<div id="interview-collection-dates" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
+<div id="interview-collection-dates" class="callout-inner">
+<h3 class="callout-title">Interview collection dates<a class="anchor" aria-label="anchor" href="#interview-collection-dates"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -605,7 +616,7 @@ collected?</p></li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>For the column <code>interview_date</code> do <code>Facet</code> &gt;
 <code>Text facet</code>. A box will appear in the left panel showing
@@ -742,12 +753,12 @@ each cell in the selected column and replace all of the “[” with “”
 <code>items_owned</code> column that there are no longer any left square
 brackets.</p></li>
 </ol>
-<div id="exercise-1" class="callout challenge">
+<div id="remove-unwanted-characters" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
+<div id="remove-unwanted-characters" class="callout-inner">
+<h3 class="callout-title">Remove unwanted characters<a class="anchor" aria-label="anchor" href="#remove-unwanted-characters"></a>
 </h3>
 <div class="callout-content">
 <p>Use this same strategy to remove the single quote marks
@@ -763,7 +774,7 @@ from the <code>items_owned</code> column.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li><code>value.replace("'", "")</code></li>
@@ -790,12 +801,12 @@ column. Choose <code>Facet</code> &gt;
 <li>Click <code>OK</code>.</li>
 </ol>
 <p>You should now see a new text facet box in the left-hand pane.</p>
-<div id="exercise-2" class="callout challenge">
+<div id="commonly-owned-items" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
+<div id="commonly-owned-items" class="callout-inner">
+<h3 class="callout-title">Commonly owned items<a class="anchor" aria-label="anchor" href="#commonly-owned-items"></a>
 </h3>
 <div class="callout-content">
 <p>Which two items are the most commonly owned? Which are the two least
@@ -810,7 +821,7 @@ commonly owned?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>Select <code>Sort by:</code> <code>count</code>. The most commonly
 owned items are mobile phone and radio, the least commonly owned are
@@ -819,12 +830,12 @@ cars and computers.</p>
 </div>
 </div>
 </div>
-<div id="exercise-3" class="callout challenge">
+<div id="months-with-farmers-lacking-food" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
+<div id="months-with-farmers-lacking-food" class="callout-inner">
+<h3 class="callout-title">Month(s) with farmers lacking food<a class="anchor" aria-label="anchor" href="#months-with-farmers-lacking-food"></a>
 </h3>
 <div class="callout-content">
 <p>Perform the same clean up steps and customized text faceting for the
@@ -840,7 +851,7 @@ likely to lack food?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <p>All four cleaning steps can be performed by combining
 <code>.replace</code> statements. The command is:
@@ -851,12 +862,12 @@ the most common month for respondents to lack food.</p>
 </div>
 </div>
 </div>
-<div id="exercise-4" class="callout discussion">
+<div id="clean-up-other-columns" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="exercise-4" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-4"></a>
+<div id="clean-up-other-columns" class="callout-inner">
+<h3 class="callout-title">Clean up other columns<a class="anchor" aria-label="anchor" href="#clean-up-other-columns"></a>
 </h3>
 <div class="callout-content">
 <p>Perform the same clean up steps for the <code>months_no_water</code>,
@@ -874,12 +885,12 @@ next to the command you would like to apply to that column.</p>
 you’ve made a change that you really should have done something else
 first. OpenRefine provides <code>Undo</code> and <code>Redo</code>
 operations to make this easy.</p>
-<div id="exercise-5" class="callout discussion">
+<div id="explore-undo-and-redo" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="exercise-5" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-5"></a>
+<div id="explore-undo-and-redo" class="callout-inner">
+<h3 class="callout-title">Explore undo and redo<a class="anchor" aria-label="anchor" href="#explore-undo-and-redo"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -914,6 +925,14 @@ all columns.</p>
 <p>OpenRefine also provides a menu option to remove blank characters
 from the beginning and end of any entries in the column that you
 choose.</p>
+<div id="remove-a-trailing-space" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="remove-a-trailing-space" class="callout-inner">
+<h3 class="callout-title">Remove a trailing space<a class="anchor" aria-label="anchor" href="#remove-a-trailing-space"></a>
+</h3>
+<div class="callout-content">
 <ol style="list-style-type: decimal">
 <li>Edit the <code>village</code> on the first row to introduce a space
 at the end, set to <code>God</code>.</li>
@@ -925,6 +944,9 @@ has a trailing whitespace.</li>
 <code>Trim leading and trailing whitespace</code>.</li>
 <li>You should now see only four choices in your text facet again.</li>
 </ol>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -945,7 +967,7 @@ might mean the same thing.</li>
 </div>
 </section></section><section id="aio-03-filter-sort"><p>Content from <a href="03-filter-sort.html">Filtering and Sorting with OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-04-28 | 
+<p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/03-filter-sort.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -985,6 +1007,14 @@ might mean the same thing.</li>
 <p>There are many entries in our data table. We can filter it to work on
 a subset of the data in the list for the next set of operations. Please
 ensure you perform this step to save time during the class.</p>
+<div id="using-a-text-filter" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="using-a-text-filter" class="callout-inner">
+<h3 class="callout-title">Using a Text Filter<a class="anchor" aria-label="anchor" href="#using-a-text-filter"></a>
+</h3>
+<div class="callout-content">
 <ol style="list-style-type: decimal">
 <li>Click the down arrow next to <code>respondent_roof_type</code> &gt;
 <code>Text filter</code>. A <code>respondent_roof_type</code> facet will
@@ -994,18 +1024,12 @@ rows of the original 131 rows (and these rows are selected for the
 subsequent steps).</li>
 <li>At the top, change the view to <code>Show</code> 50
 <code>rows</code>. This way you will see most of the matching rows.</li>
-</ol>
-<div id="exercise" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
-</h3>
-<div class="callout-content">
+<li>Answer these questions:
 <ol style="list-style-type: decimal">
 <li>What roof types are selected by this procedure?</li>
 <li>How would you restrict this to only one of the roof types?</li>
+</ol>
+</li>
 </ol>
 </div>
 </div>
@@ -1017,7 +1041,7 @@ subsequent steps).</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Do <code>Facet</code> &gt; <code>Text facet</code> on the
@@ -1031,9 +1055,9 @@ more letters in your filter.</li>
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="excluding-entries">Excluding entries<a class="anchor" aria-label="anchor" href="#excluding-entries"></a>
-</h3>
+</section><section id="excluding-entries"><h2 class="section-heading">Excluding entries<a class="anchor" aria-label="anchor" href="#excluding-entries"></a>
+</h2>
+<hr class="half-width">
 <p>In addition to the simple text filtering we used above, another way
 to narrow our filter is to <code>include</code> and/or
 <code>exclude</code> entries in a facet. You will see the
@@ -1048,12 +1072,13 @@ this facet.</p>
 faceting gives you an overview description of all of the data that is
 currently selected, while filtering allows you to select a subset of
 your data for analysis.</p>
-<div id="exercise-1" class="callout challenge">
+<div id="including-and-excluding-rows-using-a-facet" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
+<div id="including-and-excluding-rows-using-a-facet" class="callout-inner">
+<h3 class="callout-title">Including and excluding rows using a
+facet<a class="anchor" aria-label="anchor" href="#including-and-excluding-rows-using-a-facet"></a>
 </h3>
 <div class="callout-content">
 <p>Use <code>include / exclude</code> to select only entries from one of
@@ -1068,7 +1093,7 @@ these two roof types.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>In the facet (left margin), click on one of the names, such as
@@ -1088,7 +1113,6 @@ table.</li>
 </div>
 <p>Remove the filter before moving on so that you again have the full
 dataset of 131 records.</p>
-</div>
 </section><section id="sort"><h2 class="section-heading">Sort<a class="anchor" aria-label="anchor" href="#sort"></a>
 </h2>
 <hr class="half-width">
@@ -1101,12 +1125,12 @@ column. There you can sort by <code>text</code>, <code>numbers</code>,
 menu for the selected column shows <code>Sort...</code>. Select what you
 would like to sort by (such as <code>numbers</code>). Additional options
 will then appear for you to fine-tune your sorting.</p>
-<div id="exercise-2" class="callout challenge">
+<div id="finding-gps-altitude-outliers" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
+<div id="finding-gps-altitude-outliers" class="callout-inner">
+<h3 class="callout-title">Finding GPS Altitude outliers<a class="anchor" aria-label="anchor" href="#finding-gps-altitude-outliers"></a>
 </h3>
 <div class="callout-content">
 <p>Sort the data by <code>gps_Altitude</code>. Do you think the first
@@ -1121,7 +1145,7 @@ few entries may have incorrect altitudes?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>In the <code>gps_Altitude</code> column, select <code>Sort...</code>
 &gt; <code>numbers</code> and select <code>smallest first</code>. The
@@ -1161,12 +1185,12 @@ pop-up menu.</p>
 <code>Sort</code> &gt; <code>Remove sort</code>, that column is removed
 from your multiple sort. If it is the only column sorted, then data
 reverts to its original order.</p>
-<div id="exercise-3" class="callout challenge">
+<div id="finding-village-49" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
+<div id="finding-village-49" class="callout-inner">
+<h3 class="callout-title">Finding village “49”<a class="anchor" aria-label="anchor" href="#finding-village-49"></a>
 </h3>
 <div class="callout-content">
 <p>We discovered in an earlier lesson that the value for one of the
@@ -1198,7 +1222,7 @@ it the same village as when comparing GPS coordinates?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>The interview data for that row is in a small cluster of Chirodzo
 interviews when sorting by GPS coordinates. When sorting by interview
@@ -1229,7 +1253,7 @@ the raw data.</li>
 </div>
 </section></section><section id="aio-04-numbers"><p>Content from <a href="04-numbers.html">Examining Numbers in OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-04-28 | 
+<p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/04-numbers.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1285,12 +1309,12 @@ click the down arrow for that column, then <code>Edit cells</code> &gt;
 <code>Common transforms…</code> &gt; <code>To number</code>. You will
 notice the <code>years_farm</code> values change from left-justified to
 right-justified, and black to green in color.</p>
-<div id="exercise" class="callout challenge">
+<div id="transforming-column-contents-to-numbers" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
+<div id="transforming-column-contents-to-numbers" class="callout-inner">
+<h3 class="callout-title">Transforming column contents to numbers<a class="anchor" aria-label="anchor" href="#transforming-column-contents-to-numbers"></a>
 </h3>
 <div class="callout-content">
 <p>Transform three more columns, <code>no_membrs</code>,
@@ -1307,7 +1331,7 @@ with <code>village</code> for example.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Only observations that include only numerals (0-9) can be transformed
 to numbers. If you apply a number transformation to a column that
@@ -1326,12 +1350,12 @@ column was not transformed.</p>
 numbers are expected. Such values may represent errors in data entry,
 and we want to find them. We can do that with a
 <code>Numeric facet</code>.</p>
-<div id="exercise-1" class="callout discussion">
+<div id="using-a-numeric-facet" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
+<div id="using-a-numeric-facet" class="callout-inner">
+<h3 class="callout-title">Using a numeric facet<a class="anchor" aria-label="anchor" href="#using-a-numeric-facet"></a>
 </h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
@@ -1375,7 +1399,7 @@ data.</li>
 </div>
 </section></section><section id="aio-05-scripts"><p>Content from <a href="05-scripts.html">Using scripts</a></p>
 <hr>
-<p> Last updated on 2023-04-28 | 
+<p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/05-scripts.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1424,9 +1448,14 @@ files to clean, and they all had the same type of errors
 column names, you could save the JSON script, open a new file to clean
 in OpenRefine, paste in the script and run it. This gives you a quick
 way to clean all of your related data.</p>
-</section><section id="saving-your-work-as-a-script"><h2 class="section-heading">Saving your work as a script<a class="anchor" aria-label="anchor" href="#saving-your-work-as-a-script"></a>
-</h2>
-<hr class="half-width">
+<div id="saving-your-work-as-a-script" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="saving-your-work-as-a-script" class="callout-inner">
+<h3 class="callout-title">Saving your work as a script<a class="anchor" aria-label="anchor" href="#saving-your-work-as-a-script"></a>
+</h3>
+<div class="callout-content">
 <ol style="list-style-type: decimal">
 <li>In the <code>Undo / Redo</code> section, click
 <code>Extract...</code>, and select the steps that you want to apply to
@@ -1438,9 +1467,19 @@ editor (like NotePad on Windows or TextEdit on Mac). Make sure it saves
 as a plain text file. In TextEdit, do this by selecting
 <code>Format</code> &gt; <code>Make plain text</code> and save the file
 as a <code>.txt</code> file.</li>
-</ol></section><section id="importing-a-script-to-use-against-another-dataset"><h2 class="section-heading">Importing a script to use against another dataset<a class="anchor" aria-label="anchor" href="#importing-a-script-to-use-against-another-dataset"></a>
-</h2>
-<hr class="half-width">
+</ol>
+</div>
+</div>
+</div>
+<div id="importing-a-script-to-use-against-another-dataset" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="importing-a-script-to-use-against-another-dataset" class="callout-inner">
+<h3 class="callout-title">Importing a script to use against another
+dataset<a class="anchor" aria-label="anchor" href="#importing-a-script-to-use-against-another-dataset"></a>
+</h3>
+<div class="callout-content">
 <p>Let’s practice running these steps on a new dataset. We’ll test this
 on an uncleaned version of the dataset we’ve been working with.</p>
 <ol style="list-style-type: decimal">
@@ -1451,6 +1490,9 @@ paste in the contents of <code>.txt</code> file with the JSON code.</li>
 <li>Click <code>Perform operations</code>. The dataset should now be the
 same as your other cleaned dataset.</li>
 </ol>
+</div>
+</div>
+</div>
 <p>For convenience, we used the same dataset. In reality you could use
 this process to clean related datasets. For example, data that you had
 collected over different fieldwork periods or data that was collected by
@@ -1476,7 +1518,7 @@ analysis.</li>
 </div>
 </section></section><section id="aio-06-saving"><p>Content from <a href="06-saving.html">Exporting and Saving Data from OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-04-28 | 
+<p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/06-saving.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1521,10 +1563,14 @@ open it up again and be just where you stopped before.</p>
 <p>By default OpenRefine is saving your project continuously. If you
 close OpenRefine and open it up again, you’ll see a list of your
 projects. You can click on any one of them to open it up again.</p>
+<div id="exporting-the-project" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="section level3">
-<h3 id="exporting">Exporting<a class="anchor" aria-label="anchor" href="#exporting"></a>
+<div id="exporting-the-project" class="callout-inner">
+<h3 class="callout-title">Exporting the project<a class="anchor" aria-label="anchor" href="#exporting-the-project"></a>
 </h3>
+<div class="callout-content">
 <p>You can also export a project. This is helpful, for instance, if you
 wanted to send your raw data and cleaning steps to a collaborator, or
 share this information as a supplement to a publication.</p>
@@ -1544,6 +1590,9 @@ order to expand the file and see the files in the folder.</li>
 this folder. What files are here? What information do you think these
 files contain?</li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
@@ -1551,7 +1600,7 @@ files contain?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>You should see:</p>
 <ul>
@@ -1611,7 +1660,7 @@ reproduce and check all data cleaning steps you performed.</li>
 </div>
 </section></section><section id="aio-07-resources"><p>Content from <a href="07-resources.html">Other Resources in OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-05-31 | 
+<p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/07-resources.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1672,12 +1721,12 @@ including a nice tutorial.</li>
 <p>There are more advanced uses of OpenRefine, such as bringing in
 column or cell data using web locators (URLs or APIs). The links above
 can give you a start on your journey.</p>
-<div id="exercise" class="callout discussion">
+<div id="discuss-a-resource" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
+<div id="discuss-a-resource" class="callout-inner">
+<h3 class="callout-title">Discuss a resource<a class="anchor" aria-label="anchor" href="#discuss-a-resource"></a>
 </h3>
 <div class="callout-content">
 <p>Visit one of these sites and share what you find with another
@@ -1749,8 +1798,8 @@ OpenRefine.</li>
   "url": "https://datacarpentry.github.io/openrefine-socialsci/aio.html",
   "identifier": "https://datacarpentry.github.io/openrefine-socialsci/aio.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2023-06-06",
-  "datePublished": "2023-06-06"
+  "dateModified": "2023-06-12",
+  "datePublished": "2023-06-12"
 }
 
   </script><script>

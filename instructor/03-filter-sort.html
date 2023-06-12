@@ -165,6 +165,7 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#filtering">Filtering</a></li>
+<li><a href="#excluding-entries">Excluding entries</a></li>
 <li><a href="#sort">Sort</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
@@ -259,7 +260,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Filtering and Sorting with OpenRefine</h1>
-        <p> Last updated on 2023-04-28 | 
+        <p> Last updated on 2023-06-12 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/03-filter-sort.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -302,6 +303,14 @@
 <hr class="half-width"><p>There are many entries in our data table. We can filter it to work on
 a subset of the data in the list for the next set of operations. Please
 ensure you perform this step to save time during the class.</p>
+<div id="using-a-text-filter" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="using-a-text-filter" class="callout-inner">
+<h3 class="callout-title">Using a Text Filter<a class="anchor" aria-label="anchor" href="#using-a-text-filter"></a>
+</h3>
+<div class="callout-content">
 <ol style="list-style-type: decimal"><li>Click the down arrow next to <code>respondent_roof_type</code> &gt;
 <code>Text filter</code>. A <code>respondent_roof_type</code> facet will
 appear on the left margin.</li>
@@ -310,16 +319,10 @@ rows of the original 131 rows (and these rows are selected for the
 subsequent steps).</li>
 <li>At the top, change the view to <code>Show</code> 50
 <code>rows</code>. This way you will see most of the matching rows.</li>
-</ol><div id="exercise" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="exercise" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise"></a>
-</h3>
-<div class="callout-content">
+<li>Answer these questions:
 <ol style="list-style-type: decimal"><li>What roof types are selected by this procedure?</li>
 <li>How would you restrict this to only one of the roof types?</li>
+</ol></li>
 </ol></div>
 </div>
 </div>
@@ -330,7 +333,7 @@ subsequent steps).</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>Do <code>Facet</code> &gt; <code>Text facet</code> on the
 <code>respondent_roof_type</code> column after filtering. This will show
@@ -342,9 +345,9 @@ more letters in your filter.</li>
 </div>
 </div>
 </div>
-<div class="section level3">
-<h3 id="excluding-entries">Excluding entries<a class="anchor" aria-label="anchor" href="#excluding-entries"></a></h3>
-<p>In addition to the simple text filtering we used above, another way
+</section><section id="excluding-entries"><h2 class="section-heading">Excluding entries<a class="anchor" aria-label="anchor" href="#excluding-entries"></a>
+</h2>
+<hr class="half-width"><p>In addition to the simple text filtering we used above, another way
 to narrow our filter is to <code>include</code> and/or
 <code>exclude</code> entries in a facet. You will see the
 <code>include</code> or <code>exclude</code> options if you hover over
@@ -358,12 +361,13 @@ this facet.</p>
 faceting gives you an overview description of all of the data that is
 currently selected, while filtering allows you to select a subset of
 your data for analysis.</p>
-<div id="exercise-1" class="callout challenge">
+<div id="including-and-excluding-rows-using-a-facet" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-1" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-1"></a>
+<div id="including-and-excluding-rows-using-a-facet" class="callout-inner">
+<h3 class="callout-title">Including and excluding rows using a
+facet<a class="anchor" aria-label="anchor" href="#including-and-excluding-rows-using-a-facet"></a>
 </h3>
 <div class="callout-content">
 <p>Use <code>include / exclude</code> to select only entries from one of
@@ -378,7 +382,7 @@ these two roof types.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal"><li>In the facet (left margin), click on one of the names, such as
 <code>mabatisloping</code>. Notice that when you click on the name, or
@@ -396,7 +400,6 @@ table.</li>
 </div>
 <p>Remove the filter before moving on so that you again have the full
 dataset of 131 records.</p>
-</div>
 </section><section id="sort"><h2 class="section-heading">Sort<a class="anchor" aria-label="anchor" href="#sort"></a>
 </h2>
 <hr class="half-width"><p>You can sort the data by a column by using the drop-down menu in that
@@ -408,12 +411,12 @@ column. There you can sort by <code>text</code>, <code>numbers</code>,
 menu for the selected column shows <code>Sort...</code>. Select what you
 would like to sort by (such as <code>numbers</code>). Additional options
 will then appear for you to fine-tune your sorting.</p>
-<div id="exercise-2" class="callout challenge">
+<div id="finding-gps-altitude-outliers" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-2" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-2"></a>
+<div id="finding-gps-altitude-outliers" class="callout-inner">
+<h3 class="callout-title">Finding GPS Altitude outliers<a class="anchor" aria-label="anchor" href="#finding-gps-altitude-outliers"></a>
 </h3>
 <div class="callout-content">
 <p>Sort the data by <code>gps_Altitude</code>. Do you think the first
@@ -428,7 +431,7 @@ few entries may have incorrect altitudes?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>In the <code>gps_Altitude</code> column, select <code>Sort...</code>
 &gt; <code>numbers</code> and select <code>smallest first</code>. The
@@ -465,12 +468,12 @@ pop-up menu.</p>
 <code>Sort</code> &gt; <code>Remove sort</code>, that column is removed
 from your multiple sort. If it is the only column sorted, then data
 reverts to its original order.</p>
-<div id="exercise-3" class="callout challenge">
+<div id="finding-village-49" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exercise-3" class="callout-inner">
-<h3 class="callout-title">Exercise<a class="anchor" aria-label="anchor" href="#exercise-3"></a>
+<div id="finding-village-49" class="callout-inner">
+<h3 class="callout-title">Finding village “49”<a class="anchor" aria-label="anchor" href="#finding-village-49"></a>
 </h3>
 <div class="callout-content">
 <p>We discovered in an earlier lesson that the value for one of the
@@ -500,7 +503,7 @@ it the same village as when comparing GPS coordinates?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>The interview data for that row is in a small cluster of Chirodzo
 interviews when sorting by GPS coordinates. When sorting by interview
@@ -580,8 +583,8 @@ the raw data.</li>
   "url": "https://datacarpentry.github.io/openrefine-socialsci/instructor/03-filter-sort.html",
   "identifier": "https://datacarpentry.github.io/openrefine-socialsci/instructor/03-filter-sort.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2023-04-28",
-  "datePublished": "2023-06-06"
+  "dateModified": "2023-06-12",
+  "datePublished": "2023-06-12"
 }
 
   </script><script>
