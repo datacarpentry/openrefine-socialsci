@@ -58,7 +58,7 @@ contact: 'team@carpentries.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - 01-introduction.md
 - 02-working-with-openrefine.md
 - 03-filter-sort.md
@@ -68,13 +68,13 @@ episodes:
 - 07-resources.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
@@ -82,6 +82,6 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://datacarpentry.github.io/openrefine-socialsci'
+url: 'https://datacarpentry.org/openrefine-socialsci'
 analytics: carpentries
 lang: en
