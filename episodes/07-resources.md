@@ -7,7 +7,7 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand that there are many online resources available for more information on OpenRefine.
-- Identify other resources about OpenRefine.
+- Locate helpful resources to learn more about OpenRefine.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
