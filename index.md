@@ -26,6 +26,8 @@ data and automatically track any changes that you make. Many people comment
 that this tool saves them literally months of work trying to make these
 edits by hand.
 
+Importantly, this lesson does not cover all of OpenRefine's functionalities.
+It also does not correct all errors in the provided dataset.
 
 ## Getting Started
 
