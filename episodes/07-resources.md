@@ -17,6 +17,19 @@ exercises: 5
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Getting help for OpenRefine
+
+You can find out a lot more about OpenRefine at [openrefine.org](https://openrefine.org)
+and check out some great introductory videos.
+
+These videos and others on OpenRefine can also be found on YouTube by searching under
+'OpenRefine'.  There is an [official forum](https://forum.openrefine.org/) that
+can answer a lot of beginner questions and problems. Information can also be found on
+[StackOverflow](https://stackoverflow.com/questions/tagged/openrefine) where
+you can find a lot of help. As with other programs of this type, OpenRefine
+libraries are available too, where you can find a script you need and copy it
+into your OpenRefine instance to run it on your dataset.
+
 ## Using online resources to get help with OpenRefine
 
 OpenRefine is more than a simple data cleaning tool. People are using it for
