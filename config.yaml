@@ -81,7 +81,8 @@ profiles:
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-
-url: 'https://datacarpentry.org/openrefine-socialsci'
+# The url is used in embedded metadata and the sitemap.
+# It must end with a '/'.
+url: 'https://datacarpentry.org/openrefine-socialsci/'
 analytics: carpentries
 lang: en
