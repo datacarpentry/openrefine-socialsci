@@ -7,7 +7,7 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand that there are many online resources available for more information on OpenRefine.
-- Identify other resources about OpenRefine.
+- Locate helpful resources to learn more about OpenRefine.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -16,6 +16,19 @@ exercises: 5
 - What other resources are available for working with OpenRefine?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Getting help for OpenRefine
+
+You can find out a lot more about OpenRefine at [openrefine.org](https://openrefine.org)
+and check out some great introductory videos.
+
+These videos and others on OpenRefine can also be found on YouTube by searching under
+'OpenRefine'.  There is an [official forum](https://forum.openrefine.org/) that
+can answer a lot of beginner questions and problems. Information can also be found on
+[StackOverflow](https://stackoverflow.com/questions/tagged/openrefine) where
+you can find a lot of help. As with other programs of this type, OpenRefine
+libraries are available too, where you can find a script you need and copy it
+into your OpenRefine instance to run it on your dataset.
 
 ## Using online resources to get help with OpenRefine
 

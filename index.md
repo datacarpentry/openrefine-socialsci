@@ -11,11 +11,23 @@ OpenRefine (formerly Google Refine) is a powerful free and open source tool for
 working with messy data: cleaning it and transforming it from one format into
 another.
 
+## Learning objectives
+
+By the end of this lesson, you will be able to:
+
+- create, export and import a project in OpenRefine
+- view and work on subsets of rows using facets and text filters
+- reduce variations in data through clustering, bulk editing and transformations
+- undo and redo actions and export the history of actions
+- save cleaned data in a widely supported file format
+
 This lesson will teach you to use OpenRefine to effectively clean and format
 data and automatically track any changes that you make. Many people comment
 that this tool saves them literally months of work trying to make these
 edits by hand.
 
+Importantly, this lesson does not cover all of OpenRefine's functionalities.
+It also does not correct all errors in the provided dataset.
 
 ## Getting Started
 
