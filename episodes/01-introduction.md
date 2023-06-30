@@ -9,7 +9,6 @@ exercises: 0
 - Describe OpenRefine’s uses and applications.
 - Differentiate data cleaning from data organization.
 - Experiment with OpenRefine’s user interface.
-- Locate helpful resources to learn more about OpenRefine.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -97,18 +96,7 @@ If after installation and running OpenRefine, it does not automatically open
 for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/)
 or [http://localhost:3333](https://localhost:3333) to launch the program.
 
-## Getting help for OpenRefine
 
-You can find out a lot more about OpenRefine at [openrefine.org](https://openrefine.org)
-and check out some great introductory videos.
-
-These videos and others on OpenRefine can also be found on YouTube by searching under
-'OpenRefine'.  There is an [official forum](https://forum.openrefine.org/) that
-can answer a lot of beginner questions and problems. Information can also be found on
-[StackOverflow](https://stackoverflow.com/questions/tagged/openrefine) where
-you can find a lot of help. As with other programs of this type, OpenRefine
-libraries are available too, where you can find a script you need and copy it
-into your OpenRefine instance to run it on your dataset.
 
 
 
