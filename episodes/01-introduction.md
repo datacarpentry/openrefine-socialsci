@@ -98,7 +98,22 @@ or [http://localhost:3333](https://localhost:3333) to launch the program.
 
 
 
+::: instructor
 
+### Zooming hides buttons
+
+OpenRefine is used through its graphical user interface in this lesson.
+In classroom settings or in online classes, you probably want to zoom in on the
+interface so that text is readable to all.
+However, when you zoom in, some controls may fall outside the view.
+Dialog windows in OpenRefine cannot be dragged, so the only way to show buttons
+that were outside the view is to zoom out again.
+
+If you are planning to teach this lesson to a big room, you may want to check
+if the main projector screen or monitor is large enough to show all of the
+user interface while having the text large enough that all learners can see it.
+
+::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
