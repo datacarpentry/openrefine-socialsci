@@ -47,8 +47,12 @@ yourself and others to use your data.
 
 OpenRefine only operates on rows that match all enabled filters.
 This is also true for exporting data.
-While this allows you to export selectively from a larger dataset, if you forget
-to reset all facets and filters, the exported dataset may appear to be incomplete.
+So if you want to export a selection from a larger dataset, you can use filters
+and facets to select what data you want to export.
+
+However, if you wanted to export all data and forget to reset all facets and filters,
+the exported dataset may appear to be incomplete.
+OpenRefine does not provide a warning about enabled filters when you export data.
 
 :::::::::::::::::::::::::::::::::::
 
