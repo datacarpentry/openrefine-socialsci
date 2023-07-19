@@ -245,6 +245,20 @@ default custom facets are:
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+
+::::: callout
+
+### Bookmark a project with facets and filters
+
+OpenRefine saves the project continuously so that you can close the browser
+and use "Open Project" from the start page to continue the work.
+However, any facets and filters (discussed in the next episode) are not saved.
+To save the exact view, you can bookmark the "Permalink" that is to the right
+of the project name in the top left corner of the screen.
+
+:::::::::::::
+
+
 ## Using clustering to detect possible typing errors
 
 In OpenRefine, clustering means "finding groups of different values that might
