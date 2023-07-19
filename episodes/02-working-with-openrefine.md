@@ -60,10 +60,10 @@ There are many columns in the file, which may be handled after importing.
 
 ::: instructor
 
-### Open Project if accidentally back at start screen
+### Open Project when you returned to start screen
 
-If at any time you (accidentally) end up back at the start screen, you could
-demonstrate "Open Project".
+If at any time during the lesson you (accidentally) end up back at the start screen,
+you could demonstrate "Open Project".
 It opens your project where you were, which demonstrates that OpenRefine
 continually saves the project in the background.
 
