@@ -348,7 +348,7 @@
   Please help improve this page
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>There are several issues related to this section of the lesson:</p>
 <ul>
@@ -414,7 +414,7 @@ private data never leaves your computer unless you want it to.</li>
   Data privacy when using APIs or reconciliation
   </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
 <div class="accordion-body">
 <p>Most functionality does not require an Internet connection and keeps
 your data within the computer. Some functions, however, like looking up
@@ -446,7 +446,7 @@ program.</p>
   Zooming hides buttons
   </h3>
 </button>
-<div id="collapseInstructor3" class="accordion-collapse collapse" aria-labelledby="headingInstructor3" data-bs-parent="#accordionInstructor3">
+<div id="collapseInstructor3" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor3" aria-labelledby="headingInstructor3">
 <div class="accordion-body">
 <p>OpenRefine is used through its graphical user interface in this
 lesson. In classroom settings or in online classes, you probably want to
@@ -1140,7 +1140,7 @@ subsequent steps).</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Do <code>Facet</code> &gt; <code>Text facet</code> on the
@@ -1192,7 +1192,7 @@ these two roof types.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>In the facet (left margin), click on one of the names, such as
@@ -1244,7 +1244,7 @@ few entries may have incorrect altitudes?</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>In the <code>gps_Altitude</code> column, select <code>Sort...</code>
 &gt; <code>numbers</code> and select <code>smallest first</code>. The
@@ -1321,7 +1321,7 @@ it the same village as when comparing GPS coordinates?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>The interview data for that row is in a small cluster of Chirodzo
 interviews when sorting by GPS coordinates. When sorting by interview
@@ -1619,7 +1619,7 @@ analysis.</li>
 </div>
 </section></section><section id="aio-06-saving"><p>Content from <a href="06-saving.html">Exporting and Saving Data from OpenRefine</a></p>
 <hr>
-<p> Last updated on 2023-06-12 | 
+<p> Last updated on 2023-07-24 | 
         
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/06-saving.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 15 minutes </p>
@@ -1634,7 +1634,8 @@ analysis.</li>
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How can we save and export our cleaned data from OpenRefine?</li>
+<li>How can we get our cleaned data out of OpenRefine?</li>
+<li>How can we save the whole project with all history as a file?</li>
 </ul>
 </div>
 </div>
@@ -1644,51 +1645,105 @@ analysis.</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Save an OpenRefine project.</li>
 <li>Export cleaned data from an OpenRefine project.</li>
+<li>Save an OpenRefine project as a shareable file.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section id="saving-and-exporting-a-project"><h2 class="section-heading">Saving and Exporting a Project<a class="anchor" aria-label="anchor" href="#saving-and-exporting-a-project"></a>
+<section id="exporting-cleaned-data"><h2 class="section-heading">Exporting Cleaned Data<a class="anchor" aria-label="anchor" href="#exporting-cleaned-data"></a>
 </h2>
 <hr class="half-width">
-<p>In OpenRefine you can save or export the project. This means you’re
-saving the data and all the information about the cleaning and data
-transformation steps you’ve done. Once you’ve saved a project, you can
-open it up again and be just where you stopped before.</p>
-<div class="section level3">
-<h3 id="saving">Saving<a class="anchor" aria-label="anchor" href="#saving"></a>
+<p>When you completed the cleaning steps, you probably want to save the
+cleaned dataset as a new file, so that you can further analyse the data
+using other applications. OpenRefine allows you to do so by
+<em>exporting</em> the data in various file formats.</p>
+<ol style="list-style-type: decimal">
+<li>Click <code>Export</code> in the top right and select the file type
+you want to export the data in. <code>Tab-separated values</code>
+(<code>tsv</code>) or <code>Comma-separated values</code>
+(<code>csv</code>) would be good choices.</li>
+<li>OpenRefine creates a file whose name is based on the project name
+and asks the browser to download it. Depending on your browser settings,
+this file is automatically saved in the default location for downloaded
+files, or you see a dialog window to choose where you want to save the
+file.</li>
+</ol>
+<p>The downloaded file can then be opened in a spreadsheet program or
+imported into programs written in R or Python, for example.</p>
+<p>Remember from our lesson on Spreadsheets that using widely-supported,
+non-proprietary file formats like <code>tsv</code> or <code>csv</code>
+improves the ability of yourself and others to use your data.</p>
+<div id="only-matching-rows-are-exported" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="only-matching-rows-are-exported" class="callout-inner">
+<h3 class="callout-title">Only matching rows are exported<a class="anchor" aria-label="anchor" href="#only-matching-rows-are-exported"></a>
 </h3>
-<p>By default OpenRefine is saving your project continuously. If you
-close OpenRefine and open it up again, you’ll see a list of your
-projects. You can click on any one of them to open it up again.</p>
-<div id="exporting-the-project" class="callout challenge">
+<div class="callout-content">
+<p>OpenRefine only operates on rows that match all enabled filters. This
+is also true for exporting data. So if you want to export a selection
+from a larger dataset, you can use filters and facets to select what
+data you want to export.</p>
+<p>However, if you wanted to export all data and forget to reset all
+facets and filters, the exported dataset may appear to be incomplete.
+OpenRefine does not provide a warning about enabled filters when you
+export data.</p>
+</div>
+</div>
+</div>
+</section><section id="saving-a-project-as-a-file"><h2 class="section-heading">Saving a Project as a File<a class="anchor" aria-label="anchor" href="#saving-a-project-as-a-file"></a>
+</h2>
+<hr class="half-width">
+<p>Next to exporting the data, you can export the project as well. When
+you export the project, OpenRefine creates a single file that includes
+the data and all the information about the cleaning and data
+transformation steps that you have taken.</p>
+<p>You can use this file as a project backup, transfer it to another
+computer to continue working on the data or share it with a collaborator
+who can open it to see what you did and continue the work.</p>
+<div id="saving-happens-automatically" class="callout callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="saving-happens-automatically" class="callout-inner">
+<h3 class="callout-title">Saving happens automatically<a class="anchor" aria-label="anchor" href="#saving-happens-automatically"></a>
+</h3>
+<div class="callout-content">
+<p>By default OpenRefine is saving your project continuously while you
+work on it. If you close OpenRefine and open it up again, you can see a
+list of your projects when you select “Open Project” on the start
+screen. You can open an existing project by clicking on its title.</p>
+</div>
+</div>
+</div>
+<div id="exporting-and-examining-the-project" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
-<div id="exporting-the-project" class="callout-inner">
-<h3 class="callout-title">Exporting the project<a class="anchor" aria-label="anchor" href="#exporting-the-project"></a>
+<div id="exporting-and-examining-the-project" class="callout-inner">
+<h3 class="callout-title">Exporting and examining the project<a class="anchor" aria-label="anchor" href="#exporting-and-examining-the-project"></a>
 </h3>
 <div class="callout-content">
-<p>You can also export a project. This is helpful, for instance, if you
-wanted to send your raw data and cleaning steps to a collaborator, or
-share this information as a supplement to a publication.</p>
+<p>In this exercise, we will export the project and examine the contents
+of the exported file.</p>
 <ol style="list-style-type: decimal">
 <li>Click the <code>Export</code> button in the top right and select
 <code>OpenRefine project archive to file</code>.</li>
-<li>A <code>tar.gz</code> file will download to your default
-<code>Download</code> directory. Depending on your browser you may have
-to confirm that you want to save the file. The <code>tar.gz</code>
-extension tells you that this is a compressed file. The downloaded
-<code>tar.gz</code> file is actually a folder of files which have been
-compressed. Linux and Mac machines will have software installed to
-automatically expand this type of file when you double-click on it. For
-Windows based machines you may have to install a utility like ‘7-zip’ in
-order to expand the file and see the files in the folder.</li>
-<li>After you have expanded the file look at the files that appear in
+<li>OpenRefine then presents a <code>tar.gz</code> file for download.
+Depending on your browser you may have to specify where you want to save
+the file, or it may be downloaded to your default directory for
+downloaded files. The <code>tar.gz</code> extension tells you that this
+is a compressed file. The downloaded <code>tar.gz</code> file is
+actually a folder of files which have been compressed. Linux and Mac
+machines will have software installed to automatically expand this type
+of file when you double-click on it. For Windows based machines you may
+have to install a utility like ‘7-zip’ in order to expand the file and
+see the files in the folder.</li>
+<li>After you have expanded the file, look at the files that appear in
 this folder. What files are here? What information do you think these
 files contain?</li>
 </ol>
@@ -1702,7 +1757,7 @@ files contain?</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>You should see:</p>
 <ul>
@@ -1719,30 +1774,13 @@ your raw data. You may also see other files.</li>
 </div>
 </div>
 </div>
+<div class="section level3">
+<h3 id="importing-a-project">Importing a Project<a class="anchor" aria-label="anchor" href="#importing-a-project"></a>
+</h3>
 <p>You can import an existing project into OpenRefine by clicking
-<code>Open...</code> in the upper right &gt; <code>Import Project</code>
-and selecting the <code>tar.gz</code> project file. This project will
-include all of the raw data and cleaning steps that were part of the
-original project.</p>
-</div>
-</section><section id="exporting-cleaned-data"><h2 class="section-heading">Exporting Cleaned Data<a class="anchor" aria-label="anchor" href="#exporting-cleaned-data"></a>
-</h2>
-<hr class="half-width">
-<p>You can also export just your cleaned data, rather than the entire
-project.</p>
-<ol style="list-style-type: decimal">
-<li>Click <code>Export</code> in the top right and select the file type
-you want to export the data in. <code>Tab-separated values</code>
-(<code>tsv</code>) or <code>Comma-separated values</code>
-(<code>csv</code>) would be good choices.</li>
-<li>That file will be exported to your default <code>Download</code>
-directory. That file can then be opened in a spreadsheet program or
-imported into programs like R or Python, which we’ll be discussing later
-in our workshop.</li>
-</ol>
-<p>Remember from our lesson on Spreadsheets that using widely-supported,
-non-proprietary file formats like <code>tsv</code> or <code>csv</code>
-improves the ability of yourself and others to use your data.</p>
+<code>Open...</code> in the upper right, then opening the
+<code>Import Project</code> tab and selecting the <code>tar.gz</code>
+project file.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1752,11 +1790,12 @@ improves the ability of yourself and others to use your data.</p>
 </h3>
 <div class="callout-content">
 <ul>
-<li>Cleaned data or entire projects can be exported from
-OpenRefine.</li>
-<li>Projects can be shared with collaborators, enabling them to see,
-reproduce and check all data cleaning steps you performed.</li>
+<li>Cleaned data, or selected data, can be exported from OpenRefine for
+use in other applications.</li>
+<li>Projects can be exported to files that contain the original data and
+all data cleaning steps you performed.</li>
 </ul>
+</div>
 </div>
 </div>
 </div>
@@ -1914,8 +1953,8 @@ OpenRefine.</li>
   "url": "https://datacarpentry.org/openrefine-socialsci/instructor/aio.html",
   "identifier": "https://datacarpentry.org/openrefine-socialsci/instructor/aio.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2023-07-19",
-  "datePublished": "2023-07-19"
+  "dateModified": "2023-07-24",
+  "datePublished": "2023-07-24"
 }
 
   </script><script>
