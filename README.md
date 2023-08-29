@@ -1,4 +1,4 @@
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://slack-invite.carpentries.org/)
 [![Slack Status](https://img.shields.io/badge/Slack_Channel-dc--socsci--openref-E01563.svg)][Slack channel]
 [![DOI](https://zenodo.org/badge/92422790.svg)](https://zenodo.org/badge/latestdoi/92422790)
 
@@ -65,7 +65,7 @@ The current maintainers of this lesson are:
 They can usually be reached in our [Slack channel] and through [issues in the GitHub
 repository][ghri].
 
-[Slack channel]: https://swcarpentry.slack.com/messages/C9Y0UEXPY
+[Slack channel]: https://carpentries.slack.com/messages/C9Y0UEXPY
 [in]: https://datacarpentry.org/openrefine-socialsci/instructor/index.html
 [sandpaper-docs]: https://carpentries.github.io/sandpaper-docs/index.html
 [ghri]: https://github.com/datacarpentry/openrefine-socialsci/issues
