@@ -57,6 +57,18 @@ There are many columns in the file, which may be handled after importing.
 
 ::::::::::::::
 
+
+::: instructor
+
+### Open Project when you returned to start screen
+
+If at any time during the lesson you (accidentally) end up back at the start screen,
+you could demonstrate "Open Project".
+It opens your project where you were, which demonstrates that OpenRefine
+continually saves the project in the background.
+
+::::::::::::::
+
 Once OpenRefine is launched in your browser, the left margin has options to
 `Create Project`, `Open Project`, or `Import Project`. Here we will create a
 new project:
@@ -238,6 +250,20 @@ default custom facets are:
   when looking for rows missing key data.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+::::: callout
+
+### Bookmark a project with facets and filters
+
+OpenRefine saves the project continuously so that you can close the browser
+and use "Open Project" from the start page to continue the work.
+However, any facets and filters (discussed in the next episode) are not saved.
+To save the exact view, you can bookmark the "Permalink" that is to the right
+of the project name in the top left corner of the screen.
+
+:::::::::::::
+
 
 ## Using clustering to detect possible typing errors
 
