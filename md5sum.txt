@@ -12,5 +12,5 @@
 "episodes/07-resources.md" "55df56fa2bb3c6a7b8bb4c4493159b40" "site/built/07-resources.md" "2023-06-30"
 "instructors/instructor-notes.md" "2e80f6791d915ad3f502603b08f6bb81" "site/built/instructor-notes.md" "2023-05-24"
 "learners/reference.md" "5468b48e84f380e176c234b2f2a88a5f" "site/built/reference.md" "2023-04-28"
-"learners/setup.md" "daf80f5f18833c2b9df539f398ee286b" "site/built/setup.md" "2023-05-24"
+"learners/setup.md" "a94c4e5c7e6ae1b45cab4b9570ff4fd3" "site/built/setup.md" "2023-10-13"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2023-04-28"
