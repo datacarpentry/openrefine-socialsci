@@ -144,4 +144,12 @@ it is probably still starting up and you should wait a little longer.
    open for you, point your browser at [http://127.0.0.1:3333/](https://127.0.0.1:3333/) or
    [http://localhost:3333](https://localhost:3333) to launch the program.
 
+### Exiting OpenRefine
 
+To exit OpenRefine, close all the browser tabs or windows, then navigate to the command line window. 
+To close this window and ensure OpenRefine exits properly, hold down [control] and press [c] on your keyboard. 
+This will save all changes to your projects.  
+
+Remember, it's important to close the browser window or tab first to ensure you're not actively using OpenRefine 
+before stopping the server. This prevents any unsaved changes from being lost. After stopping the server, you can 
+safely exit the terminal or command prompt window.
