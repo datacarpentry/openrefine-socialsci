@@ -60,7 +60,7 @@ After setting up, see [Previewing Your New Lesson][check] to learn how to previe
 The current maintainers of this lesson are:
 
 - [Ben Companjen](https://github.com/bencomp)
-- [Emilia Gan](https://github.com/efran)
+- [Marijane White](https://github.com/marijane)
 
 They can usually be reached in our [Slack channel] and through [issues in the GitHub
 repository][ghri].
