@@ -44,6 +44,20 @@ the data in Setup](../learners/setup.md).
 
 ::: instructor
 
+### Extensions affecting the user interface
+
+If you installed any [extensions][] in OpenRefine, your screen may look different
+from the default OpenRefine user interface that learners see.
+For example, an extension may add buttons, menu items or GREL functions.
+If the changes are noticeable, you might want to mention how your interface looks
+different from the learners' interface.
+
+[extensions]: https://openrefine.org/extensions
+
+::::::::::::::
+
+::: instructor
+
 ### Importing the sample data
 
 The file has a single header row and has comma-separated values.
