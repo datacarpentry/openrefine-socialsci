@@ -7,7 +7,7 @@ involves data cleaning, where errors in the data are identifed and corrected or
 formatting made consistent. This step must be taken with the same care and
 attention to reproducibility as the analysis.
 
-OpenRefine (formerly Google Refine) is a powerful free and open source tool for
+OpenRefine is a powerful free and open source tool for
 working with messy data: cleaning it and transforming it from one format into
 another.
 

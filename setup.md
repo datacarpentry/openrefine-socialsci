@@ -58,7 +58,7 @@ workaround to not have to wait.
 
 ## Software
 
-For this lesson you will need **OpenRefine** (formerly Google Refine) and a
+For this lesson you will need **OpenRefine** and a
 web browser. Basic installation steps are provided on this page.
 The OpenRefine [installation manual](https://openrefine.org/docs/manual/installing)
 provides more details about installation, upgrades and configuration.
