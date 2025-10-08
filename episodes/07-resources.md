@@ -7,6 +7,7 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Understand that there are many online resources available for more information on OpenRefine.
+- Understand that extensions are available to provide additional functionality.
 - Locate helpful resources to learn more about OpenRefine.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -14,6 +15,7 @@ exercises: 5
 :::::::::::::::::::::::::::::::::::::::: questions
 
 - What other resources are available for working with OpenRefine?
+- How can we add functionality to OpenRefine?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -62,10 +64,25 @@ Visit one of these sites and share what you find with another person.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+## Add functionality to OpenRefine using extensions
+
+OpenRefine contains many functionalities for cleaning and enriching data by default,
+as we have seen in this lesson.
+Using GREL expressions (or other expression languages) we can transform data in many ways too.
+
+In certain aspects OpenRefine's functionality can be extended by installing *extensions*.
+There are extensions that allow importing and exporting other file types, as well as
+extensions that provide new GREL functions.
+The OpenRefine website provides a [list of extensions][ext], their functionality,
+and what version(s) of OpenRefine each extension is compatible with.
+Since extensions are maintained by community, sometimes they are not compatible with newest versions of OpenRefine.
+
+[ext]: https://openrefine.org/extensions
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Other examples and resources online are good for learning more about OpenRefine.
+- Extensions can be installed to add functions, or support for other file types
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
