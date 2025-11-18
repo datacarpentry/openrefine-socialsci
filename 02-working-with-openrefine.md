@@ -26,9 +26,6 @@ exercises: 20
 
 ## Creating a new OpenRefine project
 
-If you have not started OpenRefine yet, follow the [Setup](../learners/setup.md)
-instructions before continuing.
-
 OpenRefine can import a variety of file types, including tab separated (`tsv`),
 comma separated (`csv`), Excel (`xls`, `xlsx`), JSON, XML, RDF as XML, and
 Google Spreadsheets. See the [OpenRefine Create a Project by Importing Data

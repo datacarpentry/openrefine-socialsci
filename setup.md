@@ -29,7 +29,7 @@ is a subset of the teaching version that has been intentionally 'messed up'
 for this lesson.
 
 [**Download** the data file](https://ndownloader.figshare.com/files/11502815)
-to your computer.
+to your computer to a location where you will be able to find it during the lesson.
 
 ::: instructor
 
