@@ -1089,7 +1089,7 @@ subsequent steps).</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Do <code>Facet</code> &gt; <code>Text facet</code> on the
@@ -1139,7 +1139,7 @@ these two roof types.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>In the facet (left margin), click on one of the names, such as
@@ -1189,7 +1189,7 @@ few entries may have incorrect altitudes?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>In the <code>gps_Altitude</code> column, select <code>Sort...</code>
 &gt; <code>numbers</code> and select <code>smallest first</code>. The
@@ -1264,7 +1264,7 @@ it the same village as when comparing GPS coordinates?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>The interview data for that row is in a small cluster of Chirodzo
 interviews when sorting by GPS coordinates. When sorting by interview
@@ -1733,7 +1733,7 @@ all data cleaning steps you performed.</li>
 </div>
 </section></section><section id="aio-07-resources"><p>Content from <a href="07-resources.html">Other Resources in OpenRefine</a></p>
 <hr>
-<p>Last updated on 2023-06-30 |
+<p>Last updated on 2026-08-21 |
 
         <a href="https://github.com/datacarpentry/openrefine-socialsci/edit/main/episodes/07-resources.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1748,6 +1748,7 @@ all data cleaning steps you performed.</li>
 <h3 class="card-title">Questions</h3>
 <ul>
 <li>What other resources are available for working with OpenRefine?</li>
+<li>How can we add functionality to OpenRefine?</li>
 </ul>
 </div>
 </div>
@@ -1759,6 +1760,8 @@ all data cleaning steps you performed.</li>
 <ul>
 <li>Understand that there are many online resources available for more
 information on OpenRefine.</li>
+<li>Understand that extensions are available to provide additional
+functionality.</li>
 <li>Locate helpful resources to learn more about OpenRefine.</li>
 </ul>
 </div>
@@ -1820,6 +1823,21 @@ person.</p>
 </div>
 </div>
 </div>
+</section><section><h2 class="section-heading" id="add-functionality-to-openrefine-using-extensions">Add functionality to OpenRefine using extensions<a class="anchor" aria-label="anchor" href="#add-functionality-to-openrefine-using-extensions"></a>
+</h2>
+<hr class="half-width">
+<p>OpenRefine contains many functionalities for cleaning and enriching
+data by default, as we have seen in this lesson. Using GREL expressions
+(or other expression languages) we can transform data in many ways
+too.</p>
+<p>In certain aspects OpenRefine’s functionality can be extended by
+installing <em>extensions</em>. There are extensions that allow
+importing and exporting other file types, as well as extensions that
+provide new GREL functions. The OpenRefine website provides a <a href="https://openrefine.org/extensions" class="external-link">list of extensions</a>, their
+functionality, and what version(s) of OpenRefine each extension is
+compatible with. Since extensions are maintained by community members,
+sometimes they are not compatible with the newest versions of
+OpenRefine.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -1830,6 +1848,8 @@ person.</p>
 <ul>
 <li>Other examples and resources online are good for learning more about
 OpenRefine.</li>
+<li>Extensions can be installed to add functions or support for other
+file types</li>
 </ul>
 </div>
 </div>
@@ -1884,8 +1904,8 @@ OpenRefine.</li>
   "url": "https://datacarpentry.org/openrefine-socialsci/aio.html",
   "identifier": "https://datacarpentry.org/openrefine-socialsci/aio.html",
   "dateCreated": "2017-05-25",
-  "dateModified": "2026-08-18",
-  "datePublished": "2026-08-18"
+  "dateModified": "2026-08-21",
+  "datePublished": "2026-08-21"
 }
 
   </script><script>
