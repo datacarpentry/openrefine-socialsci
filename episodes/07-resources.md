@@ -75,14 +75,14 @@ There are extensions that allow importing and exporting other file types, as wel
 extensions that provide new GREL functions.
 The OpenRefine website provides a [list of extensions][ext], their functionality,
 and what version(s) of OpenRefine each extension is compatible with.
-Since extensions are maintained by community, sometimes they are not compatible with newest versions of OpenRefine.
+Since extensions are maintained by community members, sometimes they are not compatible with the newest versions of OpenRefine.
 
 [ext]: https://openrefine.org/extensions
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Other examples and resources online are good for learning more about OpenRefine.
-- Extensions can be installed to add functions, or support for other file types
+- Extensions can be installed to add functions or support for other file types
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
